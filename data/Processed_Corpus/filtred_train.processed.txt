@@ -1,0 +1,3705 @@
+#id: sent10
+#text: Israel television rejected a skit by comedian Tuvia Tzafir that attacked public apathy by depicting an Israeli family watching TV while a fire raged outside .
+1	Israel	israel	NNP	PROPN	2	compound	B	GPE
+2	television	television	NN	NOUN	3	nsubj	O	
+3	rejected	reject	VBD	VERB	0	ROOT	O	
+4	a	a	DT	DET	5	det	O	
+5	skit	skit	NN	NOUN	3	dobj	O	
+6	by	by	IN	ADP	5	prep	O	
+7	comedian	comedian	NN	NOUN	9	compound	O	
+8	Tuvia	tuvia	NNP	PROPN	9	compound	B	PERSON
+9	Tzafir	tzafir	NNP	PROPN	6	pobj	I	PERSON
+10	that	that	WDT	ADJ	11	nsubj	O	
+11	attacked	attack	VBD	VERB	9	relcl	O	
+12	public	public	JJ	ADJ	13	amod	O	
+13	apathy	apathy	NN	NOUN	11	dobj	O	
+14	by	by	IN	ADP	11	prep	O	
+15	depicting	depict	VBG	VERB	14	pcomp	O	
+16	an	an	DT	DET	18	det	O	
+17	Israeli	israeli	JJ	ADJ	18	amod	B	NORP
+18	family	family	NN	NOUN	15	dobj	O	
+19	watching	watch	VBG	VERB	15	conj	O	
+20	TV	tv	NN	NOUN	19	dobj	O	
+21	while	while	IN	ADP	24	mark	O	
+22	a	a	DT	DET	23	det	O	
+23	fire	fire	NN	NOUN	24	nsubj	O	
+24	raged	rag	VBD	VERB	11	advcl	O	
+25	outside	outside	RB	ADV	24	advmod	O	
+26	.	.	.	PUNCT	3	punct	O	
+
+#id: sent34
+#text: Reagan sounded positive notes reminiscent of earlier speeches throughout his political career _ the pre-eminent position of ` ` We the People ' ' in the American system , the image of America as a shining ` ` city upon a hill , ' ' the importance of paying more attention to American history .
+1	Reagan	reagan	NN	NOUN	2	nsubj	B	PERSON
+2	sounded	sound	VBD	VERB	0	ROOT	O	
+3	positive	positive	JJ	ADJ	4	amod	O	
+4	notes	note	NNS	NOUN	2	dobj	O	
+5	reminiscent	reminiscent	JJ	ADJ	4	amod	O	
+6	of	of	IN	ADP	5	prep	O	
+7	earlier	early	JJR	ADJ	8	amod	O	
+8	speeches	speech	NNS	NOUN	6	pobj	O	
+9	throughout	throughout	IN	ADP	8	prep	O	
+10	his	his	PRP$	ADJ	12	poss	O	
+11	political	political	JJ	ADJ	12	amod	O	
+12	career	career	NN	NOUN	9	pobj	O	
+13	_	_	.	PUNCT	2	punct	O	
+14	the	the	DT	DET	18	det	O	
+15	pre	pre	NN	NOUN	17	npadvmod	O	
+16	-	-	HYPH	PUNCT	17	punct	O	
+17	eminent	eminent	JJ	ADJ	18	amod	O	
+18	position	position	NN	NOUN	0	ROOT	O	
+19	of	of	IN	ADP	18	prep	O	
+20	`	`	''	PUNCT	21	punct	O	
+21	`	`	''	PUNCT	19	pobj	O	
+22	We	we	PRP	PRON	18	conj	O	
+23	the	the	DT	DET	24	det	O	
+24	People	people	NNPS	PROPN	22	appos	O	
+25	'	'	POS	PART	24	case	O	
+26	'	'	''	PUNCT	22	punct	O	
+27	in	in	IN	ADP	22	prep	O	
+28	the	the	DT	DET	30	det	O	
+29	American	american	JJ	ADJ	30	amod	B	NORP
+30	system	system	NN	NOUN	27	pobj	O	
+31	,	,	,	PUNCT	33	punct	O	
+32	the	the	DT	DET	33	det	O	
+33	image	image	NN	NOUN	22	appos	O	
+34	of	of	IN	ADP	33	prep	O	
+35	America	america	NNP	PROPN	34	pobj	B	GPE
+36	as	as	IN	ADP	33	prep	O	
+37	a	a	DT	DET	41	det	O	
+38	shining	shin	VBG	VERB	41	amod	O	
+39	`	`	''	PUNCT	41	punct	O	
+40	`	`	''	PUNCT	41	punct	O	
+41	city	city	NN	NOUN	36	pobj	O	
+42	upon	upon	IN	ADP	41	prep	O	
+43	a	a	DT	DET	44	det	O	
+44	hill	hill	NN	NOUN	42	pobj	O	
+45	,	,	,	PUNCT	33	punct	O	
+46	'	'	''	PUNCT	49	punct	O	
+47	'	'	``	PUNCT	49	punct	O	
+48	the	the	DT	DET	49	det	O	
+49	importance	importance	NN	NOUN	33	conj	O	
+50	of	of	IN	ADP	49	prep	O	
+51	paying	pay	VBG	VERB	50	pcomp	O	
+52	more	more	JJR	ADJ	53	amod	O	
+53	attention	attention	NN	NOUN	51	dobj	O	
+54	to	to	IN	ADP	53	prep	O	
+55	American	american	JJ	ADJ	56	amod	B	NORP
+56	history	history	NN	NOUN	54	pobj	O	
+57	.	.	.	PUNCT	18	punct	O	
+
+#id: sent37
+#text: There was no mention at all of the Contras , the arms sales to Iran or the enormous trade deficits that during Reagan 's tenure have turned America into the world 's biggest debtor nation .
+1	There	there	EX	ADV	2	expl	O	
+2	was	be	VBD	VERB	0	ROOT	O	
+3	no	no	DT	DET	4	det	O	
+4	mention	mention	NN	NOUN	2	attr	O	
+5	at	at	IN	ADP	6	advmod	O	
+6	all	all	DT	DET	4	advmod	O	
+7	of	of	IN	ADP	6	prep	O	
+8	the	the	DT	DET	9	det	O	
+9	Contras	contras	NNPS	PROPN	7	pobj	B	NORP
+10	,	,	,	PUNCT	27	punct	O	
+11	the	the	DT	DET	13	det	O	
+12	arms	arm	NNS	NOUN	13	compound	O	
+13	sales	sale	NNS	NOUN	27	nsubj	O	
+14	to	to	IN	ADP	13	prep	O	
+15	Iran	iran	NNP	PROPN	14	pobj	B	GPE
+16	or	or	CC	CONJ	15	cc	O	
+17	the	the	DT	DET	20	det	O	
+18	enormous	enormous	JJ	ADJ	20	amod	O	
+19	trade	trade	NN	NOUN	20	compound	O	
+20	deficits	deficit	NNS	NOUN	13	conj	O	
+21	that	that	IN	ADP	27	mark	O	
+22	during	during	IN	ADP	27	prep	O	
+23	Reagan	reagan	NNP	PROPN	25	poss	B	PERSON
+24	's	's	POS	PART	23	case	O	
+25	tenure	tenure	NN	NOUN	22	pobj	O	
+26	have	have	VBP	VERB	27	aux	O	
+27	turned	turn	VBN	VERB	2	conj	O	
+28	America	america	NNP	PROPN	27	dobj	B	GPE
+29	into	into	IN	ADP	27	prep	O	
+30	the	the	DT	DET	31	det	O	
+31	world	world	NN	NOUN	35	poss	O	
+32	's	's	POS	PART	31	case	O	
+33	biggest	big	JJS	ADJ	35	amod	O	
+34	debtor	debtor	NN	NOUN	35	amod	O	
+35	nation	nation	NN	NOUN	29	pobj	O	
+36	.	.	.	PUNCT	27	punct	O	
+
+#id: sent50
+#text: A Texas professor who helped mount President Nixon 's unsuccessful attempt to resist a key Watergate subpoena is being considered for the post of U.S. solicitor .
+1	A	a	DT	DET	3	det	O	
+2	Texas	texas	NNP	PROPN	3	compound	B	GPE
+3	professor	professor	NN	NOUN	20	nsubjpass	O	
+4	who	who	WP	NOUN	5	nsubj	O	
+5	helped	help	VBD	VERB	3	relcl	O	
+6	mount	mount	VB	VERB	5	xcomp	O	
+7	President	president	NNP	PROPN	8	compound	O	
+8	Nixon	nixon	NNP	PROPN	11	poss	B	PERSON
+9	's	's	POS	PART	8	case	O	
+10	unsuccessful	unsuccessful	JJ	ADJ	11	amod	O	
+11	attempt	attempt	NN	NOUN	6	dobj	O	
+12	to	to	TO	PART	13	aux	O	
+13	resist	resist	VB	VERB	11	acl	O	
+14	a	a	DT	DET	17	det	O	
+15	key	key	JJ	ADJ	17	amod	O	
+16	Watergate	watergate	NNP	PROPN	17	compound	B	EVENT
+17	subpoena	subpoena	NN	NOUN	13	dobj	O	
+18	is	be	VBZ	VERB	20	aux	O	
+19	being	be	VBG	VERB	20	auxpass	O	
+20	considered	consider	VBN	VERB	0	ROOT	O	
+21	for	for	IN	ADP	20	prep	O	
+22	the	the	DT	DET	23	det	O	
+23	post	post	NN	NOUN	21	pobj	O	
+24	of	of	IN	ADP	23	prep	O	
+25	U.S.	u.s.	NNP	PROPN	26	compound	B	GPE
+26	solicitor	solicitor	NN	NOUN	24	pobj	O	
+27	.	.	.	PUNCT	20	punct	O	
+
+#id: sent68
+#text: But four years later , Wright said he would vote against Barry Goldwater because he felt the Arizona senator supported a ` ` slowdown on civil rights ' ' and would take a ` ` harder , more dangerous line on foreign relations. ' '
+1	But	but	CC	CONJ	7	cc	O	
+2	four	four	CD	NUM	3	nummod	B	DATE
+3	years	year	NNS	NOUN	4	npadvmod	I	DATE
+4	later	later	RB	ADV	7	advmod	I	DATE
+5	,	,	,	PUNCT	7	punct	O	
+6	Wright	wright	NNP	PROPN	7	nsubj	B	PERSON
+7	said	say	VBD	VERB	0	ROOT	O	
+8	he	he	PRP	PRON	10	nsubj	O	
+9	would	would	MD	VERB	10	aux	O	
+10	vote	vote	VB	VERB	7	ccomp	O	
+11	against	against	IN	ADP	10	prep	O	
+12	Barry	barry	NNP	PROPN	13	compound	B	PERSON
+13	Goldwater	goldwater	NNP	PROPN	11	pobj	I	PERSON
+14	because	because	IN	ADP	16	mark	O	
+15	he	he	PRP	PRON	16	nsubj	O	
+16	felt	feel	VBD	VERB	10	advcl	O	
+17	the	the	DT	DET	19	det	O	
+18	Arizona	arizona	NNP	PROPN	19	compound	B	GPE
+19	senator	senator	NN	NOUN	20	nsubj	O	
+20	supported	support	VBD	VERB	16	ccomp	O	
+21	a	a	DT	DET	24	det	O	
+22	`	`	''	PUNCT	24	punct	O	
+23	`	`	''	PUNCT	24	punct	O	
+24	slowdown	slowdown	NN	NOUN	20	dobj	O	
+25	on	on	IN	ADP	24	prep	O	
+26	civil	civil	JJ	ADJ	27	amod	O	
+27	rights	right	NNS	NOUN	25	pobj	O	
+28	'	'	POS	PART	27	punct	O	
+29	'	'	''	PUNCT	24	punct	O	
+30	and	and	CC	CONJ	20	cc	O	
+31	would	would	MD	VERB	32	aux	O	
+32	take	take	VB	VERB	20	conj	O	
+33	a	a	DT	DET	40	det	O	
+34	`	`	''	PUNCT	40	punct	O	
+35	`	`	''	PUNCT	40	punct	O	
+36	harder	harder	RBR	ADV	40	amod	O	
+37	,	,	,	PUNCT	40	punct	O	
+38	more	more	RBR	ADV	39	advmod	O	
+39	dangerous	dangerous	JJ	ADJ	40	amod	O	
+40	line	line	NN	NOUN	32	dobj	O	
+41	on	on	IN	ADP	40	prep	O	
+42	foreign	foreign	JJ	ADJ	43	amod	O	
+43	relations	relation	NNS	NOUN	41	pobj	O	
+44	.	.	.	PUNCT	7	punct	O	
+45	'	'	''	PUNCT	7	punct	O	
+46	'	'	''	PUNCT	7	punct	O	
+
+#id: sent70
+#text: STOCKTON-ON-TEES , England ( AP ) _ Michael Minns received $160 , 000 from the father he never knew and thought was killed in World War II .
+1	STOCKTON	stockton	NNP	PROPN	5	compound	B	GPE
+2	-	-	HYPH	PUNCT	5	punct	O	
+3	ON	on	NNP	PROPN	5	compound	O	
+4	-	-	HYPH	PUNCT	5	punct	O	
+5	TEES	tees	NNP	PROPN	14	nsubj	O	
+6	,	,	,	PUNCT	5	punct	O	
+7	England	england	NNP	PROPN	14	nsubj	B	GPE
+8	(	(	-LRB-	PUNCT	9	punct	O	
+9	AP	ap	NNP	PROPN	7	appos	B	ORG
+10	)	)	-RRB-	PUNCT	7	punct	O	
+11	_	_	NFP	PUNCT	14	punct	O	
+12	Michael	michael	NNP	PROPN	13	compound	B	PERSON
+13	Minns	minns	NNP	PROPN	14	nsubj	I	PERSON
+14	received	receive	VBD	VERB	0	ROOT	O	
+15	$	$	$	SYM	16	nmod	O	
+16	160	160	CD	NUM	18	dep	B	MONEY
+17	,	,	,	PUNCT	18	punct	O	
+18	000	000	CD	NUM	14	dobj	O	
+19	from	from	IN	ADP	14	prep	O	
+20	the	the	DT	DET	21	det	O	
+21	father	father	NN	NOUN	19	pobj	O	
+22	he	he	PRP	PRON	24	nsubj	O	
+23	never	never	RB	ADV	24	neg	O	
+24	knew	know	VBD	VERB	21	relcl	O	
+25	and	and	CC	CONJ	24	cc	O	
+26	thought	think	VBD	VERB	24	conj	O	
+27	was	be	VBD	VERB	28	auxpass	O	
+28	killed	kill	VBN	VERB	26	ccomp	O	
+29	in	in	IN	ADP	28	prep	O	
+30	World	world	NNP	PROPN	32	compound	B	EVENT
+31	War	war	NNP	PROPN	32	compound	I	EVENT
+32	II	ii	NNP	PROPN	29	pobj	I	EVENT
+33	.	.	.	PUNCT	14	punct	O	
+
+#id: sent77
+#text: An enraged Nikita Khrushchev instructed Soviet ships to ignore President Kennedy 's naval blockade during the Cuban missile crisis , but the order was reversed just hours before an inevitable confrontation , according to a new book .
+1	An	an	DT	DET	4	det	O	
+2	enraged	enraged	JJ	ADJ	4	amod	O	
+3	Nikita	nikita	NNP	PROPN	4	compound	O	
+4	Khrushchev	khrushchev	NNP	PROPN	5	nsubj	O	
+5	instructed	instruct	VBD	VERB	0	ROOT	O	
+6	Soviet	soviet	JJ	ADJ	7	amod	B	NORP
+7	ships	ship	NNS	NOUN	5	dobj	O	
+8	to	to	TO	PART	9	aux	O	
+9	ignore	ignore	VB	VERB	5	xcomp	O	
+10	President	president	NNP	PROPN	11	compound	O	
+11	Kennedy	kennedy	NNP	PROPN	14	poss	B	PERSON
+12	's	's	POS	PART	11	case	O	
+13	naval	naval	JJ	ADJ	14	amod	O	
+14	blockade	blockade	NN	NOUN	9	dobj	O	
+15	during	during	IN	ADP	14	prep	O	
+16	the	the	DT	DET	19	det	O	
+17	Cuban	cuban	JJ	ADJ	19	amod	B	NORP
+18	missile	missile	NN	NOUN	19	compound	O	
+19	crisis	crisis	NN	NOUN	15	pobj	O	
+20	,	,	,	PUNCT	5	punct	O	
+21	but	but	CC	CONJ	5	cc	O	
+22	the	the	DT	DET	23	det	O	
+23	order	order	NN	NOUN	25	nsubjpass	O	
+24	was	be	VBD	VERB	25	auxpass	O	
+25	reversed	reverse	VBN	VERB	5	conj	O	
+26	just	just	RB	ADV	27	advmod	O	
+27	hours	hour	NNS	NOUN	28	npadvmod	O	
+28	before	before	IN	ADP	25	prep	O	
+29	an	an	DT	DET	31	det	O	
+30	inevitable	inevitable	JJ	ADJ	31	amod	O	
+31	confrontation	confrontation	NN	NOUN	28	pobj	O	
+32	,	,	,	PUNCT	25	punct	O	
+33	according	accord	VBG	VERB	25	prep	O	
+34	to	to	IN	ADP	33	prep	O	
+35	a	a	DT	DET	37	det	O	
+36	new	new	JJ	ADJ	37	amod	O	
+37	book	book	NN	NOUN	34	pobj	O	
+38	.	.	.	PUNCT	25	punct	O	
+
+#id: sent79
+#text: Anastas Mikoyan , then Soviet first deputy premier , was the catalyst for the reversal of Khrushchev 's order , according to the authors .
+1	Anastas	anastas	NNP	PROPN	2	compound	B	PERSON
+2	Mikoyan	mikoyan	NNP	PROPN	10	nsubj	I	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	then	then	RB	ADV	8	advmod	O	
+5	Soviet	soviet	NNP	PROPN	8	amod	B	NORP
+6	first	first	JJ	ADJ	8	amod	B	ORDINAL
+7	deputy	deputy	NN	NOUN	8	compound	O	
+8	premier	premier	NN	NOUN	2	appos	O	
+9	,	,	,	PUNCT	10	punct	O	
+10	was	be	VBD	VERB	0	ROOT	O	
+11	the	the	DT	DET	12	det	O	
+12	catalyst	catalyst	NN	NOUN	10	attr	O	
+13	for	for	IN	ADP	12	prep	O	
+14	the	the	DT	DET	15	det	O	
+15	reversal	reversal	NN	NOUN	13	pobj	O	
+16	of	of	IN	ADP	15	prep	O	
+17	Khrushchev	khrushchev	NNP	PROPN	19	poss	B	GPE
+18	's	's	POS	PART	17	case	O	
+19	order	order	NN	NOUN	16	pobj	O	
+20	,	,	,	PUNCT	10	punct	O	
+21	according	accord	VBG	VERB	10	prep	O	
+22	to	to	IN	ADP	21	prep	O	
+23	the	the	DT	DET	24	det	O	
+24	authors	author	NNS	NOUN	22	pobj	O	
+25	.	.	.	PUNCT	10	punct	O	
+
+#id: sent80
+#text: Mikoyan ` ` preempted Khrushchev 's order to run the blockade and ordered Soviet ships to stop just short of the quarantine line , ' ' they say .
+1	Mikoyan	mikoyan	NNP	PROPN	4	nsubj	O	
+2	`	`	''	PUNCT	4	punct	O	
+3	`	`	''	PUNCT	4	punct	O	
+4	preempted	preempt	VBD	VERB	28	ccomp	O	
+5	Khrushchev	khrushchev	NNP	PROPN	7	poss	B	GPE
+6	's	's	POS	PART	5	case	O	
+7	order	order	NN	NOUN	4	dobj	O	
+8	to	to	TO	PART	9	aux	O	
+9	run	run	VB	VERB	7	acl	O	
+10	the	the	DT	DET	11	det	O	
+11	blockade	blockade	NN	NOUN	9	dobj	O	
+12	and	and	CC	CONJ	4	cc	O	
+13	ordered	order	VBD	VERB	4	conj	O	
+14	Soviet	soviet	JJ	ADJ	15	amod	B	NORP
+15	ships	ship	NNS	NOUN	13	dobj	O	
+16	to	to	TO	PART	17	aux	O	
+17	stop	stop	VB	VERB	13	xcomp	O	
+18	just	just	RB	ADV	19	advmod	O	
+19	short	short	JJ	ADJ	17	advmod	O	
+20	of	of	IN	ADP	19	prep	O	
+21	the	the	DT	DET	23	det	O	
+22	quarantine	quarantine	NN	NOUN	23	compound	O	
+23	line	line	NN	NOUN	20	pobj	O	
+24	,	,	,	PUNCT	13	punct	O	
+25	'	'	''	PUNCT	13	punct	O	
+26	'	'	''	PUNCT	13	punct	O	
+27	they	they	PRP	PRON	28	nsubj	O	
+28	say	say	VBP	VERB	0	ROOT	O	
+29	.	.	.	PUNCT	28	punct	O	
+
+#id: sent83
+#text: The book , ` ` On the Brink : Americans and Soviets Reexamine the Cuban Missile Crisis , ' ' is based largely on two 1987 conferences sponsored by Harvard _ one that featured top Kennedy advisers and U.S. scholars and a second in which three Soviets joined the Americans .
+1	The	the	DT	DET	2	det	O	
+2	book	book	NN	NOUN	22	nsubjpass	O	
+3	,	,	,	PUNCT	13	punct	O	
+4	`	`	''	PUNCT	13	punct	O	
+5	`	`	''	PUNCT	13	punct	O	
+6	On	on	IN	ADP	13	prep	O	
+7	the	the	DT	DET	8	det	O	
+8	Brink	brink	NNP	PROPN	6	pobj	O	
+9	:	:	:	PUNCT	13	punct	O	
+10	Americans	americans	NNPS	PROPN	13	nsubj	B	NORP
+11	and	and	CC	CONJ	10	cc	O	
+12	Soviets	soviets	NNPS	PROPN	10	conj	B	NORP
+13	Reexamine	reexamine	VB	VERB	2	appos	O	
+14	the	the	DT	DET	17	det	O	
+15	Cuban	cuban	JJ	ADJ	17	amod	O	
+16	Missile	missile	NNP	PROPN	17	compound	O	
+17	Crisis	crisis	NNP	PROPN	13	dobj	O	
+18	,	,	,	PUNCT	13	punct	O	
+19	'	'	''	PUNCT	13	punct	O	
+20	'	'	''	PUNCT	13	punct	O	
+21	is	be	VBZ	VERB	22	auxpass	O	
+22	based	base	VBN	VERB	0	ROOT	O	
+23	largely	largely	RB	ADV	24	advmod	O	
+24	on	on	IN	ADP	22	prep	O	
+25	two	two	CD	NUM	27	nummod	B	CARDINAL
+26	1987	1987	CD	NUM	27	nummod	B	DATE
+27	conferences	conference	NNS	NOUN	24	pobj	O	
+28	sponsored	sponsor	VBN	VERB	27	acl	O	
+29	by	by	IN	ADP	28	agent	O	
+30	Harvard	harvard	NNP	PROPN	29	pobj	B	ORG
+31	_	_	.	PUNCT	22	punct	O	
+32	one	one	CD	NUM	0	ROOT	O	
+33	that	that	WDT	ADJ	34	nsubj	O	
+34	featured	feature	VBD	VERB	32	relcl	O	
+35	top	top	NN	NOUN	37	amod	O	
+36	Kennedy	kennedy	NNP	PROPN	37	compound	B	PERSON
+37	advisers	adviser	NNS	NOUN	34	dobj	O	
+38	and	and	CC	CONJ	37	cc	O	
+39	U.S.	u.s.	NNP	PROPN	40	compound	B	GPE
+40	scholars	scholar	NNS	NOUN	37	conj	O	
+41	and	and	CC	CONJ	40	cc	O	
+42	a	a	DT	DET	43	det	O	
+43	second	second	JJ	ADJ	34	npadvmod	O	
+44	in	in	IN	ADP	48	prep	O	
+45	which	which	WDT	ADJ	44	pobj	O	
+46	three	three	CD	NUM	47	nummod	B	CARDINAL
+47	Soviets	soviets	NNPS	PROPN	48	nsubj	B	NORP
+48	joined	join	VBD	VERB	43	relcl	O	
+49	the	the	DT	DET	50	det	O	
+50	Americans	americans	NNPS	PROPN	48	dobj	B	NORP
+51	.	.	.	PUNCT	32	punct	O	
+
+#id: sent86
+#text: The book said Khrushchev 's order to ignore the blockade was disclosed in a largely unknown work by dissident Soviet historian Roy Medvedev .
+1	The	the	DT	DET	2	det	O	
+2	book	book	NN	NOUN	3	nsubj	O	
+3	said	say	VBD	VERB	0	ROOT	O	
+4	Khrushchev	khrushchev	NNP	PROPN	6	poss	B	GPE
+5	's	's	POS	PART	4	case	O	
+6	order	order	NN	NOUN	12	nsubjpass	O	
+7	to	to	TO	PART	8	aux	O	
+8	ignore	ignore	VB	VERB	6	acl	O	
+9	the	the	DT	DET	10	det	O	
+10	blockade	blockade	NN	NOUN	8	dobj	O	
+11	was	be	VBD	VERB	12	auxpass	O	
+12	disclosed	disclose	VBN	VERB	3	ccomp	O	
+13	in	in	IN	ADP	12	prep	O	
+14	a	a	DT	DET	17	det	O	
+15	largely	largely	RB	ADV	16	advmod	O	
+16	unknown	unknown	JJ	ADJ	17	amod	O	
+17	work	work	NN	NOUN	13	pobj	O	
+18	by	by	IN	ADP	17	prep	O	
+19	dissident	dissident	JJ	ADJ	21	amod	O	
+20	Soviet	soviet	JJ	ADJ	21	amod	B	NORP
+21	historian	historian	NN	NOUN	23	compound	O	
+22	Roy	roy	NNP	PROPN	23	compound	B	PERSON
+23	Medvedev	medvedev	NNP	PROPN	18	pobj	I	PERSON
+24	.	.	.	PUNCT	3	punct	O	
+
+#id: sent88
+#text: Their theory that the warheads were blocked by the quarantine is at odds with a recent disclosure by Aleksander Alekseev , the former ambassador to Cuba , who said in a recent Soviet magazine that 42 medium-range missiles were fully operational .
+1	Their	their	PRP$	ADJ	2	poss	O	
+2	theory	theory	NN	NOUN	12	nsubj	O	
+3	that	that	IN	ADP	12	mark	O	
+4	the	the	DT	DET	5	det	O	
+5	warheads	warhead	NNS	NOUN	12	nsubj	O	
+6	we	-PRON-	PRP	PRON	8	nsubjpass	O	
+7	re	re	VBP	VERB	8	auxpass	O	
+8	blocked	block	VBN	VERB	5	relcl	O	
+9	by	by	IN	ADP	8	agent	O	
+10	the	the	DT	DET	11	det	O	
+11	quarantine	quarantine	NN	NOUN	9	pobj	O	
+12	is	be	VBZ	VERB	0	ROOT	O	
+13	at	at	IN	ADP	12	prep	O	
+14	odds	odds	NNS	NOUN	13	pobj	O	
+15	with	with	IN	ADP	14	prep	O	
+16	a	a	DT	DET	18	det	O	
+17	recent	recent	JJ	ADJ	18	amod	O	
+18	disclosure	disclosure	NN	NOUN	15	pobj	O	
+19	by	by	IN	ADP	18	prep	O	
+20	Aleksander	aleksander	NNP	PROPN	21	compound	B	PERSON
+21	Alekseev	alekseev	NNP	PROPN	19	pobj	I	PERSON
+22	,	,	,	PUNCT	21	punct	O	
+23	the	the	DT	DET	25	det	O	
+24	former	former	JJ	ADJ	25	amod	O	
+25	ambassador	ambassador	NN	NOUN	21	appos	O	
+26	to	to	IN	ADP	25	prep	O	
+27	Cuba	cuba	NNP	PROPN	26	pobj	B	GPE
+28	,	,	,	PUNCT	25	punct	O	
+29	who	who	WP	NOUN	30	nsubj	O	
+30	said	say	VBD	VERB	14	relcl	O	
+31	in	in	IN	ADP	30	prep	O	
+32	a	a	DT	DET	35	det	O	
+33	recent	recent	JJ	ADJ	35	amod	O	
+34	Soviet	soviet	NNP	PROPN	35	amod	B	NORP
+35	magazine	magazine	NN	NOUN	31	pobj	O	
+36	that	that	IN	ADP	45	dobj	O	
+37	42	42	CD	NUM	41	nummod	B	CARDINAL
+38	medium	medium	JJ	ADJ	40	amod	O	
+39	-	-	HYPH	PUNCT	40	punct	O	
+40	range	range	NN	NOUN	41	compound	O	
+41	missiles	missile	NNS	NOUN	45	nsubj	O	
+42	we	-PRON-	PRP	PRON	43	nsubj	O	
+43	re	re	VBP	VERB	41	relcl	O	
+44	fully	fully	RB	ADV	45	advmod	O	
+45	operational	operational	JJ	ADJ	35	relcl	O	
+46	.	.	.	PUNCT	12	punct	O	
+
+#id: sent89
+#text: But the authors suggested that Alekseev , along with others in the Soviet diplomatic corps , were not receiving accurate information from Moscow about the missiles .
+1	But	but	CC	CONJ	4	cc	O	
+2	the	the	DT	DET	3	det	O	
+3	authors	author	NNS	NOUN	4	nsubj	O	
+4	suggested	suggest	VBD	VERB	0	ROOT	O	
+5	that	that	IN	ADP	20	mark	O	
+6	Alekseev	alekseev	NNP	PROPN	20	nsubj	B	ORG
+7	,	,	,	PUNCT	20	punct	O	
+8	along	along	IN	ADP	20	prep	O	
+9	with	with	IN	ADP	8	prep	O	
+10	others	others	NNS	NOUN	9	pobj	O	
+11	in	in	IN	ADP	10	prep	O	
+12	the	the	DT	DET	15	det	O	
+13	Soviet	soviet	JJ	ADJ	15	amod	B	NORP
+14	diplomatic	diplomatic	JJ	ADJ	15	amod	O	
+15	corps	corp	NNS	NOUN	11	pobj	O	
+16	,	,	,	PUNCT	20	punct	O	
+17	we	-PRON-	PRP	PRON	20	nsubj	O	
+18	re	re	VBP	VERB	20	aux	O	
+19	not	not	RB	ADV	20	neg	O	
+20	receiving	receive	VBG	VERB	4	ccomp	O	
+21	accurate	accurate	JJ	ADJ	22	amod	O	
+22	information	information	NN	NOUN	20	dobj	O	
+23	from	from	IN	ADP	20	prep	O	
+24	Moscow	moscow	NNP	PROPN	23	pobj	B	GPE
+25	about	about	IN	ADP	20	prep	O	
+26	the	the	DT	DET	27	det	O	
+27	missiles	missile	NNS	NOUN	25	pobj	O	
+28	.	.	.	PUNCT	4	punct	O	
+
+#id: sent119
+#text: Composer Thomas is a native of Chisholm , Minn .
+1	Composer	composer	NNP	PROPN	2	compound	B	PERSON
+2	Thomas	thomas	NNP	PROPN	3	nsubj	I	PERSON
+3	is	be	VBZ	VERB	0	ROOT	O	
+4	a	a	DT	DET	5	det	O	
+5	native	native	NN	NOUN	3	attr	O	
+6	of	of	IN	ADP	5	prep	O	
+7	Chisholm	chisholm	NNP	PROPN	6	pobj	B	GPE
+8	,	,	,	PUNCT	7	punct	O	
+9	Minn	minn	NNP	PROPN	7	appos	B	GPE
+10	.	.	.	PUNCT	3	punct	O	
+
+#id: sent161
+#text: Britain 's Duchess of York and former Philippines first lady Imelda Marcos topped the list by Blackwell , a designer and self-appointed fashion arbiter whose real name is Richard Sylvan Selzer .
+1	Britain	britain	NNP	PROPN	3	poss	B	GPE
+2	's	's	POS	PART	1	case	O	
+3	Duchess	duchess	NN	NOUN	13	nsubj	B	ORG
+4	of	of	IN	ADP	3	prep	I	ORG
+5	York	york	NNP	PROPN	4	pobj	I	ORG
+6	and	and	CC	CONJ	5	cc	O	
+7	former	former	JJ	ADJ	8	amod	O	
+8	Philippines	philippines	NNPS	PROPN	10	nmod	B	GPE
+9	first	first	RB	ADV	10	amod	B	ORDINAL
+10	lady	lady	NN	NOUN	12	compound	O	
+11	Imelda	imelda	NNP	PROPN	12	compound	B	PERSON
+12	Marcos	marcos	NNP	PROPN	3	appos	I	PERSON
+13	topped	top	VBD	VERB	0	ROOT	O	
+14	the	the	DT	DET	15	det	O	
+15	list	list	NN	NOUN	13	dobj	O	
+16	by	by	IN	ADP	13	prep	O	
+17	Blackwell	blackwell	NNP	PROPN	16	pobj	B	PERSON
+18	,	,	,	PUNCT	17	punct	O	
+19	a	a	DT	DET	20	det	O	
+20	designer	designer	NN	NOUN	17	appos	O	
+21	and	and	CC	CONJ	20	cc	O	
+22	self	self	NN	NOUN	24	npadvmod	O	
+23	-	-	HYPH	PUNCT	24	punct	O	
+24	appointed	appoint	VBN	VERB	26	amod	O	
+25	fashion	fashion	NN	NOUN	26	compound	O	
+26	arbiter	arbiter	NN	NOUN	20	conj	O	
+27	whose	whose	WP$	ADJ	29	poss	O	
+28	real	real	JJ	ADJ	29	amod	O	
+29	name	name	NN	NOUN	30	nsubj	O	
+30	is	be	VBZ	VERB	20	relcl	O	
+31	Richard	richard	NNP	PROPN	33	compound	B	PERSON
+32	Sylvan	sylvan	NNP	PROPN	33	compound	I	PERSON
+33	Selzer	selzer	NNP	PROPN	30	attr	I	PERSON
+34	.	.	.	PUNCT	13	punct	O	
+
+#id: sent173
+#text: Hoffman , who portrays an autistic savant in the movie , returned the favor and called the Fresno boy Monday , talking with Brent and his family for 20 minutes .
+1	Hoffman	hoffman	NNP	PROPN	12	nsubj	B	PERSON
+2	,	,	,	PUNCT	1	punct	O	
+3	who	who	WP	NOUN	4	nsubj	O	
+4	portrays	portray	VBZ	VERB	1	relcl	O	
+5	an	an	DT	DET	7	det	O	
+6	autistic	autistic	JJ	ADJ	7	amod	O	
+7	savant	savant	NN	NOUN	4	dobj	O	
+8	in	in	IN	ADP	7	prep	O	
+9	the	the	DT	DET	10	det	O	
+10	movie	movie	NN	NOUN	8	pobj	O	
+11	,	,	,	PUNCT	1	punct	O	
+12	returned	return	VBD	VERB	0	ROOT	O	
+13	the	the	DT	DET	14	det	O	
+14	favor	favor	NN	NOUN	12	dobj	O	
+15	and	and	CC	CONJ	12	cc	O	
+16	called	call	VBD	VERB	12	conj	O	
+17	the	the	DT	DET	19	det	O	
+18	Fresno	fresno	NNP	PROPN	19	compound	B	GPE
+19	boy	boy	NN	NOUN	16	dobj	O	
+20	Monday	monday	NNP	PROPN	16	oprd	B	DATE
+21	,	,	,	PUNCT	16	punct	O	
+22	talking	talk	VBG	VERB	16	conj	O	
+23	with	with	IN	ADP	22	prep	O	
+24	Brent	brent	NNP	PROPN	23	pobj	B	PERSON
+25	and	and	CC	CONJ	24	cc	O	
+26	his	his	PRP$	ADJ	27	poss	O	
+27	family	family	NN	NOUN	24	conj	O	
+28	for	for	IN	ADP	22	prep	O	
+29	20	20	CD	NUM	30	nummod	B	TIME
+30	minutes	minute	NNS	NOUN	28	pobj	I	TIME
+31	.	.	.	PUNCT	12	punct	O	
+
+#id: sent188
+#text: Dancers of Moscow 's Bolshoi Ballet in Moscow and Leningrad 's Kirov Ballet , together with opera singers from the Armenian capital of Yerevan , joined U.S. sopranos June Anderson and Carol Vaness and British dancers and singers .
+1	Dancers	dancer	NNS	NOUN	26	nsubj	O	
+2	of	of	IN	ADP	1	prep	O	
+3	Moscow	moscow	NNP	PROPN	6	poss	B	GPE
+4	's	's	POS	PART	3	case	O	
+5	Bolshoi	bolshoi	NNP	PROPN	6	compound	B	ORG
+6	Ballet	ballet	NNP	PROPN	2	pobj	I	ORG
+7	in	in	IN	ADP	6	prep	O	
+8	Moscow	moscow	NNP	PROPN	7	pobj	B	GPE
+9	and	and	CC	CONJ	8	cc	O	
+10	Leningrad	leningrad	NNP	PROPN	13	poss	B	GPE
+11	's	's	POS	PART	10	case	O	
+12	Kirov	kirov	NNP	PROPN	13	compound	B	ORG
+13	Ballet	ballet	NNP	PROPN	6	appos	I	ORG
+14	,	,	,	PUNCT	1	punct	O	
+15	together	together	RB	ADV	16	advmod	O	
+16	with	with	IN	ADP	1	prep	O	
+17	opera	opera	NN	NOUN	18	compound	O	
+18	singers	singer	NNS	NOUN	16	pobj	O	
+19	from	from	IN	ADP	18	prep	O	
+20	the	the	DT	DET	22	det	O	
+21	Armenian	armenian	JJ	ADJ	22	amod	B	NORP
+22	capital	capital	NN	NOUN	19	pobj	O	
+23	of	of	IN	ADP	22	prep	O	
+24	Yerevan	yerevan	NNP	PROPN	23	pobj	B	GPE
+25	,	,	,	PUNCT	26	punct	O	
+26	joined	join	VBD	VERB	0	ROOT	O	
+27	U.S.	u.s.	NNP	PROPN	28	compound	B	GPE
+28	sopranos	soprano	NNS	NOUN	26	dobj	O	
+29	June	june	NNP	PROPN	30	compound	B	PERSON
+30	Anderson	anderson	NNP	PROPN	28	appos	I	PERSON
+31	and	and	CC	CONJ	30	cc	O	
+32	Carol	carol	NNP	PROPN	33	compound	B	PERSON
+33	Vaness	vaness	NNP	PROPN	30	conj	I	PERSON
+34	and	and	CC	CONJ	33	cc	O	
+35	British	british	JJ	ADJ	36	amod	B	NORP
+36	dancers	dancer	NNS	NOUN	33	conj	O	
+37	and	and	CC	CONJ	36	cc	O	
+38	singers	singer	NNS	NOUN	36	conj	O	
+39	.	.	.	PUNCT	26	punct	O	
+
+#id: sent200
+#text: ` ` Temperatures didn 't get too low , but the wind chill was bad , ' ' said Bingham County Sheriff 's Lt. Bill Gordon .
+1	`	`	''	PUNCT	20	punct	O	
+2	`	`	''	PUNCT	3	punct	O	
+3	Temperatures	temperatures	VBZ	VERB	7	nsubj	O	
+4	didn	didn	NN	NOUN	6	nmod	O	
+5	'	'	''	PUNCT	6	punct	O	
+6	t	t	NN	NOUN	7	nsubj	O	
+7	get	get	VBP	VERB	20	ccomp	O	
+8	too	too	RB	ADV	9	advmod	O	
+9	low	low	JJ	ADJ	7	acomp	O	
+10	,	,	,	PUNCT	7	punct	O	
+11	but	but	CC	CONJ	7	cc	O	
+12	the	the	DT	DET	14	det	O	
+13	wind	wind	NN	NOUN	14	compound	O	
+14	chill	chill	NN	NOUN	15	nsubj	O	
+15	was	be	VBD	VERB	7	conj	O	
+16	bad	bad	JJ	ADJ	15	acomp	O	
+17	,	,	,	PUNCT	15	punct	O	
+18	'	'	''	PUNCT	15	punct	O	
+19	'	'	''	PUNCT	20	punct	O	
+20	said	say	VBD	VERB	0	ROOT	O	
+21	Bingham	bingham	NNP	PROPN	22	compound	B	PERSON
+22	County	county	NNP	PROPN	23	compound	I	PERSON
+23	Sheriff	sheriff	NNP	PROPN	25	poss	I	PERSON
+24	's	's	POS	PART	23	case	I	PERSON
+25	Lt	lt	NNP	PROPN	20	nsubj	O	
+26	.	.	.	PUNCT	20	punct	O	
+27	Bill	bill	NNP	PROPN	28	compound	B	PERSON
+28	Gordon	gordon	NNP	PROPN	0	ROOT	I	PERSON
+29	.	.	.	PUNCT	28	punct	O	
+
+#id: sent207
+#text: The justices heard 60 minutes of arguments Wednesday on whether they will allow the execution of Johnny Paul Penry , 32 , a convicted rapist-murderer sentenced to die in Texas .
+1	The	the	DT	DET	2	det	O	
+2	justices	justice	NNS	NOUN	3	nsubj	O	
+3	heard	hear	VBD	VERB	0	ROOT	O	
+4	60	60	CD	NUM	5	nummod	B	TIME
+5	minutes	minute	NNS	NOUN	3	dobj	I	TIME
+6	of	of	IN	ADP	5	prep	O	
+7	arguments	argument	NNS	NOUN	6	pobj	O	
+8	Wednesday	wednesday	NNP	PROPN	3	npadvmod	B	DATE
+9	on	on	IN	ADP	3	prep	O	
+10	whether	whether	IN	ADP	13	mark	O	
+11	they	they	PRP	PRON	13	nsubj	O	
+12	will	will	MD	VERB	13	aux	O	
+13	allow	allow	VB	VERB	9	pcomp	O	
+14	the	the	DT	DET	15	det	O	
+15	execution	execution	NN	NOUN	13	dobj	O	
+16	of	of	IN	ADP	15	prep	O	
+17	Johnny	johnny	NNP	PROPN	19	compound	B	PERSON
+18	Paul	paul	NNP	PROPN	19	compound	I	PERSON
+19	Penry	penry	NNP	PROPN	16	pobj	I	PERSON
+20	,	,	,	PUNCT	19	punct	O	
+21	32	32	CD	NUM	19	appos	B	DATE
+22	,	,	,	PUNCT	19	punct	O	
+23	a	a	DT	DET	27	det	O	
+24	convicted	convict	VBN	VERB	27	amod	O	
+25	rapist	rapist	NN	NOUN	27	compound	O	
+26	-	-	HYPH	PUNCT	27	punct	O	
+27	murderer	murderer	NN	NOUN	19	appos	O	
+28	sentenced	sentence	VBN	VERB	27	acl	O	
+29	to	to	TO	PART	30	aux	O	
+30	die	die	VB	VERB	28	xcomp	O	
+31	in	in	IN	ADP	30	prep	O	
+32	Texas	texas	NNP	PROPN	31	pobj	B	GPE
+33	.	.	.	PUNCT	3	punct	O	
+
+#id: sent208
+#text: Assistant Charles A. Palmer of Texas argued that executing Penry would not violate the Constitution 's ban against cruel and inhuman punishment .
+1	Assistant	assistant	NNP	PROPN	4	compound	O	
+2	Charles	charles	NNP	PROPN	4	compound	B	PERSON
+3	A.	a.	NNP	PROPN	4	compound	I	PERSON
+4	Palmer	palmer	NNP	PROPN	7	nsubj	I	PERSON
+5	of	of	IN	ADP	4	prep	O	
+6	Texas	texas	NNP	PROPN	5	pobj	B	GPE
+7	argued	argue	VBD	VERB	0	ROOT	O	
+8	that	that	IN	ADP	13	mark	O	
+9	executing	execute	VBG	VERB	13	csubj	O	
+10	Penry	penry	NNP	PROPN	9	dobj	B	ORG
+11	would	would	MD	VERB	13	aux	O	
+12	not	not	RB	ADV	13	neg	O	
+13	violate	violate	VB	VERB	7	ccomp	O	
+14	the	the	DT	DET	15	det	O	
+15	Constitution	constitution	NNP	PROPN	17	poss	B	LAW
+16	's	's	POS	PART	15	case	O	
+17	ban	ban	NN	NOUN	13	dobj	O	
+18	against	against	IN	ADP	17	prep	O	
+19	cruel	cruel	JJ	ADJ	22	amod	O	
+20	and	and	CC	CONJ	19	cc	O	
+21	inhuman	inhuman	JJ	ADJ	19	conj	O	
+22	punishment	punishment	NN	NOUN	18	pobj	O	
+23	.	.	.	PUNCT	7	punct	O	
+
+#id: sent278
+#text: Deputy U.S. Ambassador Herbert S. Okun announced the cancellation just before the council began debate , and officials in Washington confirmed it .
+1	Deputy	deputy	NNP	PROPN	3	compound	O	
+2	U.S.	u.s.	NNP	PROPN	3	compound	B	GPE
+3	Ambassador	ambassador	NNP	PROPN	6	compound	O	
+4	Herbert	herbert	NNP	PROPN	6	compound	B	PERSON
+5	S.	s.	NNP	PROPN	6	compound	I	PERSON
+6	Okun	okun	NNP	PROPN	7	nsubj	I	PERSON
+7	announced	announce	VBD	VERB	0	ROOT	O	
+8	the	the	DT	DET	9	det	O	
+9	cancellation	cancellation	NN	NOUN	7	dobj	O	
+10	just	just	RB	ADV	11	advmod	O	
+11	before	before	IN	ADP	14	mark	O	
+12	the	the	DT	DET	13	det	O	
+13	council	council	NN	NOUN	14	nsubj	O	
+14	began	begin	VBD	VERB	7	advcl	O	
+15	debate	debate	NN	NOUN	14	dobj	O	
+16	,	,	,	PUNCT	7	punct	O	
+17	and	and	CC	CONJ	7	cc	O	
+18	officials	official	NNS	NOUN	21	nsubj	O	
+19	in	in	IN	ADP	18	prep	O	
+20	Washington	washington	NNP	PROPN	19	pobj	B	GPE
+21	confirmed	confirm	VBD	VERB	7	conj	O	
+22	it	it	PRP	PRON	21	dobj	O	
+23	.	.	.	PUNCT	21	punct	O	
+
+#id: sent281
+#text: On Friday , U.S. Ambassador Vernon A. Walters displayed photographs of one Libyan jet showing shapes resembling missile pods on its wings and fuselage .
+1	On	on	IN	ADP	9	prep	O	
+2	Friday	friday	NNP	PROPN	1	pobj	B	DATE
+3	,	,	,	PUNCT	9	punct	O	
+4	U.S.	u.s.	NNP	PROPN	5	compound	B	GPE
+5	Ambassador	ambassador	NNP	PROPN	8	compound	O	
+6	Vernon	vernon	NNP	PROPN	8	compound	B	PERSON
+7	A.	a.	NNP	PROPN	8	compound	I	PERSON
+8	Walters	walters	NNP	PROPN	9	nsubj	I	PERSON
+9	displayed	display	VBD	VERB	0	ROOT	O	
+10	photographs	photograph	NNS	NOUN	9	dobj	O	
+11	of	of	IN	ADP	10	prep	O	
+12	one	one	CD	NUM	15	nummod	B	CARDINAL
+13	Libyan	libyan	JJ	ADJ	14	amod	B	NORP
+14	jet	jet	NN	NOUN	15	compound	O	
+15	showing	showing	NN	NOUN	16	compound	O	
+16	shapes	shape	NNS	NOUN	11	pobj	O	
+17	resembling	resemble	VBG	VERB	16	acl	O	
+18	missile	missile	NN	NOUN	19	compound	O	
+19	pods	pod	NNS	NOUN	17	dobj	O	
+20	on	on	IN	ADP	19	prep	O	
+21	its	its	PRP$	ADJ	22	poss	O	
+22	wings	wing	NNS	NOUN	20	pobj	O	
+23	and	and	CC	CONJ	22	cc	O	
+24	fuselage	fuselage	NN	NOUN	22	conj	O	
+25	.	.	.	PUNCT	9	punct	O	
+
+#id: sent282
+#text: Libya 's deputy ambassador , Ali Sunni Muntasser , said the pictures were retouched and the planes were unarmed and on reconnaissance flights .
+1	Libya	libya	NNP	PROPN	4	poss	B	GPE
+2	's	's	POS	PART	1	case	O	
+3	deputy	deputy	NN	NOUN	4	compound	O	
+4	ambassador	ambassador	NN	NOUN	10	nsubj	O	
+5	,	,	,	PUNCT	4	punct	O	
+6	Ali	ali	NNP	PROPN	8	compound	B	PERSON
+7	Sunni	sunni	NNP	PROPN	8	compound	I	PERSON
+8	Muntasser	muntasser	NNP	PROPN	4	appos	I	PERSON
+9	,	,	,	PUNCT	4	punct	O	
+10	said	say	VBD	VERB	0	ROOT	O	
+11	the	the	DT	DET	12	det	O	
+12	pictures	picture	NNS	NOUN	15	nsubj	O	
+13	we	-PRON-	PRP	PRON	14	nsubj	O	
+14	re	re	VBP	VERB	15	parataxis	O	
+15	retouched	retouch	VBN	VERB	10	ccomp	O	
+16	and	and	CC	CONJ	15	cc	O	
+17	the	the	DT	DET	18	det	O	
+18	planes	plane	NNS	NOUN	15	conj	O	
+19	we	-PRON-	PRP	PRON	20	nsubj	O	
+20	re	re	VBP	VERB	18	relcl	O	
+21	unarmed	unarmed	JJ	ADJ	20	acomp	O	
+22	and	and	CC	CONJ	20	cc	O	
+23	on	on	IN	ADP	20	prep	O	
+24	reconnaissance	reconnaissance	NN	NOUN	25	compound	O	
+25	flights	flight	NNS	NOUN	23	pobj	O	
+26	.	.	.	PUNCT	10	punct	O	
+
+#id: sent285
+#text: Canada 's ambassador , Yves Fortier , said the resolution contained ` ` a one-sided account. ' '
+1	Canada	canada	NNP	PROPN	3	poss	B	GPE
+2	's	's	POS	PART	1	case	O	
+3	ambassador	ambassador	NN	NOUN	8	nsubj	O	
+4	,	,	,	PUNCT	3	punct	O	
+5	Yves	yves	NNP	PROPN	6	compound	B	PERSON
+6	Fortier	fortier	NNP	PROPN	3	appos	I	PERSON
+7	,	,	,	PUNCT	3	punct	O	
+8	said	say	VBD	VERB	0	ROOT	O	
+9	the	the	DT	DET	10	det	O	
+10	resolution	resolution	NN	NOUN	8	dobj	O	
+11	contained	contain	VBN	VERB	10	acl	O	
+12	`	`	''	PUNCT	18	punct	O	
+13	`	`	''	PUNCT	18	punct	O	
+14	a	a	DT	DET	18	det	O	
+15	one	one	CD	NUM	17	advmod	B	CARDINAL
+16	-	-	HYPH	PUNCT	17	punct	O	
+17	sided	sided	JJ	ADJ	18	amod	O	
+18	account	account	NN	NOUN	10	conj	O	
+19	.	.	.	PUNCT	8	punct	O	
+20	'	'	''	PUNCT	8	punct	O	
+21	'	'	''	PUNCT	8	punct	O	
+
+#id: sent286
+#text: France 's deputy representative , M. Pierre Brochand , expressed similar sentiments .
+1	France	france	NNP	PROPN	4	poss	B	GPE
+2	's	's	POS	PART	1	case	O	
+3	deputy	deputy	NN	NOUN	4	compound	O	
+4	representative	representative	NN	NOUN	10	nsubj	O	
+5	,	,	,	PUNCT	4	punct	O	
+6	M.	m.	NNP	PROPN	8	compound	B	PERSON
+7	Pierre	pierre	NNP	PROPN	8	compound	I	PERSON
+8	Brochand	brochand	NNP	PROPN	4	appos	I	PERSON
+9	,	,	,	PUNCT	10	punct	O	
+10	expressed	express	VBD	VERB	0	ROOT	O	
+11	similar	similar	JJ	ADJ	12	amod	O	
+12	sentiments	sentiment	NNS	NOUN	10	dobj	O	
+13	.	.	.	PUNCT	10	punct	O	
+
+#id: sent302
+#text: President Reagan has ordered the State Department to devise a payment schedule for repaying all U.S. arrears ;
+1	President	president	NNP	PROPN	2	compound	O	
+2	Reagan	reagan	NNP	PROPN	4	nsubj	B	PERSON
+3	has	have	VBZ	VERB	4	aux	O	
+4	ordered	order	VBN	VERB	0	ROOT	O	
+5	the	the	DT	DET	7	det	B	ORG
+6	State	state	NNP	PROPN	7	compound	I	ORG
+7	Department	department	NNP	PROPN	4	dobj	I	ORG
+8	to	to	TO	PART	9	aux	O	
+9	devise	devise	VB	VERB	4	xcomp	O	
+10	a	a	DT	DET	12	det	O	
+11	payment	payment	NN	NOUN	12	compound	O	
+12	schedule	schedule	NN	NOUN	9	dobj	O	
+13	for	for	IN	ADP	12	prep	O	
+14	repaying	repay	VBG	VERB	13	pcomp	O	
+15	all	all	DT	DET	17	det	O	
+16	U.S.	u.s.	NNP	PROPN	17	compound	B	GPE
+17	arrears	arrears	NNS	NOUN	14	dobj	O	
+18	;	;	.	PUNCT	4	punct	O	
+
+#id: sent327
+#text: For singer and guitarist Bob Boyd , 57 , the Ranch has been home since he left Chattanooga , Tenn. , 35 years ago .
+1	For	for	IN	ADP	13	prep	O	
+2	singer	singer	NN	NOUN	6	nmod	O	
+3	and	and	CC	CONJ	2	cc	O	
+4	guitarist	guitarist	NN	NOUN	2	conj	O	
+5	Bob	bob	NNP	PROPN	6	compound	B	PERSON
+6	Boyd	boyd	NNP	PROPN	1	pobj	I	PERSON
+7	,	,	,	PUNCT	6	punct	O	
+8	57	57	CD	NUM	6	appos	B	DATE
+9	,	,	,	PUNCT	13	punct	O	
+10	the	the	DT	DET	11	det	O	
+11	Ranch	ranch	NNP	PROPN	13	nsubj	B	ORG
+12	has	have	VBZ	VERB	13	aux	O	
+13	been	be	VBN	VERB	0	ROOT	O	
+14	home	home	RB	ADV	13	advmod	O	
+15	since	since	IN	ADP	17	mark	O	
+16	he	he	PRP	PRON	17	nsubj	O	
+17	left	leave	VBD	VERB	13	advcl	O	
+18	Chattanooga	chattanooga	NNP	PROPN	17	dobj	B	GPE
+19	,	,	,	PUNCT	18	punct	O	
+20	Tenn.	tenn.	NNP	PROPN	18	appos	B	GPE
+21	,	,	,	PUNCT	20	punct	O	
+22	35	35	CD	NUM	23	nummod	B	DATE
+23	years	year	NNS	NOUN	24	npadvmod	I	DATE
+24	ago	ago	RB	ADV	17	advmod	I	DATE
+25	.	.	.	PUNCT	13	punct	O	
+
+#id: sent350
+#text: Larry Martin , circulation director for the publishing company jointly owned by the parent companies of the Star and the evening Tucson Citizen , estimated that 3 , 000 to 5 , 000 bogus copies were placed in as many as 600 Star vending machines .
+1	Larry	larry	NNP	PROPN	2	compound	B	PERSON
+2	Martin	martin	NNP	PROPN	25	nsubj	I	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	circulation	circulation	NN	NOUN	5	compound	O	
+5	director	director	NN	NOUN	2	appos	O	
+6	for	for	IN	ADP	5	prep	O	
+7	the	the	DT	DET	9	det	O	
+8	publishing	publishing	NN	NOUN	9	compound	O	
+9	company	company	NN	NOUN	6	pobj	O	
+10	jointly	jointly	RB	ADV	11	advmod	O	
+11	owned	own	VBN	VERB	9	acl	O	
+12	by	by	IN	ADP	11	agent	O	
+13	the	the	DT	DET	15	det	O	
+14	parent	parent	NN	NOUN	15	compound	O	
+15	companies	company	NNS	NOUN	12	pobj	O	
+16	of	of	IN	ADP	15	prep	O	
+17	the	the	DT	DET	18	det	O	
+18	Star	star	NNP	PROPN	16	pobj	O	
+19	and	and	CC	CONJ	18	cc	O	
+20	the	the	DT	DET	21	det	O	
+21	evening	evening	NN	NOUN	23	compound	O	
+22	Tucson	tucson	NNP	PROPN	23	compound	B	WORK_OF_ART
+23	Citizen	citizen	NNP	PROPN	18	conj	I	WORK_OF_ART
+24	,	,	,	PUNCT	2	punct	O	
+25	estimated	estimate	VBD	VERB	0	ROOT	O	
+26	that	that	IN	ADP	25	dobj	O	
+27	3	3	CD	NUM	31	quantmod	B	CARDINAL
+28	,	,	,	PUNCT	29	punct	O	
+29	000	000	CD	NUM	31	quantmod	O	
+30	to	to	TO	PART	31	quantmod	O	
+31	5	5	CD	NUM	33	dep	O	
+32	,	,	,	PUNCT	33	punct	O	
+33	000	000	CD	NUM	35	nummod	O	
+34	bogus	bogus	JJ	ADJ	35	amod	O	
+35	copies	copy	NNS	NOUN	26	dative	O	
+36	we	-PRON-	PRP	PRON	38	nsubj	O	
+37	re	re	VBP	VERB	38	advmod	O	
+38	placed	place	VBN	VERB	35	relcl	O	
+39	in	in	IN	ADP	38	prep	O	
+40	as	as	RB	ADV	43	advmod	B	CARDINAL
+41	many	many	JJ	ADJ	43	amod	I	CARDINAL
+42	as	as	IN	ADP	43	quantmod	I	CARDINAL
+43	600	600	CD	NUM	46	nummod	I	CARDINAL
+44	Star	star	NNP	PROPN	46	compound	B	PRODUCT
+45	vending	vend	VBG	VERB	46	compound	O	
+46	machines	machine	NNS	NOUN	39	pobj	O	
+47	.	.	.	PUNCT	25	punct	O	
+
+#id: sent412
+#text: FBI agents arrived at Sohn 's New Jersey home and escorted him to safety only 30 minutes before KCIA agents showed up , an unidentified senior law enforcement official told the Times .
+1	FBI	fbi	NNP	PROPN	2	compound	B	ORG
+2	agents	agent	NNS	NOUN	3	nsubj	O	
+3	arrived	arrive	VBD	VERB	0	ROOT	O	
+4	at	at	IN	ADP	3	prep	O	
+5	Sohn	sohn	NNP	PROPN	9	poss	B	ORG
+6	's	's	POS	PART	5	case	O	
+7	New	new	NNP	PROPN	8	compound	B	GPE
+8	Jersey	jersey	NNP	PROPN	9	compound	I	GPE
+9	home	home	NN	NOUN	4	pobj	O	
+10	and	and	CC	CONJ	3	cc	O	
+11	escorted	escort	VBD	VERB	3	conj	O	
+12	him	him	PRP	PRON	11	dobj	O	
+13	to	to	IN	ADP	11	prep	O	
+14	safety	safety	NN	NOUN	13	pobj	O	
+15	only	only	RB	ADV	16	advmod	O	
+16	30	30	CD	NUM	17	nummod	B	TIME
+17	minutes	minute	NNS	NOUN	18	npadvmod	I	TIME
+18	before	before	IN	ADP	21	mark	O	
+19	KCIA	kcia	NNP	PROPN	20	compound	B	ORG
+20	agents	agent	NNS	NOUN	21	nsubj	O	
+21	showed	show	VBD	VERB	11	advcl	O	
+22	up	up	RP	PART	21	prt	O	
+23	,	,	,	PUNCT	21	punct	O	
+24	an	an	DT	DET	29	det	O	
+25	unidentified	unidentified	JJ	ADJ	29	amod	O	
+26	senior	senior	JJ	ADJ	29	amod	O	
+27	law	law	NN	NOUN	28	compound	O	
+28	enforcement	enforcement	NN	NOUN	29	compound	O	
+29	official	official	NN	NOUN	30	nsubj	O	
+30	told	tell	VBD	VERB	3	conj	O	
+31	the	the	DT	DET	32	det	O	
+32	Times	times	NNP	PROPN	30	dobj	B	ORG
+33	.	.	.	PUNCT	30	punct	O	
+
+#id: sent414
+#text: Derwinski , a Republican from Chicago who served 24 years in Congress , publicly denied 1978 allegations that he leaked the information and refused to testify in the matter before a federal grand jury and the House Ethics Committee .
+1	Derwinski	derwinski	NNP	PROPN	15	nsubj	B	PERSON
+2	,	,	,	PUNCT	1	punct	O	
+3	a	a	DT	DET	4	det	O	
+4	Republican	republican	NNP	PROPN	1	appos	B	NORP
+5	from	from	IN	ADP	4	prep	O	
+6	Chicago	chicago	NNP	PROPN	5	pobj	B	GPE
+7	who	who	WP	NOUN	8	nsubj	O	
+8	served	serve	VBD	VERB	4	relcl	O	
+9	24	24	CD	NUM	10	nummod	B	DATE
+10	years	year	NNS	NOUN	8	dobj	I	DATE
+11	in	in	IN	ADP	8	prep	O	
+12	Congress	congress	NNP	PROPN	11	pobj	B	ORG
+13	,	,	,	PUNCT	15	punct	O	
+14	publicly	publicly	RB	ADV	15	advmod	O	
+15	denied	deny	VBD	VERB	0	ROOT	O	
+16	1978	1978	CD	NUM	17	nummod	B	CARDINAL
+17	allegations	allegation	NNS	NOUN	15	dobj	O	
+18	that	that	IN	ADP	20	mark	O	
+19	he	he	PRP	PRON	20	nsubj	O	
+20	leaked	leak	VBD	VERB	17	acl	O	
+21	the	the	DT	DET	22	det	O	
+22	information	information	NN	NOUN	20	dobj	O	
+23	and	and	CC	CONJ	20	cc	O	
+24	refused	refuse	VBD	VERB	20	conj	O	
+25	to	to	TO	PART	26	aux	O	
+26	testify	testify	VB	VERB	24	xcomp	O	
+27	in	in	IN	ADP	26	prep	O	
+28	the	the	DT	DET	29	det	O	
+29	matter	matter	NN	NOUN	27	pobj	O	
+30	before	before	IN	ADP	26	prep	O	
+31	a	a	DT	DET	34	det	O	
+32	federal	federal	JJ	ADJ	34	amod	O	
+33	grand	grand	JJ	ADJ	34	amod	O	
+34	jury	jury	NN	NOUN	30	pobj	O	
+35	and	and	CC	CONJ	34	cc	O	
+36	the	the	DT	DET	39	det	B	ORG
+37	House	house	NNP	PROPN	39	compound	I	ORG
+38	Ethics	ethics	NNP	PROPN	39	compound	I	ORG
+39	Committee	committee	NNP	PROPN	34	conj	I	ORG
+40	.	.	.	PUNCT	15	punct	O	
+
+#id: sent477
+#text: Prime Minister Felipe Gonzalez of Spain told reporters , ` ` The police actions and the arrests are of great importance to Spanish society on such a major matter as the battle against terrorism. ' '
+1	Prime	prime	NNP	PROPN	2	compound	O	
+2	Minister	minister	NNP	PROPN	4	compound	O	
+3	Felipe	felipe	NNP	PROPN	4	compound	B	PERSON
+4	Gonzalez	gonzalez	NNP	PROPN	7	nsubj	I	PERSON
+5	of	of	IN	ADP	4	prep	O	
+6	Spain	spain	NNP	PROPN	5	pobj	B	GPE
+7	told	tell	VBD	VERB	0	ROOT	O	
+8	reporters	reporter	NNS	NOUN	7	dobj	O	
+9	,	,	,	PUNCT	7	punct	O	
+10	`	`	''	PUNCT	7	punct	O	
+11	`	`	''	PUNCT	7	punct	O	
+12	The	the	DT	DET	14	det	O	
+13	police	police	NN	NOUN	14	compound	O	
+14	actions	action	NNS	NOUN	18	nsubj	O	
+15	and	and	CC	CONJ	14	cc	O	
+16	the	the	DT	DET	17	det	O	
+17	arrests	arrest	NNS	NOUN	14	conj	O	
+18	are	be	VBP	VERB	7	ccomp	O	
+19	of	of	IN	ADP	18	prep	O	
+20	great	great	JJ	ADJ	21	amod	O	
+21	importance	importance	NN	NOUN	19	pobj	O	
+22	to	to	IN	ADP	21	prep	O	
+23	Spanish	spanish	JJ	ADJ	24	amod	B	NORP
+24	society	society	NN	NOUN	22	pobj	O	
+25	on	on	IN	ADP	18	prep	O	
+26	such	such	PDT	ADJ	29	predet	O	
+27	a	a	DT	DET	29	det	O	
+28	major	major	JJ	ADJ	29	amod	O	
+29	matter	matter	NN	NOUN	25	pobj	O	
+30	as	as	IN	ADP	18	prep	O	
+31	the	the	DT	DET	32	det	O	
+32	battle	battle	NN	NOUN	30	pobj	O	
+33	against	against	IN	ADP	32	prep	O	
+34	terrorism	terrorism	NN	NOUN	33	pobj	O	
+35	.	.	.	PUNCT	7	punct	O	
+36	'	'	''	PUNCT	7	punct	O	
+37	'	'	''	PUNCT	7	punct	O	
+
+#id: sent493
+#text: Ms. Toth , a 14-year veteran of the Legislature , decided against renting a house for the session , opting for hotel rooms and commuting about 60 miles from her Germantown home because ` ` if something came up this week or next week , I would walk out. ' '
+1	Ms.	ms.	NNP	PROPN	2	compound	O	
+2	Toth	toth	NNP	PROPN	11	nsubj	B	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	a	a	DT	DET	6	det	O	
+5	14-year	14-year	JJ	ADJ	6	amod	O	
+6	veteran	veteran	NN	NOUN	2	appos	O	
+7	of	of	IN	ADP	6	prep	O	
+8	the	the	DT	DET	9	det	O	
+9	Legislature	legislature	NNP	PROPN	7	pobj	B	ORG
+10	,	,	,	PUNCT	11	punct	O	
+11	decided	decide	VBD	VERB	0	ROOT	O	
+12	against	against	IN	ADP	11	prep	O	
+13	renting	rent	VBG	VERB	12	pcomp	O	
+14	a	a	DT	DET	15	det	O	
+15	house	house	NN	NOUN	13	dobj	O	
+16	for	for	IN	ADP	13	prep	O	
+17	the	the	DT	DET	18	det	O	
+18	session	session	NN	NOUN	16	pobj	O	
+19	,	,	,	PUNCT	13	punct	O	
+20	opting	opt	VBG	VERB	13	advcl	O	
+21	for	for	IN	ADP	20	prep	O	
+22	hotel	hotel	NN	NOUN	23	compound	O	
+23	rooms	room	NNS	NOUN	21	pobj	O	
+24	and	and	CC	CONJ	20	cc	O	
+25	commuting	commute	VBG	VERB	20	conj	O	
+26	about	about	RB	ADV	27	advmod	B	QUANTITY
+27	60	60	CD	NUM	28	nummod	I	QUANTITY
+28	miles	mile	NNS	NOUN	29	npadvmod	I	QUANTITY
+29	from	from	IN	ADP	25	prep	O	
+30	her	her	PRP$	ADJ	32	poss	O	
+31	Germantown	germantown	NNP	PROPN	32	compound	B	GPE
+32	home	home	NN	NOUN	29	pobj	O	
+33	because	because	IN	ADP	48	mark	O	
+34	`	`	''	PUNCT	48	punct	O	
+35	`	`	''	PUNCT	48	punct	O	
+36	if	if	IN	ADP	38	mark	O	
+37	something	something	NN	NOUN	38	nsubj	O	
+38	came	come	VBD	VERB	48	advcl	O	
+39	up	up	RP	PART	38	prt	O	
+40	this	this	DT	DET	41	det	O	
+41	week	week	NN	NOUN	38	npadvmod	O	
+42	or	or	CC	CONJ	41	cc	O	
+43	next	next	JJ	ADJ	44	amod	B	DATE
+44	week	week	NN	NOUN	41	conj	I	DATE
+45	,	,	,	PUNCT	48	punct	O	
+46	I	i	PRP	PRON	48	nsubj	O	
+47	would	would	MD	VERB	48	aux	O	
+48	walk	walk	VB	VERB	11	advcl	O	
+49	out	out	RB	ADV	48	advmod	O	
+50	.	.	.	PUNCT	11	punct	O	
+51	'	'	''	PUNCT	11	punct	O	
+52	'	'	''	PUNCT	11	punct	O	
+
+#id: sent510
+#text: Madison County Judge William O 'Brien III set a Feb. 28 hearing date for arguments on whether Timothy Jacobs should be returned to North Carolina .
+1	Madison	madison	NNP	PROPN	2	compound	B	GPE
+2	County	county	NNP	PROPN	3	compound	I	GPE
+3	Judge	judge	NNP	PROPN	5	compound	O	
+4	William	william	NNP	PROPN	5	compound	B	PERSON
+5	O	o	NNP	PROPN	8	poss	I	PERSON
+6	'	'	POS	PART	5	case	I	PERSON
+7	Brien	brien	NNP	PROPN	8	compound	B	ORG
+8	III	iii	NNP	PROPN	9	nsubj	I	ORG
+9	set	set	VBD	VERB	0	ROOT	O	
+10	a	a	DT	DET	14	det	O	
+11	Feb.	feb.	NNP	PROPN	14	nmod	B	DATE
+12	28	28	CD	NUM	11	nummod	I	DATE
+13	hearing	hearing	NN	NOUN	14	compound	O	
+14	date	date	NN	NOUN	9	dobj	O	
+15	for	for	IN	ADP	14	prep	O	
+16	arguments	argument	NNS	NOUN	15	pobj	O	
+17	on	on	IN	ADP	16	prep	O	
+18	whether	whether	IN	ADP	23	mark	O	
+19	Timothy	timothy	NNP	PROPN	20	compound	B	PERSON
+20	Jacobs	jacobs	NNP	PROPN	23	nsubjpass	I	PERSON
+21	should	should	MD	VERB	23	aux	O	
+22	be	be	VB	VERB	23	auxpass	O	
+23	returned	return	VBN	VERB	17	pcomp	O	
+24	to	to	IN	ADP	23	prep	O	
+25	North	north	NNP	PROPN	26	compound	B	GPE
+26	Carolina	carolina	NNP	PROPN	24	pobj	I	GPE
+27	.	.	.	PUNCT	9	punct	O	
+
+#id: sent511
+#text: Jacobs ' lawyers asked for the stay after Cuomo signed a request from North Carolina Gov. Jim Martin on Tuesday to return Jacobs .
+1	Jacobs	jacobs	NNP	PROPN	3	poss	B	PERSON
+2	'	'	POS	PART	1	case	O	
+3	lawyers	lawyer	NNS	NOUN	4	nsubj	O	
+4	asked	ask	VBD	VERB	0	ROOT	O	
+5	for	for	IN	ADP	4	prep	O	
+6	the	the	DT	DET	7	det	O	
+7	stay	stay	NN	NOUN	5	pobj	O	
+8	after	after	IN	ADP	10	mark	O	
+9	Cuomo	cuomo	NNP	PROPN	10	nsubj	B	PERSON
+10	signed	sign	VBD	VERB	4	advcl	O	
+11	a	a	DT	DET	12	det	O	
+12	request	request	NN	NOUN	10	dobj	O	
+13	from	from	IN	ADP	12	prep	O	
+14	North	north	NNP	PROPN	15	compound	B	GPE
+15	Carolina	carolina	NNP	PROPN	16	compound	I	GPE
+16	Gov.	gov.	NNP	PROPN	18	compound	O	
+17	Jim	jim	NNP	PROPN	18	compound	B	PERSON
+18	Martin	martin	NNP	PROPN	13	pobj	I	PERSON
+19	on	on	IN	ADP	10	prep	O	
+20	Tuesday	tuesday	NNP	PROPN	19	pobj	B	DATE
+21	to	to	TO	PART	22	aux	O	
+22	return	return	VB	VERB	10	acl	O	
+23	Jacobs	jacobs	NNP	PROPN	22	dobj	B	PERSON
+24	.	.	.	PUNCT	4	punct	O	
+
+#id: sent541
+#text: Albert O. Harjula , 29 , of Thomaston , became trapped first , said Paul Fournier , a spokesman for the state Department of Inland Fisheries and Wildlife .
+1	Albert	albert	NNP	PROPN	3	compound	B	PERSON
+2	O.	o.	NNP	PROPN	3	compound	I	PERSON
+3	Harjula	harjula	NNP	PROPN	10	nsubj	I	PERSON
+4	,	,	,	PUNCT	3	punct	O	
+5	29	29	CD	NUM	3	appos	B	DATE
+6	,	,	,	PUNCT	3	punct	O	
+7	of	of	IN	ADP	3	prep	O	
+8	Thomaston	thomaston	NNP	PROPN	7	pobj	B	GPE
+9	,	,	,	PUNCT	10	punct	O	
+10	became	become	VBD	VERB	14	ccomp	O	
+11	trapped	trap	VBN	VERB	10	acomp	O	
+12	first	first	RB	ADV	11	advmod	B	ORDINAL
+13	,	,	,	PUNCT	14	punct	O	
+14	said	say	VBD	VERB	0	ROOT	O	
+15	Paul	paul	NNP	PROPN	16	compound	B	PERSON
+16	Fournier	fournier	NNP	PROPN	14	nsubj	I	PERSON
+17	,	,	,	PUNCT	16	punct	O	
+18	a	a	DT	DET	19	det	O	
+19	spokesman	spokesman	NN	NOUN	16	appos	O	
+20	for	for	IN	ADP	19	prep	O	
+21	the	the	DT	DET	23	det	B	ORG
+22	state	state	NN	NOUN	23	compound	I	ORG
+23	Department	department	NNP	PROPN	20	pobj	I	ORG
+24	of	of	IN	ADP	23	prep	I	ORG
+25	Inland	inland	NNP	PROPN	26	compound	I	ORG
+26	Fisheries	fisheries	NNPS	PROPN	24	pobj	I	ORG
+27	and	and	CC	CONJ	26	cc	I	ORG
+28	Wildlife	wildlife	NNP	PROPN	26	conj	I	ORG
+29	.	.	.	PUNCT	14	punct	O	
+
+#id: sent542
+#text: Daniel Sullivan , 30 , of Boothbay , went down to help and also became stuck , Fournier said .
+1	Daniel	daniel	NNP	PROPN	2	compound	B	PERSON
+2	Sullivan	sullivan	NNP	PROPN	9	nsubj	I	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	30	30	CD	NUM	2	appos	B	CARDINAL
+5	,	,	,	PUNCT	2	punct	O	
+6	of	of	IN	ADP	2	prep	O	
+7	Boothbay	boothbay	NNP	PROPN	6	pobj	B	GPE
+8	,	,	,	PUNCT	9	punct	O	
+9	went	go	VBD	VERB	19	ccomp	O	
+10	down	down	RP	PART	9	prt	O	
+11	to	to	TO	PART	12	aux	O	
+12	help	help	VB	VERB	9	advcl	O	
+13	and	and	CC	CONJ	9	cc	O	
+14	also	also	RB	ADV	15	advmod	O	
+15	became	become	VBD	VERB	9	conj	O	
+16	stuck	stuck	JJ	ADJ	15	acomp	O	
+17	,	,	,	PUNCT	19	punct	O	
+18	Fournier	fournier	NNP	PROPN	19	nsubj	B	PERSON
+19	said	say	VBD	VERB	0	ROOT	O	
+20	.	.	.	PUNCT	19	punct	O	
+
+#id: sent543
+#text: During the 10-hour rescue , diver Brian Michaud of Millinocket hooked the men to harnesses , and rescuers dragged them to the surface with winches .
+1	During	during	IN	ADP	11	prep	O	
+2	the	the	DT	DET	4	det	O	
+3	10-hour	10-hour	JJ	ADJ	4	amod	O	
+4	rescue	rescue	NN	NOUN	1	pobj	O	
+5	,	,	,	PUNCT	11	punct	O	
+6	diver	diver	NN	NOUN	8	compound	O	
+7	Brian	brian	NNP	PROPN	8	compound	B	PERSON
+8	Michaud	michaud	NNP	PROPN	11	nsubj	I	PERSON
+9	of	of	IN	ADP	8	prep	O	
+10	Millinocket	millinocket	NNP	PROPN	9	pobj	B	ORG
+11	hooked	hook	VBD	VERB	0	ROOT	O	
+12	the	the	DT	DET	13	det	O	
+13	men	man	NNS	NOUN	11	dobj	O	
+14	to	to	IN	ADP	11	prep	O	
+15	harnesses	harness	NNS	NOUN	14	pobj	O	
+16	,	,	,	PUNCT	11	punct	O	
+17	and	and	CC	CONJ	11	cc	O	
+18	rescuers	rescuer	NNS	NOUN	19	nsubj	O	
+19	dragged	drag	VBD	VERB	11	conj	O	
+20	them	them	PRP	PRON	19	dobj	O	
+21	to	to	IN	ADP	19	prep	O	
+22	the	the	DT	DET	23	det	O	
+23	surface	surface	NN	NOUN	21	pobj	O	
+24	with	with	IN	ADP	19	prep	O	
+25	winches	winch	NNS	NOUN	24	pobj	O	
+26	.	.	.	PUNCT	19	punct	O	
+
+#id: sent561
+#text: An architect of President Nixon 's unsuccessful executive-privilege Watergate defense is a top prospect for the post of U.S. solicitor in the new Bush administration .
+1	An	an	DT	DET	2	det	O	
+2	architect	architect	NN	NOUN	13	nsubj	O	
+3	of	of	IN	ADP	2	prep	O	
+4	President	president	NNP	PROPN	5	compound	O	
+5	Nixon	nixon	NNP	PROPN	12	poss	B	PERSON
+6	's	's	POS	PART	5	case	O	
+7	unsuccessful	unsuccessful	JJ	ADJ	12	amod	O	
+8	executive	executive	NN	NOUN	10	amod	O	
+9	-	-	HYPH	PUNCT	10	punct	O	
+10	privilege	privilege	NN	NOUN	12	compound	O	
+11	Watergate	watergate	NNP	PROPN	12	compound	B	EVENT
+12	defense	defense	NN	NOUN	3	pobj	O	
+13	is	be	VBZ	VERB	0	ROOT	O	
+14	a	a	DT	DET	16	det	O	
+15	top	top	JJ	ADJ	16	amod	O	
+16	prospect	prospect	NN	NOUN	13	attr	O	
+17	for	for	IN	ADP	16	prep	O	
+18	the	the	DT	DET	19	det	O	
+19	post	post	NN	NOUN	17	pobj	O	
+20	of	of	IN	ADP	19	prep	O	
+21	U.S.	u.s.	NNP	PROPN	22	compound	B	GPE
+22	solicitor	solicitor	NN	NOUN	20	pobj	O	
+23	in	in	IN	ADP	19	prep	O	
+24	the	the	DT	DET	27	det	O	
+25	new	new	JJ	ADJ	27	amod	O	
+26	Bush	bush	NNP	PROPN	27	compound	B	PERSON
+27	administration	administration	NN	NOUN	23	pobj	O	
+28	.	.	.	PUNCT	13	punct	O	
+
+#id: sent589
+#text: On Dec. 14 , rescuers pulled a mother , Susanna Petrosyan , and her 4-year-old daughter , Gayaney , out of the rubble in Leninakan .
+1	On	on	IN	ADP	6	prep	O	
+2	Dec.	dec.	NNP	PROPN	1	pobj	B	DATE
+3	14	14	CD	NUM	2	nummod	I	DATE
+4	,	,	,	PUNCT	6	punct	O	
+5	rescuers	rescuer	NNS	NOUN	6	nsubj	O	
+6	pulled	pull	VBD	VERB	0	ROOT	O	
+7	a	a	DT	DET	8	det	O	
+8	mother	mother	NN	NOUN	6	dobj	O	
+9	,	,	,	PUNCT	8	punct	O	
+10	Susanna	susanna	NNP	PROPN	11	compound	B	PERSON
+11	Petrosyan	petrosyan	NNP	PROPN	8	appos	I	PERSON
+12	,	,	,	PUNCT	6	punct	O	
+13	and	and	CC	CONJ	6	cc	O	
+14	her	her	PRP$	ADJ	18	poss	O	
+15	4-year	4-year	CD	NUM	17	advmod	B	DATE
+16	-	-	HYPH	PUNCT	17	punct	I	DATE
+17	old	old	JJ	ADJ	18	amod	I	DATE
+18	daughter	daughter	NN	NOUN	22	nsubj	O	
+19	,	,	,	PUNCT	18	punct	O	
+20	Gayaney	gayaney	NNP	PROPN	18	appos	B	PERSON
+21	,	,	,	PUNCT	18	punct	O	
+22	out	out	IN	ADP	6	conj	O	
+23	of	of	IN	ADP	22	prep	O	
+24	the	the	DT	DET	25	det	O	
+25	rubble	rubble	NN	NOUN	23	pobj	O	
+26	in	in	IN	ADP	22	prep	O	
+27	Leninakan	leninakan	NNP	PROPN	26	pobj	B	GPE
+28	.	.	.	PUNCT	6	punct	O	
+
+#id: sent652
+#text: Cape Town Supreme Court Judge J.H. Berman refused to give Port Nolloth municipal authorities the right to forcibly remove the squatters , who live in shacks and tents .
+1	Cape	cape	NNP	PROPN	5	compound	B	ORG
+2	Town	town	NNP	PROPN	4	compound	I	ORG
+3	Supreme	supreme	NNP	PROPN	4	compound	I	ORG
+4	Court	court	NNP	PROPN	5	compound	I	ORG
+5	Judge	judge	NNP	PROPN	7	compound	O	
+6	J.H.	j.h.	NNP	PROPN	7	compound	B	PERSON
+7	Berman	berman	NNP	PROPN	8	nsubj	I	PERSON
+8	refused	refuse	VBD	VERB	0	ROOT	O	
+9	to	to	TO	PART	10	aux	O	
+10	give	give	VB	VERB	8	xcomp	O	
+11	Port	port	NNP	PROPN	12	compound	B	ORG
+12	Nolloth	nolloth	NNP	PROPN	10	dative	I	ORG
+13	municipal	municipal	JJ	ADJ	14	amod	O	
+14	authorities	authority	NNS	NOUN	10	dative	O	
+15	the	the	DT	DET	16	det	O	
+16	right	right	NN	NOUN	10	dobj	O	
+17	to	to	TO	PART	19	aux	O	
+18	forcibly	forcibly	RB	ADV	19	advmod	O	
+19	remove	remove	VB	VERB	16	acl	O	
+20	the	the	DT	DET	21	det	O	
+21	squatters	squatter	NNS	NOUN	19	dobj	O	
+22	,	,	,	PUNCT	21	punct	O	
+23	who	who	WP	NOUN	24	nsubj	O	
+24	live	live	VBP	VERB	21	relcl	O	
+25	in	in	IN	ADP	24	prep	O	
+26	shacks	shack	NNS	NOUN	25	pobj	O	
+27	and	and	CC	CONJ	26	cc	O	
+28	tents	tent	NNS	NOUN	26	conj	O	
+29	.	.	.	PUNCT	8	punct	O	
+
+#id: sent665
+#text: Campbell , who is going to the inauguration , asked that his sister Mary , who lives in Rock Hill , be mailed tickets as well .
+1	Campbell	campbell	NNP	PROPN	10	nsubj	B	ORG
+2	,	,	,	PUNCT	1	punct	O	
+3	who	who	WP	NOUN	5	nsubj	O	
+4	is	be	VBZ	VERB	5	aux	O	
+5	going	go	VBG	VERB	1	relcl	O	
+6	to	to	IN	ADP	5	prep	O	
+7	the	the	DT	DET	8	det	O	
+8	inauguration	inauguration	NN	NOUN	6	pobj	O	
+9	,	,	,	PUNCT	10	punct	O	
+10	asked	ask	VBD	VERB	0	ROOT	O	
+11	that	that	IN	ADP	23	mark	O	
+12	his	his	PRP$	ADJ	13	poss	O	
+13	sister	sister	NN	NOUN	23	nsubjpass	O	
+14	Mary	mary	NNP	PROPN	13	appos	B	PERSON
+15	,	,	,	PUNCT	13	punct	O	
+16	who	who	WP	NOUN	17	nsubj	O	
+17	lives	live	VBZ	VERB	13	relcl	O	
+18	in	in	IN	ADP	17	prep	O	
+19	Rock	rock	NNP	PROPN	20	compound	B	PERSON
+20	Hill	hill	NNP	PROPN	18	pobj	I	PERSON
+21	,	,	,	PUNCT	13	punct	O	
+22	be	be	VB	VERB	23	auxpass	O	
+23	mailed	mail	VBN	VERB	10	ccomp	O	
+24	tickets	ticket	NNS	NOUN	23	dobj	O	
+25	as	as	RB	ADV	26	advmod	O	
+26	well	well	RB	ADV	23	advmod	O	
+27	.	.	.	PUNCT	10	punct	O	
+
+#id: sent667
+#text: Tony Denny , executive director of the state Republican Party , said he didn 't know of any mix-up , but that Mary Campbell of Clover is free to keep her tickets .
+1	Tony	tony	NNP	PROPN	2	compound	B	PERSON
+2	Denny	denny	NNP	PROPN	12	nsubj	I	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	executive	executive	JJ	ADJ	5	amod	O	
+5	director	director	NN	NOUN	2	appos	O	
+6	of	of	IN	ADP	5	prep	O	
+7	the	the	DT	DET	10	det	B	ORG
+8	state	state	NN	NOUN	10	compound	I	ORG
+9	Republican	republican	NNP	PROPN	10	compound	I	ORG
+10	Party	party	NNP	PROPN	6	pobj	I	ORG
+11	,	,	,	PUNCT	2	punct	O	
+12	said	say	VBD	VERB	0	ROOT	O	
+13	he	he	PRP	PRON	14	nsubj	O	
+14	didn	didn	VBD	VERB	12	ccomp	O	
+15	'	'	``	PUNCT	14	punct	O	
+16	t	t	NN	NOUN	17	compound	O	
+17	know	know	NN	NOUN	14	appos	O	
+18	of	of	IN	ADP	17	prep	O	
+19	any	any	DT	DET	22	det	O	
+20	mix	mix	NN	NOUN	22	compound	O	
+21	-	-	HYPH	PUNCT	22	punct	O	
+22	up	up	NN	NOUN	18	pobj	O	
+23	,	,	,	PUNCT	17	punct	O	
+24	but	but	CC	CONJ	17	cc	O	
+25	that	that	IN	ADP	30	mark	O	
+26	Mary	mary	NNP	PROPN	27	compound	B	PERSON
+27	Campbell	campbell	NNP	PROPN	30	nsubj	I	PERSON
+28	of	of	IN	ADP	27	prep	O	
+29	Clover	clover	NNP	PROPN	28	pobj	O	
+30	is	be	VBZ	VERB	17	ccomp	O	
+31	free	free	JJ	ADJ	30	acomp	O	
+32	to	to	TO	PART	33	aux	O	
+33	keep	keep	VB	VERB	31	xcomp	O	
+34	her	her	PRP$	ADJ	35	poss	O	
+35	tickets	ticket	NNS	NOUN	33	dobj	O	
+36	.	.	.	PUNCT	12	punct	O	
+
+#id: sent670
+#text: After buying the shawl for $1 , 600 , Darryl Breniser of Blue Ball , said the approximately 2-by-5 foot shawl was worth the money .
+1	After	after	IN	ADP	17	prep	O	
+2	buying	buy	VBG	VERB	1	pcomp	O	
+3	the	the	DT	DET	4	det	O	
+4	shawl	shawl	NN	NOUN	2	dobj	O	
+5	for	for	IN	ADP	2	prep	O	
+6	$	$	$	SYM	7	nmod	O	
+7	1	1	CD	NUM	5	pobj	B	MONEY
+8	,	,	,	PUNCT	17	punct	O	
+9	600	600	CD	NUM	17	nsubj	B	CARDINAL
+10	,	,	,	PUNCT	17	punct	O	
+11	Darryl	darryl	NNP	PROPN	12	compound	B	PERSON
+12	Breniser	breniser	NNP	PROPN	17	nsubj	I	PERSON
+13	of	of	IN	ADP	12	prep	O	
+14	Blue	blue	NNP	PROPN	15	compound	B	ORG
+15	Ball	ball	NNP	PROPN	13	pobj	I	ORG
+16	,	,	,	PUNCT	17	punct	O	
+17	said	say	VBD	VERB	0	ROOT	O	
+18	the	the	DT	DET	22	det	O	
+19	approximately	approximately	RB	ADV	20	advmod	O	
+20	2-by-5	2-by-5	JJ	ADJ	22	amod	O	
+21	foot	foot	NN	NOUN	22	compound	O	
+22	shawl	shawl	NN	NOUN	23	nsubj	O	
+23	was	be	VBD	VERB	17	ccomp	O	
+24	worth	worth	JJ	ADJ	23	acomp	O	
+25	the	the	DT	DET	26	det	O	
+26	money	money	NN	NOUN	24	npadvmod	O	
+27	.	.	.	PUNCT	17	punct	O	
+
+#id: sent756
+#text: ` ` Blaze , ' ' a film about a former governor and a stripper , will star Paul Newman as Louisiana Gov. Earl Long .
+1	`	`	''	PUNCT	18	punct	O	
+2	`	`	''	PUNCT	3	punct	O	
+3	Blaze	blaze	NNPS	PROPN	18	nsubj	O	
+4	,	,	,	PUNCT	3	punct	O	
+5	'	'	''	PUNCT	3	punct	O	
+6	'	'	''	PUNCT	3	punct	O	
+7	a	a	DT	DET	8	det	O	
+8	film	film	NN	NOUN	3	dobj	O	
+9	about	about	IN	ADP	8	prep	O	
+10	a	a	DT	DET	12	det	O	
+11	former	former	JJ	ADJ	12	amod	O	
+12	governor	governor	NN	NOUN	9	pobj	O	
+13	and	and	CC	CONJ	12	cc	O	
+14	a	a	DT	DET	15	det	O	
+15	stripper	stripper	NN	NOUN	12	conj	O	
+16	,	,	,	PUNCT	3	punct	O	
+17	will	will	MD	VERB	18	aux	O	
+18	star	star	VB	VERB	0	ROOT	O	
+19	Paul	paul	NNP	PROPN	20	compound	B	PERSON
+20	Newman	newman	NNP	PROPN	18	dobj	I	PERSON
+21	as	as	IN	ADP	18	prep	O	
+22	Louisiana	louisiana	NNP	PROPN	23	compound	B	GPE
+23	Gov.	gov.	NNP	PROPN	25	compound	O	
+24	Earl	earl	NNP	PROPN	25	compound	B	PERSON
+25	Long	long	NNP	PROPN	21	pobj	I	PERSON
+26	.	.	.	PUNCT	18	punct	O	
+
+#id: sent770
+#text: He will be the first Vanderbilt artist-in-residence under an endowment in honor of Fred Coe , a director-producer who grew up in Nashville and worked on network TV shows such as Philco Playhouse , Playhouse 90 , Producer 's Showcase and others .
+1	He	he	PRP	PRON	3	nsubj	O	
+2	will	will	MD	VERB	3	aux	O	
+3	be	be	VB	VERB	0	ROOT	O	
+4	the	the	DT	DET	6	det	O	
+5	first	first	JJ	ADJ	6	amod	B	ORDINAL
+6	Vanderbilt	vanderbilt	NNP	PROPN	3	attr	B	ORG
+7	artist	artist	NN	NOUN	12	nmod	O	
+8	-	-	HYPH	PUNCT	7	punct	O	
+9	in	in	IN	ADP	7	prep	O	
+10	-	-	HYPH	PUNCT	9	punct	O	
+11	residence	residence	NN	NOUN	9	pobj	O	
+12	under	under	IN	ADP	6	prep	O	
+13	an	an	DT	DET	14	det	O	
+14	endowment	endowment	NN	NOUN	12	pobj	O	
+15	in	in	IN	ADP	14	prep	O	
+16	honor	honor	NN	NOUN	15	pobj	O	
+17	of	of	IN	ADP	16	prep	O	
+18	Fred	fred	NNP	PROPN	19	compound	B	PERSON
+19	Coe	coe	NNP	PROPN	17	pobj	I	PERSON
+20	,	,	,	PUNCT	19	punct	O	
+21	a	a	DT	DET	24	det	O	
+22	director	director	NN	NOUN	24	compound	O	
+23	-	-	HYPH	PUNCT	24	punct	O	
+24	producer	producer	NN	NOUN	19	appos	O	
+25	who	who	WP	NOUN	26	nsubj	O	
+26	grew	grow	VBD	VERB	24	relcl	O	
+27	up	up	RP	PART	26	prt	O	
+28	in	in	IN	ADP	26	prep	O	
+29	Nashville	nashville	NNP	PROPN	28	pobj	B	GPE
+30	and	and	CC	CONJ	26	cc	O	
+31	worked	work	VBD	VERB	26	conj	O	
+32	on	on	IN	ADP	31	prep	O	
+33	network	network	NN	NOUN	34	compound	O	
+34	TV	tv	NN	NOUN	35	compound	O	
+35	shows	show	NNS	NOUN	32	pobj	O	
+36	such	such	JJ	ADJ	37	amod	O	
+37	as	as	IN	ADP	35	prep	O	
+38	Philco	philco	NNP	PROPN	39	compound	B	ORG
+39	Playhouse	playhouse	NNP	PROPN	37	pobj	I	ORG
+40	,	,	,	PUNCT	39	punct	O	
+41	Playhouse	playhouse	NNP	PROPN	39	conj	O	
+42	90	90	CD	NUM	41	nummod	O	
+43	,	,	,	PUNCT	41	punct	O	
+44	Producer	producer	NNP	PROPN	46	poss	B	ORG
+45	's	's	POS	PART	44	case	I	ORG
+46	Showcase	showcase	NNP	PROPN	41	conj	I	ORG
+47	and	and	CC	CONJ	46	cc	O	
+48	others	others	NNS	NOUN	46	conj	O	
+49	.	.	.	PUNCT	3	punct	O	
+
+#id: sent780
+#text: Pittsburgh Mayor Sophie Masloff touted the joys of her favorite city on the nationally televised Pat Sajak Show and put an end to rumors that she sometimes arrives at work with a cup of homemade chicken soup .
+1	Pittsburgh	pittsburgh	NNP	PROPN	2	compound	B	GPE
+2	Mayor	mayor	NNP	PROPN	4	compound	O	
+3	Sophie	sophie	NNP	PROPN	4	compound	B	PERSON
+4	Masloff	masloff	NNP	PROPN	5	nsubj	I	PERSON
+5	touted	tout	VBD	VERB	0	ROOT	O	
+6	the	the	DT	DET	7	det	O	
+7	joys	joy	NNS	NOUN	5	dobj	O	
+8	of	of	IN	ADP	7	prep	O	
+9	her	her	PRP$	ADJ	11	poss	O	
+10	favorite	favorite	JJ	ADJ	11	amod	O	
+11	city	city	NN	NOUN	8	pobj	O	
+12	on	on	IN	ADP	5	prep	O	
+13	the	the	DT	DET	18	det	O	
+14	nationally	nationally	RB	ADV	15	advmod	O	
+15	televised	televise	VBN	VERB	18	amod	O	
+16	Pat	pat	NNP	PROPN	18	compound	B	PERSON
+17	Sajak	sajak	NNP	PROPN	18	compound	I	PERSON
+18	Show	show	NNP	PROPN	12	pobj	I	PERSON
+19	and	and	CC	CONJ	5	cc	O	
+20	put	put	VBD	VERB	5	conj	O	
+21	an	an	DT	DET	22	det	O	
+22	end	end	NN	NOUN	20	dobj	O	
+23	to	to	IN	ADP	20	prep	O	
+24	rumors	rumor	NNS	NOUN	23	pobj	O	
+25	that	that	IN	ADP	28	mark	O	
+26	she	she	PRP	PRON	28	nsubj	O	
+27	sometimes	sometimes	RB	ADV	28	advmod	O	
+28	arrives	arrive	VBZ	VERB	24	acl	O	
+29	at	at	IN	ADP	28	prep	O	
+30	work	work	NN	NOUN	29	pobj	O	
+31	with	with	IN	ADP	30	prep	O	
+32	a	a	DT	DET	33	det	O	
+33	cup	cup	NN	NOUN	31	pobj	O	
+34	of	of	IN	ADP	33	prep	O	
+35	homemade	homemade	JJ	ADJ	37	amod	O	
+36	chicken	chicken	NN	NOUN	37	compound	O	
+37	soup	soup	NN	NOUN	34	pobj	O	
+38	.	.	.	PUNCT	5	punct	O	
+
+#id: sent816
+#text: Dominique Beuff of the International Committee of the Red Cross in Khartoum said he had reports of people dying at the rate of up to four a day in some areas of the south affected by a 5-year-old civil war .
+1	Dominique	dominique	NNP	PROPN	2	compound	B	PERSON
+2	Beuff	beuff	NNP	PROPN	13	nsubj	I	PERSON
+3	of	of	IN	ADP	2	prep	O	
+4	the	the	DT	DET	6	det	B	ORG
+5	International	international	NNP	PROPN	6	compound	I	ORG
+6	Committee	committee	NNP	PROPN	3	pobj	I	ORG
+7	of	of	IN	ADP	6	prep	I	ORG
+8	the	the	DT	DET	10	det	I	ORG
+9	Red	red	NNP	PROPN	10	compound	I	ORG
+10	Cross	cross	NNP	PROPN	7	pobj	I	ORG
+11	in	in	IN	ADP	6	prep	O	
+12	Khartoum	khartoum	NNP	PROPN	11	pobj	B	GPE
+13	said	say	VBD	VERB	0	ROOT	O	
+14	he	he	PRP	PRON	15	nsubj	O	
+15	had	have	VBD	VERB	13	ccomp	O	
+16	reports	report	NNS	NOUN	15	dobj	O	
+17	of	of	IN	ADP	16	prep	O	
+18	people	people	NNS	NOUN	17	pobj	O	
+19	dying	die	VBG	VERB	16	acl	O	
+20	at	at	IN	ADP	19	prep	O	
+21	the	the	DT	DET	22	det	O	
+22	rate	rate	NN	NOUN	20	pobj	O	
+23	of	of	IN	ADP	22	prep	O	
+24	up	up	IN	ADP	26	quantmod	B	CARDINAL
+25	to	to	TO	PART	26	quantmod	I	CARDINAL
+26	four	four	CD	NUM	23	pobj	I	CARDINAL
+27	a	a	DT	DET	28	det	O	
+28	day	day	NN	NOUN	26	npadvmod	O	
+29	in	in	IN	ADP	15	prep	O	
+30	some	some	DT	DET	31	det	O	
+31	areas	area	NNS	NOUN	29	pobj	O	
+32	of	of	IN	ADP	31	prep	O	
+33	the	the	DT	DET	34	det	O	
+34	south	south	NN	NOUN	32	pobj	O	
+35	affected	affect	VBN	VERB	34	acl	O	
+36	by	by	IN	ADP	35	agent	O	
+37	a	a	DT	DET	42	det	O	
+38	5-year	5-year	CD	NUM	40	advmod	O	
+39	-	-	HYPH	PUNCT	40	punct	O	
+40	old	old	JJ	ADJ	42	amod	O	
+41	civil	civil	JJ	ADJ	42	amod	O	
+42	war	war	NN	NOUN	36	pobj	O	
+43	.	.	.	PUNCT	13	punct	O	
+
+#id: sent817
+#text: Reith Chuol , governor of the Upper Nile region , told reporters there were unconfirmed reports of 15 people dying there every day .
+1	Reith	reith	NNP	PROPN	2	compound	B	PERSON
+2	Chuol	chuol	NNP	PROPN	11	nsubj	I	PERSON
+3	,	,	,	PUNCT	2	punct	O	
+4	governor	governor	NN	NOUN	2	appos	O	
+5	of	of	IN	ADP	4	prep	O	
+6	the	the	DT	DET	9	det	B	GPE
+7	Upper	upper	NNP	PROPN	8	compound	I	GPE
+8	Nile	nile	NNP	PROPN	9	compound	I	GPE
+9	region	region	NN	NOUN	5	pobj	O	
+10	,	,	,	PUNCT	11	punct	O	
+11	told	tell	VBD	VERB	0	ROOT	O	
+12	reporters	reporter	NNS	NOUN	11	dobj	O	
+13	there	there	RB	ADV	15	advmod	O	
+14	we	-PRON-	PRP	PRON	15	nsubj	O	
+15	re	re	VBP	VERB	11	advcl	O	
+16	unconfirmed	unconfirmed	JJ	ADJ	17	amod	O	
+17	reports	report	NNS	NOUN	15	dobj	O	
+18	of	of	IN	ADP	17	prep	O	
+19	15	15	CD	NUM	20	nummod	B	CARDINAL
+20	people	people	NNS	NOUN	18	pobj	O	
+21	dying	die	VBG	VERB	20	acl	O	
+22	there	there	RB	ADV	21	advmod	O	
+23	every	every	DT	DET	24	det	B	DATE
+24	day	day	NN	NOUN	21	npadvmod	I	DATE
+25	.	.	.	PUNCT	11	punct	O	
+
+#id: sent843
+#text: King rose to prominence after Mrs. Parks ' action in December 1955 in Montgomery , Ala. , set the stage for a boycott and subsequent demonstrations that caught the nation by surprise .
+1	King	king	NNP	PROPN	2	nsubj	O	
+2	rose	rise	VBD	VERB	0	ROOT	O	
+3	to	to	IN	ADP	2	prep	O	
+4	prominence	prominence	NN	NOUN	3	pobj	O	
+5	after	after	IN	ADP	2	prep	O	
+6	Mrs.	mrs.	NNP	PROPN	7	compound	O	
+7	Parks	parks	NNP	PROPN	9	poss	B	PERSON
+8	'	'	POS	PART	7	case	O	
+9	action	action	NN	NOUN	5	pobj	O	
+10	in	in	IN	ADP	9	prep	O	
+11	December	december	NNP	PROPN	10	pobj	B	DATE
+12	1955	1955	CD	NUM	11	nummod	I	DATE
+13	in	in	IN	ADP	9	prep	O	
+14	Montgomery	montgomery	NNP	PROPN	13	pobj	B	GPE
+15	,	,	,	PUNCT	14	punct	O	
+16	Ala.	ala.	NNP	PROPN	14	appos	B	GPE
+17	,	,	,	PUNCT	14	punct	O	
+18	set	set	VBD	VERB	2	conj	O	
+19	the	the	DT	DET	20	det	O	
+20	stage	stage	NN	NOUN	18	dobj	O	
+21	for	for	IN	ADP	18	prep	O	
+22	a	a	DT	DET	23	det	O	
+23	boycott	boycott	NN	NOUN	21	pobj	O	
+24	and	and	CC	CONJ	23	cc	O	
+25	subsequent	subsequent	JJ	ADJ	26	amod	O	
+26	demonstrations	demonstration	NNS	NOUN	23	conj	O	
+27	that	that	WDT	ADJ	28	nsubj	O	
+28	caught	catch	VBD	VERB	26	relcl	O	
+29	the	the	DT	DET	30	det	O	
+30	nation	nation	NN	NOUN	28	dobj	O	
+31	by	by	IN	ADP	28	prep	O	
+32	surprise	surprise	NN	NOUN	31	pobj	O	
+33	.	.	.	PUNCT	2	punct	O	
+
+#id: sent857
+#text: The meeting will be held at the request of the Soviet Union , which also plans direct talks with resistance leader Prince Norodom Sihanouk , said Sihanouk 's son and representative in Thailand , Prince Norodom Ranariddh .
+1	The	the	DT	DET	2	det	O	
+2	meeting	meeting	NN	NOUN	5	nsubjpass	O	
+3	will	will	MD	VERB	5	aux	O	
+4	be	be	VB	VERB	5	auxpass	O	
+5	held	hold	VBN	VERB	26	ccomp	O	
+6	at	at	IN	ADP	5	prep	O	
+7	the	the	DT	DET	8	det	O	
+8	request	request	NN	NOUN	6	pobj	O	
+9	of	of	IN	ADP	8	prep	O	
+10	the	the	DT	DET	12	det	B	GPE
+11	Soviet	soviet	NNP	PROPN	12	compound	I	GPE
+12	Union	union	NNP	PROPN	9	pobj	I	GPE
+13	,	,	,	PUNCT	12	punct	O	
+14	which	which	WDT	ADJ	16	nsubj	O	
+15	also	also	RB	ADV	16	advmod	O	
+16	plans	plan	VBZ	VERB	12	relcl	O	
+17	direct	direct	JJ	ADJ	18	amod	O	
+18	talks	talk	NNS	NOUN	16	dobj	O	
+19	with	with	IN	ADP	18	prep	O	
+20	resistance	resistance	NN	NOUN	21	compound	O	
+21	leader	leader	NN	NOUN	24	compound	O	
+22	Prince	prince	NNP	PROPN	24	compound	O	
+23	Norodom	norodom	NNP	PROPN	24	compound	B	PERSON
+24	Sihanouk	sihanouk	NNP	PROPN	19	pobj	I	PERSON
+25	,	,	,	PUNCT	26	punct	O	
+26	said	say	VBD	VERB	0	ROOT	O	
+27	Sihanouk	sihanouk	NNP	PROPN	29	poss	B	PERSON
+28	's	's	POS	PART	27	case	O	
+29	son	son	NN	NOUN	26	nsubj	O	
+30	and	and	CC	CONJ	29	cc	O	
+31	representative	representative	NN	NOUN	29	conj	O	
+32	in	in	IN	ADP	31	prep	O	
+33	Thailand	thailand	NNP	PROPN	32	pobj	B	GPE
+34	,	,	,	PUNCT	29	punct	O	
+35	Prince	prince	NNP	PROPN	37	compound	O	
+36	Norodom	norodom	NNP	PROPN	37	compound	B	PERSON
+37	Ranariddh	ranariddh	NNP	PROPN	29	appos	I	PERSON
+38	.	.	.	PUNCT	26	punct	O	
+
+#id: sent860
+#text: At a regular Chinese Foreign Ministry briefing in Beijing on Thursday , spokesman Li Zhaoxing would say only that China will consider direct talks with Vietnam ` ` at an appropriate time. ' '
+1	At	at	IN	ADP	17	prep	O	
+2	a	a	DT	DET	7	det	O	
+3	regular	regular	JJ	ADJ	7	amod	O	
+4	Chinese	chinese	JJ	ADJ	6	compound	B	NORP
+5	Foreign	foreign	NNP	PROPN	6	compound	B	ORG
+6	Ministry	ministry	NNP	PROPN	7	compound	I	ORG
+7	briefing	briefing	NN	NOUN	1	pobj	O	
+8	in	in	IN	ADP	7	prep	O	
+9	Beijing	beijing	NNP	PROPN	8	pobj	B	GPE
+10	on	on	IN	ADP	7	prep	O	
+11	Thursday	thursday	NNP	PROPN	10	pobj	B	DATE
+12	,	,	,	PUNCT	17	punct	O	
+13	spokesman	spokesman	NN	NOUN	15	compound	O	
+14	Li	li	NNP	PROPN	15	compound	B	PERSON
+15	Zhaoxing	zhaoxing	NNP	PROPN	17	nsubj	I	PERSON
+16	would	would	MD	VERB	17	aux	O	
+17	say	say	VB	VERB	0	ROOT	O	
+18	only	only	RB	ADV	22	advmod	O	
+19	that	that	IN	ADP	22	mark	O	
+20	China	china	NNP	PROPN	22	nsubj	B	GPE
+21	will	will	MD	VERB	22	aux	O	
+22	consider	consider	VB	VERB	17	ccomp	O	
+23	direct	direct	JJ	ADJ	24	amod	O	
+24	talks	talk	NNS	NOUN	22	dobj	O	
+25	with	with	IN	ADP	24	prep	O	
+26	Vietnam	vietnam	NNP	PROPN	25	pobj	B	GPE
+27	`	`	''	PUNCT	17	punct	O	
+28	`	`	''	PUNCT	17	punct	O	
+29	at	at	IN	ADP	17	prep	O	
+30	an	an	DT	DET	32	det	O	
+31	appropriate	appropriate	JJ	ADJ	32	amod	O	
+32	time	time	NN	NOUN	29	pobj	O	
+33	.	.	.	PUNCT	17	punct	O	
+34	'	'	''	PUNCT	17	punct	O	
+35	'	'	''	PUNCT	17	punct	O	
+
+#id: sent862
+#text: Soviet Foreign Eduard A. Shevardnadze is to visit China next month to pave the way for the first Chinese-Soviet summit in 30 years , Chinese television reported Monday .
+1	Soviet	soviet	JJ	ADJ	5	amod	B	NORP
+2	Foreign	foreign	NNP	PROPN	5	compound	O	
+3	Eduard	eduard	NNP	PROPN	5	compound	B	PERSON
+4	A.	a.	NNP	PROPN	5	compound	I	PERSON
+5	Shevardnadze	shevardnadze	NNP	PROPN	6	nsubj	I	PERSON
+6	is	be	VBZ	VERB	29	ccomp	O	
+7	to	to	TO	PART	8	aux	O	
+8	visit	visit	VB	VERB	6	xcomp	O	
+9	China	china	NNP	PROPN	8	dobj	B	GPE
+10	next	next	JJ	ADJ	11	amod	B	DATE
+11	month	month	NN	NOUN	8	npadvmod	I	DATE
+12	to	to	TO	PART	13	aux	O	
+13	pave	pave	VB	VERB	8	advcl	O	
+14	the	the	DT	DET	15	det	O	
+15	way	way	NN	NOUN	13	dobj	O	
+16	for	for	IN	ADP	29	prep	O	
+17	the	the	DT	DET	22	det	O	
+18	first	first	JJ	ADJ	22	amod	B	ORDINAL
+19	Chinese	chinese	JJ	ADJ	21	amod	B	NORP
+20	-	-	HYPH	PUNCT	21	punct	O	
+21	Soviet	soviet	JJ	ADJ	22	amod	O	
+22	summit	summit	NN	NOUN	16	pobj	O	
+23	in	in	IN	ADP	22	prep	O	
+24	30	30	CD	NUM	25	nummod	B	DATE
+25	years	year	NNS	NOUN	23	pobj	I	DATE
+26	,	,	,	PUNCT	29	punct	O	
+27	Chinese	chinese	JJ	ADJ	28	amod	B	NORP
+28	television	television	NN	NOUN	29	nsubj	O	
+29	reported	report	VBD	VERB	0	ROOT	O	
+30	Monday	monday	NNP	PROPN	29	npadvmod	B	DATE
+31	.	.	.	PUNCT	29	punct	O	
+
+#id: sent871
+#text: In Beijing Thursday , spokesman Li repeated China 's position that the key to the solution of the Cambodian conflict ` ` lies in the genuine and complete Vietnamese troop withdrawal at the earliest possible date and effective international supervision. ' '
+1	In	in	IN	ADP	7	prep	O	
+2	Beijing	beijing	NNP	PROPN	1	pobj	B	GPE
+3	Thursday	thursday	NNP	PROPN	7	npadvmod	B	DATE
+4	,	,	,	PUNCT	7	punct	O	
+5	spokesman	spokesman	NN	NOUN	6	compound	O	
+6	Li	li	NNP	PROPN	7	nsubj	B	PERSON
+7	repeated	repeat	VBD	VERB	0	ROOT	O	
+8	China	china	NNP	PROPN	10	poss	B	GPE
+9	's	's	POS	PART	8	case	O	
+10	position	position	NN	NOUN	7	dobj	O	
+11	that	that	IN	ADP	23	mark	O	
+12	the	the	DT	DET	13	det	O	
+13	key	key	NN	NOUN	23	nsubj	O	
+14	to	to	IN	ADP	13	prep	O	
+15	the	the	DT	DET	16	det	O	
+16	solution	solution	NN	NOUN	14	pobj	O	
+17	of	of	IN	ADP	16	prep	O	
+18	the	the	DT	DET	20	det	O	
+19	Cambodian	cambodian	JJ	ADJ	20	amod	B	NORP
+20	conflict	conflict	NN	NOUN	17	pobj	O	
+21	`	`	''	PUNCT	23	punct	O	
+22	`	`	''	PUNCT	23	punct	O	
+23	lies	lie	VBZ	VERB	10	acl	O	
+24	in	in	IN	ADP	23	prep	O	
+25	the	the	DT	DET	31	det	O	
+26	genuine	genuine	JJ	ADJ	31	amod	O	
+27	and	and	CC	CONJ	26	cc	O	
+28	complete	complete	JJ	ADJ	26	conj	O	
+29	Vietnamese	vietnamese	JJ	ADJ	31	amod	B	NORP
+30	troop	troop	NN	NOUN	31	compound	O	
+31	withdrawal	withdrawal	NN	NOUN	24	pobj	O	
+32	at	at	IN	ADP	31	prep	O	
+33	the	the	DT	DET	36	det	O	
+34	earliest	early	JJS	ADJ	36	amod	O	
+35	possible	possible	JJ	ADJ	36	amod	O	
+36	date	date	NN	NOUN	32	pobj	O	
+37	and	and	CC	CONJ	31	cc	O	
+38	effective	effective	JJ	ADJ	40	amod	O	
+39	international	international	JJ	ADJ	40	amod	O	
+40	supervision	supervision	NN	NOUN	31	conj	O	
+41	.	.	.	PUNCT	7	punct	O	
+42	'	'	''	PUNCT	7	punct	O	
+43	'	'	''	PUNCT	7	punct	O	
+
+#id: sent934
+#text: The Globe and Mail , which calls itself Canada 's national newspaper , said in an editorial Thursday that Quebec Premier Robert Bourassa ` ` has received , and deserves , strong criticism for his decision on the language of commercial signs in Quebec. .. .
+1	The	the	DT	DET	2	det	O	
+2	Globe	globe	NNP	PROPN	14	nsubj	O	
+3	and	and	CC	CONJ	2	cc	O	
+4	Mail	mail	NNP	PROPN	2	conj	O	
+5	,	,	,	PUNCT	2	punct	O	
+6	which	which	WDT	ADJ	7	nsubj	O	
+7	calls	call	VBZ	VERB	2	relcl	O	
+8	itself	itself	PRP	PRON	7	dobj	O	
+9	Canada	canada	NNP	PROPN	12	poss	B	GPE
+10	's	's	POS	PART	9	case	O	
+11	national	national	JJ	ADJ	12	amod	O	
+12	newspaper	newspaper	NN	NOUN	7	oprd	O	
+13	,	,	,	PUNCT	2	punct	O	
+14	said	say	VBD	VERB	0	ROOT	O	
+15	in	in	IN	ADP	14	prep	O	
+16	an	an	DT	DET	17	det	O	
+17	editorial	editorial	NN	NOUN	15	pobj	O	
+18	Thursday	thursday	NNP	PROPN	14	npadvmod	B	DATE
+19	that	that	IN	ADP	27	mark	O	
+20	Quebec	quebec	NNP	PROPN	21	compound	B	GPE
+21	Premier	premier	NNP	PROPN	23	compound	O	
+22	Robert	robert	NNP	PROPN	23	compound	B	PERSON
+23	Bourassa	bourassa	NNP	PROPN	27	nsubj	I	PERSON
+24	`	`	''	PUNCT	27	punct	O	
+25	`	`	''	PUNCT	27	punct	O	
+26	has	have	VBZ	VERB	27	aux	O	
+27	received	receive	VBN	VERB	14	ccomp	O	
+28	,	,	,	PUNCT	27	punct	O	
+29	and	and	CC	CONJ	27	cc	O	
+30	deserves	deserve	VBZ	VERB	27	conj	O	
+31	,	,	,	PUNCT	33	punct	O	
+32	strong	strong	JJ	ADJ	33	amod	O	
+33	criticism	criticism	NN	NOUN	30	dobj	O	
+34	for	for	IN	ADP	33	prep	O	
+35	his	his	PRP$	ADJ	36	poss	O	
+36	decision	decision	NN	NOUN	34	pobj	O	
+37	on	on	IN	ADP	36	prep	O	
+38	the	the	DT	DET	39	det	O	
+39	language	language	NN	NOUN	37	pobj	O	
+40	of	of	IN	ADP	39	prep	O	
+41	commercial	commercial	JJ	ADJ	42	amod	O	
+42	signs	sign	NNS	NOUN	40	pobj	O	
+43	in	in	IN	ADP	42	prep	O	
+44	Quebec	quebec	NNP	PROPN	43	pobj	B	GPE
+45	.	.	.	PUNCT	14	punct	O	
+46	..	..	NFP	PUNCT	0	ROOT	O	
+47	.	.	.	PUNCT	46	punct	O	
+
+#id: sent953
+#text: In 1985 , shuttle passengers included Sultan Al-Saud of Saudi Arabia and Rodolfo Neri Vela , a Mexican .
+1	In	in	IN	ADP	6	prep	O	
+2	1985	1985	CD	NUM	1	pobj	B	DATE
+3	,	,	,	PUNCT	6	punct	O	
+4	shuttle	shuttle	NN	NOUN	5	compound	O	
+5	passengers	passenger	NNS	NOUN	6	nsubj	O	
+6	included	include	VBD	VERB	0	ROOT	O	
+7	Sultan	sultan	NNP	PROPN	10	compound	B	PERSON
+8	Al	al	NNP	PROPN	10	compound	I	PERSON
+9	-	-	HYPH	PUNCT	10	punct	I	PERSON
+10	Saud	saud	NNP	PROPN	6	dobj	I	PERSON
+11	of	of	IN	ADP	10	prep	O	
+12	Saudi	saudi	NNP	PROPN	13	compound	B	GPE
+13	Arabia	arabia	NNP	PROPN	11	pobj	I	GPE
+14	and	and	CC	CONJ	10	cc	O	
+15	Rodolfo	rodolfo	NNP	PROPN	17	compound	B	PERSON
+16	Neri	neri	NNP	PROPN	17	compound	I	PERSON
+17	Vela	vela	NNP	PROPN	10	conj	I	PERSON
+18	,	,	,	PUNCT	17	punct	O	
+19	a	a	DT	DET	20	det	O	
+20	Mexican	mexican	JJ	ADJ	17	appos	B	NORP
+21	.	.	.	PUNCT	6	punct	O	
+
+#id: sent955
+#text: Dan Quayle 's first trip out of the country as vice is likely to be to Caracas , Venezuela , for Carlos Andres Perez 's presidential inauguration on Feb. 2 , an official in President-elect Bush 's transition said Thursday .
+1	Dan	dan	NNP	PROPN	2	compound	B	PERSON
+2	Quayle	quayle	NNP	PROPN	5	poss	I	PERSON
+3	's	's	POS	PART	2	case	I	PERSON
+4	first	first	JJ	ADJ	5	amod	B	ORDINAL
+5	trip	trip	NN	NOUN	12	nsubj	O	
+6	out	out	IN	ADP	5	prep	O	
+7	of	of	IN	ADP	6	prep	O	
+8	the	the	DT	DET	9	det	O	
+9	country	country	NN	NOUN	7	pobj	O	
+10	as	as	IN	ADP	5	prep	O	
+11	vice	vice	NN	NOUN	12	nsubj	O	
+12	is	be	VBZ	VERB	41	ccomp	O	
+13	likely	likely	JJ	ADJ	12	acomp	O	
+14	to	to	TO	PART	15	aux	O	
+15	be	be	VB	VERB	13	xcomp	O	
+16	to	to	IN	ADP	15	prep	O	
+17	Caracas	caracas	NNP	PROPN	16	pobj	B	GPE
+18	,	,	,	PUNCT	17	punct	O	
+19	Venezuela	venezuela	NNP	PROPN	17	appos	B	GPE
+20	,	,	,	PUNCT	41	punct	O	
+21	for	for	IN	ADP	41	prep	O	
+22	Carlos	carlos	NNP	PROPN	24	compound	B	PERSON
+23	Andres	andres	NNP	PROPN	24	compound	I	PERSON
+24	Perez	perez	NNP	PROPN	27	poss	I	PERSON
+25	's	's	POS	PART	24	case	I	PERSON
+26	presidential	presidential	JJ	ADJ	27	amod	O	
+27	inauguration	inauguration	NN	NOUN	21	pobj	O	
+28	on	on	IN	ADP	27	prep	O	
+29	Feb.	feb.	NNP	PROPN	28	pobj	B	DATE
+30	2	2	CD	NUM	29	nummod	I	DATE
+31	,	,	,	PUNCT	29	punct	O	
+32	an	an	DT	DET	33	det	O	
+33	official	official	NN	NOUN	41	nsubj	O	
+34	in	in	IN	ADP	33	prep	O	
+35	President	president	NNP	PROPN	37	compound	O	
+36	-	-	HYPH	PUNCT	37	punct	O	
+37	elect	elect	NNP	PROPN	38	compound	O	
+38	Bush	bush	NNP	PROPN	40	poss	B	PERSON
+39	's	's	POS	PART	38	case	O	
+40	transition	transition	NN	NOUN	34	pobj	O	
+41	said	say	VBD	VERB	0	ROOT	O	
+42	Thursday	thursday	NNP	PROPN	41	npadvmod	B	DATE
+43	.	.	.	PUNCT	41	punct	O	
+
+#id: sent961
+#text: Psacharapoulos , who died of colon cancer while vacationing , was engaged to be married to actress Jean Hackett of New York City .
+1	Psacharapoulos	psacharapoulos	NNP	PROPN	12	nsubjpass	B	PERSON
+2	,	,	,	PUNCT	1	punct	O	
+3	who	who	WP	NOUN	4	nsubj	O	
+4	died	die	VBD	VERB	1	relcl	O	
+5	of	of	IN	ADP	4	prep	O	
+6	colon	colon	NN	NOUN	7	compound	O	
+7	cancer	cancer	NN	NOUN	5	pobj	O	
+8	while	while	IN	ADP	9	mark	O	
+9	vacationing	vacation	VBG	VERB	4	advcl	O	
+10	,	,	,	PUNCT	12	punct	O	
+11	was	be	VBD	VERB	12	auxpass	O	
+12	engaged	engage	VBN	VERB	0	ROOT	O	
+13	to	to	TO	PART	14	aux	O	
+14	be	be	VB	VERB	12	xcomp	O	
+15	married	marry	VBN	VERB	14	acomp	O	
+16	to	to	IN	ADP	15	prep	O	
+17	actress	actress	NN	NOUN	19	compound	O	
+18	Jean	jean	NNP	PROPN	19	compound	B	PERSON
+19	Hackett	hackett	NNP	PROPN	16	pobj	I	PERSON
+20	of	of	IN	ADP	19	prep	O	
+21	New	new	NNP	PROPN	22	compound	B	GPE
+22	York	york	NNP	PROPN	23	compound	I	GPE
+23	City	city	NNP	PROPN	20	pobj	I	GPE
+24	.	.	.	PUNCT	12	punct	O	
+
+#id: sent1016
+#text: ` ` Weather like this is awful for restaurants , ' ' said Lou Ray , owner of the Smokehouse cafe in Fontana .
+1	`	`	''	PUNCT	6	punct	O	
+2	`	`	''	PUNCT	6	punct	O	
+3	Weather	weather	NN	NOUN	6	nsubj	O	
+4	like	like	IN	ADP	3	prep	O	
+5	this	this	DT	DET	4	pobj	O	
+6	is	be	VBZ	VERB	13	ccomp	O	
+7	awful	awful	JJ	ADJ	6	acomp	O	
+8	for	for	IN	ADP	7	prep	O	
+9	restaurants	restaurant	NNS	NOUN	8	pobj	O	
+10	,	,	,	PUNCT	6	punct	O	
+11	'	'	''	PUNCT	6	punct	O	
+12	'	'	''	PUNCT	13	punct	O	
+13	said	say	VBD	VERB	0	ROOT	O	
+14	Lou	lou	NNP	PROPN	15	compound	B	PERSON
+15	Ray	ray	NNP	PROPN	13	nsubj	I	PERSON
+16	,	,	,	PUNCT	15	punct	O	
+17	owner	owner	NN	NOUN	15	appos	O	
+18	of	of	IN	ADP	17	prep	O	
+19	the	the	DT	DET	21	det	O	
+20	Smokehouse	smokehouse	NNP	PROPN	21	compound	B	FAC
+21	cafe	cafe	NN	NOUN	18	pobj	O	
+22	in	in	IN	ADP	21	prep	O	
+23	Fontana	fontana	NNP	PROPN	22	pobj	B	GPE
+24	.	.	.	PUNCT	13	punct	O	
+
+#id: sent1019
+#text: At a large truck stop east of the airport , some 2 , 000 truck drivers and campers waited for the winds to die down , said Lance Davis , general manager of Truck Stops of America in Ontario .
+1	At	at	IN	ADP	19	prep	O	
+2	a	a	DT	DET	5	det	O	
+3	large	large	JJ	ADJ	4	amod	O	
+4	truck	truck	NN	NOUN	5	compound	O	
+5	stop	stop	NN	NOUN	1	pobj	O	
+6	east	east	RB	ADV	5	advmod	O	
+7	of	of	IN	ADP	6	prep	O	
+8	the	the	DT	DET	9	det	O	
+9	airport	airport	NN	NOUN	7	pobj	O	
+10	,	,	,	PUNCT	19	punct	O	
+11	some	some	DT	DET	12	det	O	
+12	2	2	CD	NUM	16	nummod	O	
+13	,	,	,	PUNCT	14	punct	O	
+14	000	000	CD	NUM	16	nummod	O	
+15	truck	truck	NN	NOUN	16	compound	O	
+16	drivers	driver	NNS	NOUN	19	nsubj	O	
+17	and	and	CC	CONJ	16	cc	O	
+18	campers	camper	NNS	NOUN	16	conj	O	
+19	waited	wait	VBD	VERB	27	ccomp	O	
+20	for	for	IN	ADP	24	mark	O	
+21	the	the	DT	DET	22	det	O	
+22	winds	wind	NNS	NOUN	24	nsubj	O	
+23	to	to	TO	PART	24	aux	O	
+24	die	die	VB	VERB	19	advcl	O	
+25	down	down	RP	PART	24	prt	O	
+26	,	,	,	PUNCT	27	punct	O	
+27	said	say	VBD	VERB	0	ROOT	O	
+28	Lance	lance	NNP	PROPN	29	compound	B	PERSON
+29	Davis	davis	NNP	PROPN	27	nsubj	I	PERSON
+30	,	,	,	PUNCT	29	punct	O	
+31	general	general	JJ	ADJ	32	amod	O	
+32	manager	manager	NN	NOUN	29	appos	O	
+33	of	of	IN	ADP	32	prep	O	
+34	Truck	truck	NNP	PROPN	35	compound	B	ORG
+35	Stops	stops	NNP	PROPN	33	pobj	I	ORG
+36	of	of	IN	ADP	35	prep	I	ORG
+37	America	america	NNP	PROPN	36	pobj	I	ORG
+38	in	in	IN	ADP	35	prep	O	
+39	Ontario	ontario	NNP	PROPN	38	pobj	B	GPE
+40	.	.	.	PUNCT	27	punct	O	
+
+#id: sent1022
+#text: Elsewhere , a downed power line was blamed for a brush fire that charred 200 acres in Orange County , said county Fire Department Capt. Hugh Madlock .
+1	Elsewhere	elsewhere	RB	ADV	8	advmod	O	
+2	,	,	,	PUNCT	8	punct	O	
+3	a	a	DT	DET	6	det	O	
+4	downed	downed	JJ	ADJ	6	amod	O	
+5	power	power	NN	NOUN	6	compound	O	
+6	line	line	NN	NOUN	8	nsubjpass	O	
+7	was	be	VBD	VERB	8	auxpass	O	
+8	blamed	blame	VBN	VERB	21	ccomp	O	
+9	for	for	IN	ADP	8	prep	O	
+10	a	a	DT	DET	12	det	O	
+11	brush	brush	NN	NOUN	12	compound	O	
+12	fire	fire	NN	NOUN	9	pobj	O	
+13	that	that	WDT	ADJ	14	nsubj	O	
+14	charred	char	VBD	VERB	12	relcl	O	
+15	200	200	CD	NUM	16	nummod	B	QUANTITY
+16	acres	acre	NNS	NOUN	14	npadvmod	I	QUANTITY
+17	in	in	IN	ADP	16	prep	O	
+18	Orange	orange	NNP	PROPN	19	compound	B	GPE
+19	County	county	NNP	PROPN	17	pobj	I	GPE
+20	,	,	,	PUNCT	21	punct	O	
+21	said	say	VBD	VERB	0	ROOT	O	
+22	county	county	NN	NOUN	25	compound	O	
+23	Fire	fire	NNP	PROPN	24	compound	B	ORG
+24	Department	department	NNP	PROPN	25	compound	I	ORG
+25	Capt	capt	NNP	PROPN	21	nsubj	I	ORG
+26	.	.	.	PUNCT	21	punct	O	
+27	Hugh	hugh	NNP	PROPN	28	compound	B	PERSON
+28	Madlock	madlock	NNP	PROPN	0	ROOT	I	PERSON
+29	.	.	.	PUNCT	28	punct	O	
+
+#id: sent1028
+#text: In San Bernardino County , winds ripped off part of the roof of the sheriff 's station in Rancho Cucamonga and damaged several private cars , said Deputy Denise Garland .
+1	In	in	IN	ADP	7	prep	O	
+2	San	san	NNP	PROPN	3	compound	B	GPE
+3	Bernardino	bernardino	NNP	PROPN	4	compound	I	GPE
+4	County	county	NNP	PROPN	1	pobj	O	
+5	,	,	,	PUNCT	7	punct	O	
+6	winds	wind	NNS	NOUN	7	nsubj	O	
+7	ripped	rip	VBD	VERB	27	ccomp	O	
+8	off	off	RP	PART	7	prt	O	
+9	part	part	NN	NOUN	7	dobj	O	
+10	of	of	IN	ADP	9	prep	O	
+11	the	the	DT	DET	12	det	O	
+12	roof	roof	NN	NOUN	10	pobj	O	
+13	of	of	IN	ADP	12	prep	O	
+14	the	the	DT	DET	15	det	O	
+15	sheriff	sheriff	NN	NOUN	17	poss	O	
+16	's	's	POS	PART	15	case	O	
+17	station	station	NN	NOUN	13	pobj	O	
+18	in	in	IN	ADP	17	prep	O	
+19	Rancho	rancho	NNP	PROPN	20	compound	B	GPE
+20	Cucamonga	cucamonga	NNP	PROPN	18	pobj	I	GPE
+21	and	and	CC	CONJ	7	cc	O	
+22	damaged	damage	VBD	VERB	7	conj	O	
+23	several	several	JJ	ADJ	25	amod	O	
+24	private	private	JJ	ADJ	25	amod	O	
+25	cars	car	NNS	NOUN	22	dobj	O	
+26	,	,	,	PUNCT	27	punct	O	
+27	said	say	VBD	VERB	0	ROOT	O	
+28	Deputy	deputy	NNP	PROPN	30	compound	O	
+29	Denise	denise	NNP	PROPN	30	compound	B	PERSON
+30	Garland	garland	NNP	PROPN	27	nsubj	I	PERSON
+31	.	.	.	PUNCT	27	punct	O	
+
+#id: sent1037
+#text: ` ` He ( LaFarge ) was the one who supposedly taught Tiffany how to make the Favrile glass , ' ' said auctioneer William Doyle , who operates an auction house in Manhattan .
+1	`	`	''	PUNCT	0	ROOT	O	
+2	`	`	''	PUNCT	7	punct	O	
+3	He	he	PRP	PRON	7	nsubj	O	
+4	(	(	-LRB-	PUNCT	5	punct	O	
+5	LaFarge	lafarge	NNP	PROPN	3	appos	O	
+6	)	)	-RRB-	PUNCT	7	punct	O	
+7	was	be	VBD	VERB	0	ROOT	O	
+8	the	the	DT	DET	9	det	O	
+9	one	one	NN	NOUN	7	attr	O	
+10	who	who	WP	NOUN	12	nsubj	O	
+11	supposedly	supposedly	RB	ADV	12	advmod	O	
+12	taught	teach	VBD	VERB	9	relcl	O	
+13	Tiffany	tiffany	NNP	PROPN	12	dobj	B	ORG
+14	how	how	WRB	ADV	16	advmod	O	
+15	to	to	TO	PART	16	aux	O	
+16	make	make	VB	VERB	12	xcomp	O	
+17	the	the	DT	DET	19	det	O	
+18	Favrile	favrile	NNP	PROPN	19	compound	B	PRODUCT
+19	glass	glass	NN	NOUN	16	dobj	O	
+20	,	,	,	PUNCT	7	punct	O	
+21	'	'	''	PUNCT	7	punct	O	
+22	'	'	''	PUNCT	23	punct	O	
+23	said	say	VBD	VERB	7	ccomp	O	
+24	auctioneer	auctioneer	NN	NOUN	26	compound	O	
+25	William	william	NNP	PROPN	26	compound	B	PERSON
+26	Doyle	doyle	NNP	PROPN	23	nsubj	I	PERSON
+27	,	,	,	PUNCT	26	punct	O	
+28	who	who	WP	NOUN	29	nsubj	O	
+29	operates	operate	VBZ	VERB	26	relcl	O	
+30	an	an	DT	DET	32	det	O	
+31	auction	auction	NN	NOUN	32	compound	O	
+32	house	house	NN	NOUN	29	dobj	O	
+33	in	in	IN	ADP	32	prep	O	
+34	Manhattan	manhattan	NNP	PROPN	33	pobj	B	GPE
+35	.	.	.	PUNCT	23	punct	O	
+
+#id: sent1043
+#text: I 'm having so much fun , I may try this with Tavern on the Green , ' ' said LeRoy , an avid collector who also owns that famed New York restaurant .
+1	I	i	PRP	PRON	4	nsubj	O	
+2	'	'	``	PUNCT	4	punct	O	
+3	m	m	LS	PUNCT	4	meta	O	
+4	having	have	VBG	VERB	11	advcl	O	
+5	so	so	RB	ADV	6	advmod	O	
+6	much	much	RB	ADV	7	amod	O	
+7	fun	fun	NN	NOUN	4	dobj	O	
+8	,	,	,	PUNCT	11	punct	O	
+9	I	i	PRP	PRON	11	nsubj	O	
+10	may	may	MD	VERB	11	aux	O	
+11	try	try	VB	VERB	21	ccomp	O	
+12	this	this	DT	DET	11	dobj	O	
+13	with	with	IN	ADP	11	prep	O	
+14	Tavern	tavern	NNP	PROPN	13	pobj	B	PERSON
+15	on	on	IN	ADP	11	prep	O	
+16	the	the	DT	DET	17	det	O	
+17	Green	green	NNP	PROPN	15	pobj	O	
+18	,	,	,	PUNCT	21	punct	O	
+19	'	'	''	PUNCT	21	punct	O	
+20	'	'	''	PUNCT	21	punct	O	
+21	said	say	VBD	VERB	0	ROOT	O	
+22	LeRoy	leroy	NNP	PROPN	21	nsubj	B	PERSON
+23	,	,	,	PUNCT	22	punct	O	
+24	an	an	DT	DET	26	det	O	
+25	avid	avid	JJ	ADJ	26	amod	O	
+26	collector	collector	NN	NOUN	22	appos	O	
+27	who	who	WP	NOUN	29	nsubj	O	
+28	also	also	RB	ADV	29	advmod	O	
+29	owns	own	VBZ	VERB	26	relcl	O	
+30	that	that	IN	ADP	34	det	O	
+31	famed	famed	JJ	ADJ	34	amod	O	
+32	New	new	NNP	PROPN	33	compound	B	GPE
+33	York	york	NNP	PROPN	34	compound	I	GPE
+34	restaurant	restaurant	NN	NOUN	29	dobj	O	
+35	.	.	.	PUNCT	21	punct	O	
+
+#id: sent1049
+#text: The state Supreme Court jury in Niagara County made the award Tuesday to the estate of Thomas Viscomi and his widow , Norma Viscomi , of Niagara Falls .
+1	The	the	DT	DET	5	det	O	
+2	state	state	NN	NOUN	5	compound	O	
+3	Supreme	supreme	NNP	PROPN	4	compound	B	ORG
+4	Court	court	NNP	PROPN	5	compound	I	ORG
+5	jury	jury	NN	NOUN	9	nsubj	O	
+6	in	in	IN	ADP	5	prep	O	
+7	Niagara	niagara	NNP	PROPN	8	compound	B	GPE
+8	County	county	NNP	PROPN	6	pobj	I	GPE
+9	made	make	VBD	VERB	0	ROOT	O	
+10	the	the	DT	DET	11	det	O	
+11	award	award	NN	NOUN	9	dobj	O	
+12	Tuesday	tuesday	NNP	PROPN	9	npadvmod	B	DATE
+13	to	to	IN	ADP	9	prep	O	
+14	the	the	DT	DET	15	det	O	
+15	estate	estate	NN	NOUN	13	pobj	O	
+16	of	of	IN	ADP	15	prep	O	
+17	Thomas	thomas	NNP	PROPN	18	compound	B	PERSON
+18	Viscomi	viscomi	NNP	PROPN	16	pobj	I	PERSON
+19	and	and	CC	CONJ	18	cc	O	
+20	his	his	PRP$	ADJ	21	poss	O	
+21	widow	widow	NN	NOUN	18	conj	O	
+22	,	,	,	PUNCT	21	punct	O	
+23	Norma	norma	NNP	PROPN	24	compound	B	PERSON
+24	Viscomi	viscomi	NNP	PROPN	21	appos	I	PERSON
+25	,	,	,	PUNCT	21	punct	O	
+26	of	of	IN	ADP	21	prep	O	
+27	Niagara	niagara	NNP	PROPN	28	compound	B	ORG
+28	Falls	falls	NNP	PROPN	26	pobj	I	ORG
+29	.	.	.	PUNCT	9	punct	O	
+
+#id: sent1063
+#text: Stacy Lin Bickel , 25 , of Tempe pleaded guilty in November to negligent homicide in the death of Deborah Sue Tomazin , 24 , of Phoenix .
+1	Stacy	stacy	NNP	PROPN	3	compound	B	PERSON
+2	Lin	lin	NNP	PROPN	3	compound	I	PERSON
+3	Bickel	bickel	NNP	PROPN	9	nsubj	I	PERSON
+4	,	,	,	PUNCT	3	punct	O	
+5	25	25	CD	NUM	3	appos	B	DATE
+6	,	,	,	PUNCT	3	punct	O	
+7	of	of	IN	ADP	3	prep	O	
+8	Tempe	tempe	NNP	PROPN	7	pobj	B	GPE
+9	pleaded	plead	VBD	VERB	0	ROOT	O	
+10	guilty	guilty	JJ	ADJ	9	acomp	O	
+11	in	in	IN	ADP	9	prep	O	
+12	November	november	NNP	PROPN	11	pobj	B	DATE
+13	to	to	IN	ADP	9	prep	O	
+14	negligent	negligent	JJ	ADJ	15	amod	O	
+15	homicide	homicide	NN	NOUN	13	pobj	O	
+16	in	in	IN	ADP	15	prep	O	
+17	the	the	DT	DET	18	det	O	
+18	death	death	NN	NOUN	16	pobj	O	
+19	of	of	IN	ADP	18	prep	O	
+20	Deborah	deborah	NNP	PROPN	22	compound	B	PERSON
+21	Sue	sue	NNP	PROPN	22	compound	I	PERSON
+22	Tomazin	tomazin	NNP	PROPN	19	pobj	I	PERSON
+23	,	,	,	PUNCT	22	punct	O	
+24	24	24	CD	NUM	22	appos	B	DATE
+25	,	,	,	PUNCT	22	punct	O	
+26	of	of	IN	ADP	22	prep	O	
+27	Phoenix	phoenix	NNP	PROPN	26	pobj	B	GPE
+28	.	.	.	PUNCT	9	punct	O	
+
+#id: sent1065
+#text: The bungled attempt took place March 27 in the office of Miss Bickel 's former employer , Tempe plastic surgeon Richard Pavese .
+1	The	the	DT	DET	3	det	O	
+2	bungled	bungled	JJ	ADJ	3	amod	O	
+3	attempt	attempt	NN	NOUN	4	nsubj	O	
+4	took	take	VBD	VERB	0	ROOT	O	
+5	place	place	NN	NOUN	4	dobj	O	
+6	March	march	NNP	PROPN	4	npadvmod	B	DATE
+7	27	27	CD	NUM	6	nummod	I	DATE
+8	in	in	IN	ADP	4	prep	O	
+9	the	the	DT	DET	10	det	O	
+10	office	office	NN	NOUN	8	pobj	O	
+11	of	of	IN	ADP	10	prep	O	
+12	Miss	miss	NNP	PROPN	13	compound	O	
+13	Bickel	bickel	NNP	PROPN	16	poss	B	PERSON
+14	's	's	POS	PART	13	case	O	
+15	former	former	JJ	ADJ	16	amod	O	
+16	employer	employer	NN	NOUN	11	pobj	O	
+17	,	,	,	PUNCT	4	punct	O	
+18	Tempe	tempe	NNP	PROPN	20	compound	B	GPE
+19	plastic	plastic	NN	NOUN	20	compound	O	
+20	surgeon	surgeon	NN	NOUN	22	compound	O	
+21	Richard	richard	NNP	PROPN	22	compound	B	PERSON
+22	Pavese	pavese	NNP	PROPN	4	appos	I	PERSON
+23	.	.	.	PUNCT	4	punct	O	
+
+#id: sent1131
+#text: There are even hopeful signs in Chicago 's schools , branded 14 months ago as the nation 's worst by U.S. Secretary William J. Bennett .
+1	There	there	EX	ADV	2	expl	O	
+2	are	be	VBP	VERB	0	ROOT	O	
+3	even	even	RB	ADV	4	advmod	O	
+4	hopeful	hopeful	JJ	ADJ	5	amod	O	
+5	signs	sign	NNS	NOUN	2	attr	O	
+6	in	in	IN	ADP	5	prep	O	
+7	Chicago	chicago	NNP	PROPN	9	poss	B	GPE
+8	's	's	POS	PART	7	case	O	
+9	schools	school	NNS	NOUN	6	pobj	O	
+10	,	,	,	PUNCT	5	punct	O	
+11	branded	brand	VBN	VERB	5	acl	O	
+12	14	14	CD	NUM	13	nummod	B	DATE
+13	months	month	NNS	NOUN	14	npadvmod	I	DATE
+14	ago	ago	RB	ADV	11	advmod	I	DATE
+15	as	as	IN	ADP	11	prep	O	
+16	the	the	DT	DET	17	det	O	
+17	nation	nation	NN	NOUN	19	poss	O	
+18	's	's	POS	PART	17	case	O	
+19	worst	worst	RBS	ADV	15	pobj	O	
+20	by	by	IN	ADP	19	prep	O	
+21	U.S.	u.s.	NNP	PROPN	22	compound	B	GPE
+22	Secretary	secretary	NNP	PROPN	25	compound	O	
+23	William	william	NNP	PROPN	25	compound	B	PERSON
+24	J.	j.	NNP	PROPN	25	compound	I	PERSON
+25	Bennett	bennett	NNP	PROPN	20	pobj	I	PERSON
+26	.	.	.	PUNCT	2	punct	O	
+
+#id: sent1132
+#text: Illinois Gov. James Thompson signed legislation last month scrapping Chicago 's central school board next July , to be replaced by parent-run councils empowered to set budgets and hire and fire principals .
+1	Illinois	illinois	NNP	PROPN	2	compound	B	GPE
+2	Gov.	gov.	NNP	PROPN	4	compound	O	
+3	James	james	NNP	PROPN	4	compound	B	PERSON
+4	Thompson	thompson	NNP	PROPN	5	nsubj	I	PERSON
+5	signed	sign	VBD	VERB	0	ROOT	O	
+6	legislation	legislation	NN	NOUN	5	dobj	O	
+7	last	last	JJ	ADJ	8	amod	B	DATE
+8	month	month	NN	NOUN	5	npadvmod	I	DATE
+9	scrapping	scrap	VBG	VERB	5	advcl	O	
+10	Chicago	chicago	NNP	PROPN	14	poss	B	GPE
+11	's	's	POS	PART	10	case	O	
+12	central	central	JJ	ADJ	14	amod	O	
+13	school	school	NN	NOUN	14	compound	O	
+14	board	board	NN	NOUN	9	dobj	O	
+15	next	next	IN	ADP	16	amod	B	DATE
+16	July	july	NNP	PROPN	9	npadvmod	I	DATE
+17	,	,	,	PUNCT	9	punct	O	
+18	to	to	TO	PART	20	aux	O	
+19	be	be	VB	VERB	20	auxpass	O	
+20	replaced	replace	VBN	VERB	9	advcl	O	
+21	by	by	IN	ADP	20	agent	O	
+22	parent	parent	NN	NOUN	24	compound	O	
+23	-	-	HYPH	PUNCT	24	punct	O	
+24	run	run	NN	NOUN	25	compound	O	
+25	councils	council	NNS	NOUN	21	pobj	O	
+26	empowered	empower	VBN	VERB	25	acl	O	
+27	to	to	TO	PART	28	aux	O	
+28	set	set	VB	VERB	26	xcomp	O	
+29	budgets	budget	NNS	NOUN	28	dobj	O	
+30	and	and	CC	CONJ	28	cc	O	
+31	hire	hire	VB	VERB	28	conj	O	
+32	and	and	CC	CONJ	31	cc	O	
+33	fire	fire	VB	VERB	31	conj	O	
+34	principals	principal	NNS	NOUN	33	dobj	O	
+35	.	.	.	PUNCT	5	punct	O	
+
+#id: sent1134
+#text: As Rochester teacher union leader Adam Urbanski put it : ` ` We have set the table ; we have not served the meal yet. ' '
+1	As	as	IN	ADP	8	mark	O	
+2	Rochester	rochester	NNP	PROPN	5	compound	B	GPE
+3	teacher	teacher	NN	NOUN	4	compound	O	
+4	union	union	NN	NOUN	5	compound	O	
+5	leader	leader	NN	NOUN	7	compound	O	
+6	Adam	adam	NNP	PROPN	7	compound	B	PERSON
+7	Urbanski	urbanski	NNP	PROPN	8	nsubj	I	PERSON
+8	put	put	VBD	VERB	15	advcl	O	
+9	it	it	PRP	PRON	8	dobj	O	
+10	:	:	:	PUNCT	15	punct	O	
+11	`	`	''	PUNCT	15	punct	O	
+12	`	`	''	PUNCT	15	punct	O	
+13	We	we	PRP	PRON	15	nsubj	O	
+14	have	have	VBP	VERB	15	aux	O	
+15	set	set	VBN	VERB	22	ccomp	O	
+16	the	the	DT	DET	17	det	O	
+17	table	table	NN	NOUN	15	dobj	O	
+18	;	;	:	PUNCT	22	punct	O	
+19	we	we	PRP	PRON	22	nsubj	O	
+20	have	have	VBP	VERB	22	aux	O	
+21	not	not	RB	ADV	22	neg	O	
+22	served	serve	VBN	VERB	0	ROOT	O	
+23	the	the	DT	DET	24	det	O	
+24	meal	meal	NN	NOUN	22	dobj	O	
+25	yet	yet	RB	ADV	22	advmod	O	
+26	.	.	.	PUNCT	22	punct	O	
+27	'	'	''	PUNCT	22	punct	O	
+28	'	'	''	PUNCT	22	punct	O	
+
+#id: sent1145
+#text: Rochester 's Peter McWalters , named in 1986 , signaled willingness to form a working partnership with teachers .
+1	Rochester	rochester	NNP	PROPN	4	poss	B	ORG
+2	's	's	POS	PART	1	case	O	
+3	Peter	peter	NNP	PROPN	4	compound	B	PERSON
+4	McWalters	mcwalters	NNP	PROPN	10	nsubj	I	PERSON
+5	,	,	,	PUNCT	4	punct	O	
+6	named	name	VBN	VERB	4	acl	O	
+7	in	in	IN	ADP	6	prep	O	
+8	1986	1986	CD	NUM	7	pobj	B	DATE
+9	,	,	,	PUNCT	10	punct	O	
+10	signaled	signal	VBD	VERB	0	ROOT	O	
+11	willingness	willingness	NN	NOUN	10	dobj	O	
+12	to	to	TO	PART	13	aux	O	
+13	form	form	VB	VERB	11	acl	O	
+14	a	a	DT	DET	16	det	O	
+15	working	work	VBG	VERB	16	amod	O	
+16	partnership	partnership	NN	NOUN	13	dobj	O	
+17	with	with	IN	ADP	16	prep	O	
+18	teachers	teacher	NNS	NOUN	17	pobj	O	
+19	.	.	.	PUNCT	10	punct	O	
+
+#id: sent1147
+#text: Pittsburgh 's superintendent , Richard C. Wallace , who arrived in 1980 as an outsider to a city enmeshed in a bitter dispute over school desegregation , helped move the school system beyond that dispute and establish it as a national model of reform .
+1	Pittsburgh	pittsburgh	NNP	PROPN	3	poss	B	GPE
+2	's	's	POS	PART	1	case	O	
+3	superintendent	superintendent	NN	NOUN	28	nsubj	O	
+4	,	,	,	PUNCT	3	punct	O	
+5	Richard	richard	NNP	PROPN	7	compound	B	PERSON
+6	C.	c.	NNP	PROPN	7	compound	I	PERSON
+7	Wallace	wallace	NNP	PROPN	3	appos	I	PERSON
+8	,	,	,	PUNCT	7	punct	O	
+9	who	who	WP	NOUN	10	nsubj	O	
+10	arrived	arrive	VBD	VERB	7	relcl	O	
+11	in	in	IN	ADP	10	prep	O	
+12	1980	1980	CD	NUM	11	pobj	B	DATE
+13	as	as	IN	ADP	10	prep	O	
+14	an	an	DT	DET	15	det	O	
+15	outsider	outsider	NN	NOUN	13	pobj	O	
+16	to	to	IN	ADP	15	prep	O	
+17	a	a	DT	DET	18	det	O	
+18	city	city	NN	NOUN	16	pobj	O	
+19	enmeshed	enmesh	VBN	VERB	18	acl	O	
+20	in	in	IN	ADP	19	prep	O	
+21	a	a	DT	DET	23	det	O	
+22	bitter	bitter	JJ	ADJ	23	amod	O	
+23	dispute	dispute	NN	NOUN	20	pobj	O	
+24	over	over	IN	ADP	23	prep	O	
+25	school	school	NN	NOUN	26	compound	O	
+26	desegregation	desegregation	NN	NOUN	24	pobj	O	
+27	,	,	,	PUNCT	28	punct	O	
+28	helped	help	VBN	VERB	0	ROOT	O	
+29	move	move	VB	VERB	28	xcomp	O	
+30	the	the	DT	DET	32	det	O	
+31	school	school	NN	NOUN	32	compound	O	
+32	system	system	NN	NOUN	29	dobj	O	
+33	beyond	beyond	IN	ADP	29	prep	O	
+34	that	that	DT	DET	35	det	O	
+35	dispute	dispute	NN	NOUN	33	pobj	O	
+36	and	and	CC	CONJ	29	cc	O	
+37	establish	establish	VB	VERB	29	conj	O	
+38	it	it	PRP	PRON	37	dobj	O	
+39	as	as	IN	ADP	37	prep	O	
+40	a	a	DT	DET	42	det	O	
+41	national	national	JJ	ADJ	42	amod	O	
+42	model	model	NN	NOUN	39	pobj	O	
+43	of	of	IN	ADP	42	prep	O	
+44	reform	reform	NN	NOUN	43	pobj	O	
+45	.	.	.	PUNCT	28	punct	O	
+
+#id: sent1149
+#text: ` ` The thing to remember is Florida had an education governor , Bob Graham , and he made a substantial investment in schools long before other states were even thinking about reform. ' '
+1	`	`	''	PUNCT	0	ROOT	O	
+2	`	`	''	PUNCT	7	punct	O	
+3	The	the	DT	DET	4	det	O	
+4	thing	thing	NN	NOUN	7	nsubj	O	
+5	to	to	TO	PART	6	aux	O	
+6	remember	remember	VB	VERB	4	relcl	O	
+7	is	be	VBZ	VERB	0	ROOT	O	
+8	Florida	florida	NNP	PROPN	9	nsubj	B	GPE
+9	had	have	VBD	VERB	7	ccomp	O	
+10	an	an	DT	DET	12	det	O	
+11	education	education	NN	NOUN	12	compound	O	
+12	governor	governor	NN	NOUN	9	dobj	O	
+13	,	,	,	PUNCT	12	punct	O	
+14	Bob	bob	NNP	PROPN	15	compound	B	PERSON
+15	Graham	graham	NNP	PROPN	12	appos	I	PERSON
+16	,	,	,	PUNCT	9	punct	O	
+17	and	and	CC	CONJ	9	cc	O	
+18	he	he	PRP	PRON	19	nsubj	O	
+19	made	make	VBD	VERB	9	conj	O	
+20	a	a	DT	DET	22	det	O	
+21	substantial	substantial	JJ	ADJ	22	amod	O	
+22	investment	investment	NN	NOUN	19	dobj	O	
+23	in	in	IN	ADP	19	prep	O	
+24	schools	school	NNS	NOUN	23	pobj	O	
+25	long	long	RB	ADV	26	advmod	O	
+26	before	before	IN	ADP	19	prep	O	
+27	other	other	JJ	ADJ	28	amod	O	
+28	states	state	NNS	NOUN	26	pobj	O	
+29	we	-PRON-	PRP	PRON	32	nsubj	O	
+30	re	re	VBP	VERB	32	aux	O	
+31	even	even	RB	ADV	32	advmod	O	
+32	thinking	think	VBG	VERB	7	conj	O	
+33	about	about	IN	ADP	32	prep	O	
+34	reform	reform	NN	NOUN	33	pobj	O	
+35	.	.	.	PUNCT	32	punct	O	
+36	'	'	''	PUNCT	32	punct	O	
+37	'	'	''	PUNCT	32	punct	O	
+
+#id: sent1153
+#text: Still , many are encouraged by the election last year of Louisiana 's reform-minded governor , Buddy Roemer , a property tax increase last April , and a new , expanded school board .
+1	Still	still	RB	ADV	5	advmod	O	
+2	,	,	,	PUNCT	5	punct	O	
+3	many	many	JJ	ADJ	5	nsubjpass	O	
+4	are	be	VBP	VERB	5	auxpass	O	
+5	encouraged	encourage	VBN	VERB	0	ROOT	O	
+6	by	by	IN	ADP	5	agent	O	
+7	the	the	DT	DET	8	det	O	
+8	election	election	NN	NOUN	6	pobj	O	
+9	last	last	JJ	ADJ	10	amod	B	DATE
+10	year	year	NN	NOUN	5	npadvmod	I	DATE
+11	of	of	IN	ADP	10	prep	O	
+12	Louisiana	louisiana	NNP	PROPN	17	poss	B	GPE
+13	's	's	POS	PART	12	case	O	
+14	reform	reform	NN	NOUN	16	npadvmod	O	
+15	-	-	HYPH	PUNCT	16	punct	O	
+16	minded	minded	JJ	ADJ	17	amod	O	
+17	governor	governor	NN	NOUN	11	pobj	O	
+18	,	,	,	PUNCT	17	punct	O	
+19	Buddy	buddy	NNP	PROPN	20	compound	B	PERSON
+20	Roemer	roemer	NNP	PROPN	17	appos	I	PERSON
+21	,	,	,	PUNCT	20	punct	O	
+22	a	a	DT	DET	25	det	O	
+23	property	property	NN	NOUN	24	compound	O	
+24	tax	tax	NN	NOUN	25	compound	O	
+25	increase	increase	NN	NOUN	20	appos	O	
+26	last	last	JJ	ADJ	27	amod	B	DATE
+27	April	april	NNP	PROPN	17	npadvmod	I	DATE
+28	,	,	,	PUNCT	5	punct	O	
+29	and	and	CC	CONJ	5	cc	O	
+30	a	a	DT	DET	35	det	O	
+31	new	new	JJ	ADJ	35	amod	O	
+32	,	,	,	PUNCT	35	punct	O	
+33	expanded	expand	VBN	VERB	35	amod	O	
+34	school	school	NN	NOUN	35	compound	O	
+35	board	board	NN	NOUN	5	conj	O	
+36	.	.	.	PUNCT	5	punct	O	
+
+#id: sent1163
+#text: With exhilaration tempered by ` ` this deficit looming over everything , ' ' Bush takes office at noon Friday , convinced there is neither a need nor a mandate for dramatic change to put his imprint on the White House .
+1	With	with	IN	ADP	16	mark	O	
+2	exhilaration	exhilaration	NN	NOUN	16	advcl	O	
+3	tempered	temper	VBN	VERB	2	acl	O	
+4	by	by	IN	ADP	3	agent	O	
+5	`	`	''	PUNCT	9	punct	O	
+6	`	`	''	PUNCT	9	punct	O	
+7	this	this	DT	DET	8	det	O	
+8	deficit	deficit	NN	NOUN	9	nsubj	O	
+9	looming	loom	VBG	VERB	4	pcomp	O	
+10	over	over	IN	ADP	9	prep	O	
+11	everything	everything	NN	NOUN	10	pobj	O	
+12	,	,	,	PUNCT	9	punct	O	
+13	'	'	''	PUNCT	16	punct	O	
+14	'	'	``	PUNCT	16	punct	O	
+15	Bush	bush	NNP	PROPN	16	nsubj	B	PERSON
+16	takes	take	VBZ	VERB	22	advcl	O	
+17	office	office	NN	NOUN	16	dobj	O	
+18	at	at	IN	ADP	16	prep	O	
+19	noon	noon	NN	NOUN	18	pobj	B	TIME
+20	Friday	friday	NNP	PROPN	16	npadvmod	B	DATE
+21	,	,	,	PUNCT	22	punct	O	
+22	convinced	convinced	JJ	ADJ	0	ROOT	O	
+23	there	there	EX	ADV	24	expl	O	
+24	is	be	VBZ	VERB	22	ccomp	O	
+25	neither	neither	DT	DET	27	preconj	O	
+26	a	a	DT	DET	27	det	O	
+27	need	need	NN	NOUN	24	attr	O	
+28	nor	nor	CC	CONJ	27	cc	O	
+29	a	a	DT	DET	30	det	O	
+30	mandate	mandate	NN	NOUN	27	conj	O	
+31	for	for	IN	ADP	30	prep	O	
+32	dramatic	dramatic	JJ	ADJ	33	amod	O	
+33	change	change	NN	NOUN	31	pobj	O	
+34	to	to	TO	PART	35	aux	O	
+35	put	put	VB	VERB	30	acl	O	
+36	his	his	PRP$	ADJ	37	poss	O	
+37	imprint	imprint	NN	NOUN	35	dobj	O	
+38	on	on	IN	ADP	35	prep	O	
+39	the	the	DT	DET	41	det	B	ORG
+40	White	white	NNP	PROPN	41	compound	I	ORG
+41	House	house	NNP	PROPN	38	pobj	I	ORG
+42	.	.	.	PUNCT	22	punct	O	
+
+#id: sent1214
+#text: The timer valve manufactured by GE for the CFM56 engine on the 737 could not have caused the turbine to fail or threatened flight safety even if the valve malfunctioned , Kennedy said in telephone interview from his office in Cincinnati , where GE 's aircraft engine operations are based .
+1	The	the	DT	DET	3	det	O	
+2	timer	timer	NN	NOUN	3	compound	O	
+3	valve	valve	NN	NOUN	17	nsubj	O	
+4	manufactured	manufacture	VBN	VERB	3	acl	O	
+5	by	by	IN	ADP	4	agent	O	
+6	GE	ge	NNP	PROPN	5	pobj	B	ORG
+7	for	for	IN	ADP	4	prep	O	
+8	the	the	DT	DET	10	det	O	
+9	CFM56	cfm56	NNP	PROPN	10	compound	O	
+10	engine	engine	NN	NOUN	7	pobj	O	
+11	on	on	IN	ADP	4	prep	O	
+12	the	the	DT	DET	13	det	O	
+13	737	737	NN	NOUN	11	pobj	B	PRODUCT
+14	could	could	MD	VERB	17	aux	O	
+15	not	not	RB	ADV	17	neg	O	
+16	have	have	VB	VERB	17	aux	O	
+17	caused	cause	VBN	VERB	33	ccomp	O	
+18	the	the	DT	DET	19	det	O	
+19	turbine	turbine	NN	NOUN	21	nsubj	O	
+20	to	to	TO	PART	21	aux	O	
+21	fail	fail	VB	VERB	17	ccomp	O	
+22	or	or	CC	CONJ	21	cc	O	
+23	threatened	threaten	VBD	VERB	17	conj	O	
+24	flight	flight	NN	NOUN	25	compound	O	
+25	safety	safety	NN	NOUN	23	dobj	O	
+26	even	even	RB	ADV	30	advmod	O	
+27	if	if	IN	ADP	30	mark	O	
+28	the	the	DT	DET	29	det	O	
+29	valve	valve	NN	NOUN	30	nsubj	O	
+30	malfunctioned	malfunction	VBD	VERB	33	advcl	O	
+31	,	,	,	PUNCT	33	punct	O	
+32	Kennedy	kennedy	NNP	PROPN	33	nsubj	B	PERSON
+33	said	say	VBD	VERB	0	ROOT	O	
+34	in	in	IN	ADP	33	prep	O	
+35	telephone	telephone	NN	NOUN	36	compound	O	
+36	interview	interview	NN	NOUN	34	pobj	O	
+37	from	from	IN	ADP	36	prep	O	
+38	his	his	PRP$	ADJ	39	poss	O	
+39	office	office	NN	NOUN	37	pobj	O	
+40	in	in	IN	ADP	39	prep	O	
+41	Cincinnati	cincinnati	NNP	PROPN	40	pobj	B	GPE
+42	,	,	,	PUNCT	41	punct	O	
+43	where	where	WRB	ADV	50	advmod	O	
+44	GE	ge	NNP	PROPN	48	poss	B	ORG
+45	's	's	POS	PART	44	case	O	
+46	aircraft	aircraft	NN	NOUN	47	compound	O	
+47	engine	engine	NN	NOUN	48	compound	O	
+48	operations	operation	NNS	NOUN	50	nsubjpass	O	
+49	are	be	VBP	VERB	50	auxpass	O	
+50	based	base	VBN	VERB	41	relcl	O	
+51	.	.	.	PUNCT	33	punct	O	
+
+#id: sent1222
+#text: At the request of the Justice Department , all documents in the Divencenzo suit remained under seal until last Friday , when U.S. District Court Judge Carl Rubin denied a federal motion to allow the Justice Department until Feb. 1 to decide whether to join the case as a plaintiff .
+1	At	at	IN	ADP	15	prep	O	
+2	the	the	DT	DET	3	det	O	
+3	request	request	NN	NOUN	1	pobj	O	
+4	of	of	IN	ADP	3	prep	O	
+5	the	the	DT	DET	7	det	B	ORG
+6	Justice	justice	NNP	PROPN	7	compound	I	ORG
+7	Department	department	NNP	PROPN	4	pobj	I	ORG
+8	,	,	,	PUNCT	15	punct	O	
+9	all	all	DT	DET	10	det	O	
+10	documents	document	NNS	NOUN	15	nsubj	O	
+11	in	in	IN	ADP	10	prep	O	
+12	the	the	DT	DET	14	det	O	
+13	Divencenzo	divencenzo	NNP	PROPN	14	compound	B	GPE
+14	suit	suit	NN	NOUN	11	pobj	O	
+15	remained	remain	VBD	VERB	0	ROOT	O	
+16	under	under	IN	ADP	15	prep	O	
+17	seal	seal	NN	NOUN	16	pobj	O	
+18	until	until	IN	ADP	15	prep	O	
+19	last	last	JJ	ADJ	20	amod	B	DATE
+20	Friday	friday	NNP	PROPN	18	pobj	I	DATE
+21	,	,	,	PUNCT	20	punct	O	
+22	when	when	WRB	ADV	29	advmod	O	
+23	U.S.	u.s.	NNP	PROPN	25	compound	B	GPE
+24	District	district	NNP	PROPN	25	compound	B	ORG
+25	Court	court	NNP	PROPN	26	compound	I	ORG
+26	Judge	judge	NNP	PROPN	28	compound	O	
+27	Carl	carl	NNP	PROPN	28	compound	B	PERSON
+28	Rubin	rubin	NNP	PROPN	29	nsubj	I	PERSON
+29	denied	deny	VBD	VERB	15	advcl	O	
+30	a	a	DT	DET	32	det	O	
+31	federal	federal	JJ	ADJ	32	amod	O	
+32	motion	motion	NN	NOUN	29	dobj	O	
+33	to	to	TO	PART	34	aux	O	
+34	allow	allow	VB	VERB	32	acl	O	
+35	the	the	DT	DET	37	det	B	ORG
+36	Justice	justice	NNP	PROPN	37	compound	I	ORG
+37	Department	department	NNP	PROPN	34	dobj	I	ORG
+38	until	until	IN	ADP	34	prep	O	
+39	Feb.	feb.	NNP	PROPN	38	pobj	B	DATE
+40	1	1	CD	NUM	39	nummod	I	DATE
+41	to	to	TO	PART	42	aux	O	
+42	decide	decide	VB	VERB	34	advcl	O	
+43	whether	whether	IN	ADP	45	mark	O	
+44	to	to	TO	PART	45	aux	O	
+45	join	join	VB	VERB	42	xcomp	O	
+46	the	the	DT	DET	47	det	O	
+47	case	case	NN	NOUN	45	dobj	O	
+48	as	as	IN	ADP	45	prep	O	
+49	a	a	DT	DET	50	det	O	
+50	plaintiff	plaintiff	NN	NOUN	48	pobj	O	
+51	.	.	.	PUNCT	15	punct	O	
+
+#id: sent1228
+#text: The ` ` poison pill , ' ' ruled illegal in November by U.S. District G. Ernest Tidwell , would become effective after a shareholder had acquired 10 percent of the outstanding stock .
+1	The	the	DT	DET	5	det	O	
+2	`	`	''	PUNCT	5	punct	O	
+3	`	`	''	PUNCT	5	punct	O	
+4	poison	poison	NN	NOUN	5	compound	O	
+5	pill	pill	NN	NOUN	9	nsubj	O	
+6	,	,	,	PUNCT	9	punct	O	
+7	'	'	''	PUNCT	9	punct	O	
+8	'	'	''	PUNCT	9	punct	O	
+9	ruled	rule	VBD	VERB	21	parataxis	O	
+10	illegal	illegal	JJ	ADJ	9	acomp	O	
+11	in	in	IN	ADP	9	prep	O	
+12	November	november	NNP	PROPN	11	pobj	B	DATE
+13	by	by	IN	ADP	9	agent	O	
+14	U.S.	u.s.	NNP	PROPN	18	compound	B	GPE
+15	District	district	NNP	PROPN	16	compound	O	
+16	G.	g.	NNP	PROPN	18	compound	O	
+17	Ernest	ernest	NNP	PROPN	18	compound	O	
+18	Tidwell	tidwell	NNP	PROPN	13	pobj	O	
+19	,	,	,	PUNCT	9	punct	O	
+20	would	would	MD	VERB	21	aux	O	
+21	become	become	VB	VERB	0	ROOT	O	
+22	effective	effective	JJ	ADJ	21	acomp	O	
+23	after	after	IN	ADP	27	mark	O	
+24	a	a	DT	DET	25	det	O	
+25	shareholder	shareholder	NN	NOUN	27	nsubj	O	
+26	had	have	VBD	VERB	27	aux	O	
+27	acquired	acquire	VBN	VERB	21	advcl	O	
+28	10	10	CD	NUM	29	nummod	B	PERCENT
+29	percent	percent	NN	NOUN	27	dobj	I	PERCENT
+30	of	of	IN	ADP	29	prep	O	
+31	the	the	DT	DET	33	det	O	
+32	outstanding	outstanding	JJ	ADJ	33	amod	O	
+33	stock	stock	NN	NOUN	30	pobj	O	
+34	.	.	.	PUNCT	21	punct	O	
+
+#id: sent1254
+#text: U.S. Attorney Anton Valukas said the investigation into corrupt trading practices is still continuing .
+1	U.S.	u.s.	NNP	PROPN	2	compound	B	GPE
+2	Attorney	attorney	NNP	PROPN	4	compound	O	
+3	Anton	anton	NNP	PROPN	4	compound	B	PERSON
+4	Valukas	valukas	NNP	PROPN	5	nsubj	I	PERSON
+5	said	say	VBD	VERB	0	ROOT	O	
+6	the	the	DT	DET	7	det	O	
+7	investigation	investigation	NN	NOUN	14	nsubj	O	
+8	into	into	IN	ADP	7	prep	O	
+9	corrupt	corrupt	JJ	ADJ	11	amod	O	
+10	trading	trading	NN	NOUN	11	compound	O	
+11	practices	practice	NNS	NOUN	8	pobj	O	
+12	is	be	VBZ	VERB	14	aux	O	
+13	still	still	RB	ADV	14	advmod	O	
+14	continuing	continue	VBG	VERB	5	ccomp	O	
+15	.	.	.	PUNCT	5	punct	O	
+
+#id: sent1269
+#text: The government news agency Notimex reported later that leaders of the union 's locals had designated Ricardo Camero Cardiel , a local leader and senator from the northeastern city of Ciudad Madero , the union 's new secretary-general .
+1	The	the	DT	DET	4	det	O	
+2	government	government	NN	NOUN	4	compound	O	
+3	news	news	NN	NOUN	4	compound	O	
+4	agency	agency	NN	NOUN	6	nsubj	O	
+5	Notimex	notimex	NNP	PROPN	6	nsubj	B	ORG
+6	reported	report	VBD	VERB	0	ROOT	O	
+7	later	later	RB	ADV	6	advmod	O	
+8	that	that	IN	ADP	16	mark	O	
+9	leaders	leader	NNS	NOUN	16	nsubj	O	
+10	of	of	IN	ADP	9	prep	O	
+11	the	the	DT	DET	12	det	O	
+12	union	union	NN	NOUN	14	poss	O	
+13	's	's	POS	PART	12	case	O	
+14	locals	local	NNS	NOUN	10	pobj	O	
+15	had	have	VBD	VERB	16	aux	O	
+16	designated	designate	VBN	VERB	6	ccomp	O	
+17	Ricardo	ricardo	NNP	PROPN	19	compound	B	PERSON
+18	Camero	camero	NNP	PROPN	19	compound	I	PERSON
+19	Cardiel	cardiel	NNP	PROPN	16	dobj	I	PERSON
+20	,	,	,	PUNCT	19	punct	O	
+21	a	a	DT	DET	23	det	O	
+22	local	local	JJ	ADJ	23	amod	O	
+23	leader	leader	NN	NOUN	19	appos	O	
+24	and	and	CC	CONJ	23	cc	O	
+25	senator	senator	NN	NOUN	23	conj	O	
+26	from	from	IN	ADP	25	prep	O	
+27	the	the	DT	DET	29	det	O	
+28	northeastern	northeastern	JJ	ADJ	29	amod	O	
+29	city	city	NN	NOUN	26	pobj	O	
+30	of	of	IN	ADP	29	prep	O	
+31	Ciudad	ciudad	NNP	PROPN	32	compound	B	GPE
+32	Madero	madero	NNP	PROPN	30	pobj	I	GPE
+33	,	,	,	PUNCT	29	punct	O	
+34	the	the	DT	DET	35	det	O	
+35	union	union	NN	NOUN	40	poss	O	
+36	's	's	POS	PART	35	case	O	
+37	new	new	JJ	ADJ	40	amod	O	
+38	secretary	secretary	NN	NOUN	40	compound	O	
+39	-	-	HYPH	PUNCT	38	punct	O	
+40	general	general	JJ	ADJ	29	appos	O	
+41	.	.	.	PUNCT	6	punct	O	
+
+#id: sent1274
+#text: Hernandez Galicia was arrested when soldiers blew down his door with a bazooka in a raid on his Ciudad Madero home .
+1	Hernandez	hernandez	NNP	PROPN	2	compound	B	PERSON
+2	Galicia	galicia	NNP	PROPN	4	nsubjpass	I	PERSON
+3	was	be	VBD	VERB	4	auxpass	O	
+4	arrested	arrest	VBN	VERB	0	ROOT	O	
+5	when	when	WRB	ADV	7	advmod	O	
+6	soldiers	soldier	NNS	NOUN	7	nsubj	O	
+7	blew	blow	VBD	VERB	4	advcl	O	
+8	down	down	IN	ADP	7	prep	O	
+9	his	his	PRP$	ADJ	10	poss	O	
+10	door	door	NN	NOUN	8	pobj	O	
+11	with	with	IN	ADP	7	prep	O	
+12	a	a	DT	DET	13	det	O	
+13	bazooka	bazooka	NN	NOUN	11	pobj	O	
+14	in	in	IN	ADP	13	prep	O	
+15	a	a	DT	DET	16	det	O	
+16	raid	raid	NN	NOUN	14	pobj	O	
+17	on	on	IN	ADP	16	prep	O	
+18	his	his	PRP$	ADJ	21	poss	O	
+19	Ciudad	ciudad	NNP	PROPN	20	compound	B	ORG
+20	Madero	madero	NNP	PROPN	21	compound	I	ORG
+21	home	home	NN	NOUN	17	pobj	O	
+22	.	.	.	PUNCT	4	punct	O	
+
+#id: sent1304
+#text: ` ` This is really hurting Heuchelheim , ' ' the town 's mayor Willi Marx told The Associated Press in an interview at his office earlier this month .
+1	`	`	''	PUNCT	0	ROOT	O	
+2	`	`	''	PUNCT	1	punct	O	
+3	This	this	DT	DET	6	nsubj	O	
+4	is	be	VBZ	VERB	6	aux	O	
+5	really	really	RB	ADV	6	advmod	O	
+6	hurting	hurt	VBG	VERB	17	ccomp	O	
+7	Heuchelheim	heuchelheim	NNP	PROPN	6	dobj	B	PERSON
+8	,	,	,	PUNCT	17	punct	O	
+9	'	'	''	PUNCT	17	punct	O	
+10	'	'	''	PUNCT	16	punct	O	
+11	the	the	DT	DET	12	det	O	
+12	town	town	NN	NOUN	14	poss	O	
+13	's	's	POS	PART	12	case	O	
+14	mayor	mayor	NN	NOUN	16	compound	O	
+15	Willi	willi	NNP	PROPN	16	compound	B	PERSON
+16	Marx	marx	NNP	PROPN	17	nsubj	I	PERSON
+17	told	tell	VBD	VERB	0	ROOT	O	
+18	The	the	DT	DET	20	det	B	ORG
+19	Associated	associated	NNP	PROPN	20	compound	I	ORG
+20	Press	press	NNP	PROPN	17	dobj	I	ORG
+21	in	in	IN	ADP	17	prep	O	
+22	an	an	DT	DET	23	det	O	
+23	interview	interview	NN	NOUN	21	pobj	O	
+24	at	at	IN	ADP	23	prep	O	
+25	his	his	PRP$	ADJ	26	poss	O	
+26	office	office	NN	NOUN	24	pobj	O	
+27	earlier	earlier	RBR	ADV	29	advmod	B	DATE
+28	this	this	DT	DET	29	det	I	DATE
+29	month	month	NN	NOUN	17	npadvmod	I	DATE
+30	.	.	.	PUNCT	17	punct	O	
+
+#id: sent1306
+#text: Minox has not shown a profit since 1981 , and on April 1 , 1988 , Robert C. Corduwener , a Netherlands businessman bought a 51 percent share of the company to take control from the Rinn family .
+1	Minox	minox	NNP	PROPN	4	nsubj	B	ORG
+2	has	have	VBZ	VERB	4	aux	O	
+3	not	not	RB	ADV	4	neg	O	
+4	shown	show	VBN	VERB	0	ROOT	O	
+5	a	a	DT	DET	6	det	O	
+6	profit	profit	NN	NOUN	4	dobj	O	
+7	since	since	IN	ADP	4	prep	O	
+8	1981	1981	CD	NUM	7	pobj	B	DATE
+9	,	,	,	PUNCT	4	punct	O	
+10	and	and	CC	CONJ	4	cc	O	
+11	on	on	IN	ADP	24	prep	O	
+12	April	april	NNP	PROPN	11	pobj	B	DATE
+13	1	1	CD	NUM	12	nummod	I	DATE
+14	,	,	,	PUNCT	12	punct	I	DATE
+15	1988	1988	CD	NUM	12	appos	I	DATE
+16	,	,	,	PUNCT	24	punct	O	
+17	Robert	robert	NNP	PROPN	19	compound	B	PERSON
+18	C.	c.	NNP	PROPN	19	compound	I	PERSON
+19	Corduwener	corduwener	NNP	PROPN	24	nsubj	I	PERSON
+20	,	,	,	PUNCT	19	punct	O	
+21	a	a	DT	DET	23	det	O	
+22	Netherlands	netherlands	NNP	PROPN	23	compound	B	GPE
+23	businessman	businessman	NN	NOUN	19	appos	O	
+24	bought	buy	VBD	VERB	4	conj	O	
+25	a	a	DT	DET	28	det	O	
+26	51	51	CD	NUM	27	nummod	B	PERCENT
+27	percent	percent	NN	NOUN	28	compound	I	PERCENT
+28	share	share	NN	NOUN	24	dobj	O	
+29	of	of	IN	ADP	28	prep	O	
+30	the	the	DT	DET	31	det	O	
+31	company	company	NN	NOUN	29	pobj	O	
+32	to	to	TO	PART	33	aux	O	
+33	take	take	VB	VERB	28	relcl	O	
+34	control	control	NN	NOUN	33	dobj	O	
+35	from	from	IN	ADP	33	prep	O	
+36	the	the	DT	DET	38	det	O	
+37	Rinn	rinn	NNP	PROPN	38	compound	B	PERSON
+38	family	family	NN	NOUN	35	pobj	O	
+39	.	.	.	PUNCT	24	punct	O	
+
+#id: sent1336
+#text: Guy M. Struve , the New York attorney representing Church 's , said he was disappointed and did not know when the chain would decide whether to appeal Thursday 's ruling .
+1	Guy	guy	NNP	PROPN	3	compound	B	PERSON
+2	M.	m.	NNP	PROPN	3	compound	I	PERSON
+3	Struve	struve	NNP	PROPN	13	nsubj	I	PERSON
+4	,	,	,	PUNCT	3	punct	O	
+5	the	the	DT	DET	8	det	O	
+6	New	new	NNP	PROPN	7	compound	B	GPE
+7	York	york	NNP	PROPN	8	compound	I	GPE
+8	attorney	attorney	NN	NOUN	3	appos	O	
+9	representing	represent	VBG	VERB	8	acl	O	
+10	Church	church	NNP	PROPN	13	nsubj	B	ORG
+11	's	's	POS	PART	10	case	I	ORG
+12	,	,	,	PUNCT	13	punct	O	
+13	said	say	VBD	VERB	0	ROOT	O	
+14	he	he	PRP	PRON	15	nsubj	O	
+15	was	be	VBD	VERB	13	ccomp	O	
+16	disappointed	disappointed	JJ	ADJ	15	acomp	O	
+17	and	and	CC	CONJ	15	cc	O	
+18	did	do	VBD	VERB	20	aux	O	
+19	not	not	RB	ADV	20	neg	O	
+20	know	know	VB	VERB	15	conj	O	
+21	when	when	WRB	ADV	25	advmod	O	
+22	the	the	DT	DET	23	det	O	
+23	chain	chain	NN	NOUN	25	nsubj	O	
+24	would	would	MD	VERB	25	aux	O	
+25	decide	decide	VB	VERB	20	ccomp	O	
+26	whether	whether	IN	ADP	28	mark	O	
+27	to	to	TO	PART	28	aux	O	
+28	appeal	appeal	VB	VERB	25	ccomp	O	
+29	Thursday	thursday	NNP	PROPN	31	poss	B	DATE
+30	's	's	POS	PART	29	case	O	
+31	ruling	ruling	NN	NOUN	28	dobj	O	
+32	.	.	.	PUNCT	13	punct	O	
+
+#id: sent1345
+#text: Further buying was linked to rumors that the Chilean copper company Codelco was considering shutting down its smelter at Chuquicamata , the world 's largest copper mine , due to persistent mechanical problems , said Fred Demler , metals economist with Drexel Burnham Lambert Inc. in New York .
+1	Further	further	RB	ADV	4	advmod	O	
+2	buying	buying	NN	NOUN	4	nsubjpass	O	
+3	was	be	VBD	VERB	4	auxpass	O	
+4	linked	link	VBN	VERB	35	ccomp	O	
+5	to	to	IN	ADP	4	prep	O	
+6	rumors	rumor	NNS	NOUN	5	pobj	O	
+7	that	that	IN	ADP	14	mark	O	
+8	the	the	DT	DET	11	det	O	
+9	Chilean	chilean	JJ	ADJ	11	amod	B	NORP
+10	copper	copper	NN	NOUN	11	compound	O	
+11	company	company	NN	NOUN	14	nsubj	O	
+12	Codelco	codelco	NNP	PROPN	11	appos	B	ORG
+13	was	be	VBD	VERB	14	aux	O	
+14	considering	consider	VBG	VERB	6	acl	O	
+15	shutting	shut	VBG	VERB	14	xcomp	O	
+16	down	down	RP	PART	15	prt	O	
+17	its	its	PRP$	ADJ	18	poss	O	
+18	smelter	smelter	NN	NOUN	15	dobj	O	
+19	at	at	IN	ADP	18	prep	O	
+20	Chuquicamata	chuquicamata	NNP	PROPN	19	pobj	B	GPE
+21	,	,	,	PUNCT	20	punct	O	
+22	the	the	DT	DET	23	det	O	
+23	world	world	NN	NOUN	27	poss	O	
+24	's	's	POS	PART	23	case	O	
+25	largest	large	JJS	ADJ	27	amod	O	
+26	copper	copper	NN	NOUN	27	compound	O	
+27	mine	mine	NN	NOUN	20	appos	O	
+28	,	,	,	PUNCT	20	punct	O	
+29	due	due	IN	ADP	15	prep	O	
+30	to	to	IN	ADP	29	pcomp	O	
+31	persistent	persistent	JJ	ADJ	33	amod	O	
+32	mechanical	mechanical	JJ	ADJ	33	amod	O	
+33	problems	problem	NNS	NOUN	29	pobj	O	
+34	,	,	,	PUNCT	35	punct	O	
+35	said	say	VBD	VERB	0	ROOT	O	
+36	Fred	fred	NNP	PROPN	37	compound	B	PERSON
+37	Demler	demler	NNP	PROPN	35	nsubj	I	PERSON
+38	,	,	,	PUNCT	37	punct	O	
+39	metals	metal	NNS	NOUN	40	compound	O	
+40	economist	economist	NN	NOUN	37	appos	O	
+41	with	with	IN	ADP	40	prep	O	
+42	Drexel	drexel	NNP	PROPN	45	compound	B	ORG
+43	Burnham	burnham	NNP	PROPN	45	compound	I	ORG
+44	Lambert	lambert	NNP	PROPN	45	compound	I	ORG
+45	Inc.	inc.	NNP	PROPN	41	pobj	I	ORG
+46	in	in	IN	ADP	45	prep	O	
+47	New	new	NNP	PROPN	48	compound	B	GPE
+48	York	york	NNP	PROPN	46	pobj	I	GPE
+49	.	.	.	PUNCT	35	punct	O	
+
+#id: sent1366
+#text: The disclosure was contained in a half-inch-thick statement from James Cirona , president of the Federal Home Loan Bank of San Francisco .
+1	The	the	DT	DET	2	det	O	
+2	disclosure	disclosure	NN	NOUN	4	nsubjpass	O	
+3	was	be	VBD	VERB	4	auxpass	O	
+4	contained	contain	VBN	VERB	0	ROOT	O	
+5	in	in	IN	ADP	4	prep	O	
+6	a	a	DT	DET	12	det	O	
+7	half	half	NN	NOUN	9	amod	O	
+8	-	-	HYPH	PUNCT	9	punct	O	
+9	inch	inch	NN	NOUN	11	npadvmod	O	
+10	-	-	HYPH	PUNCT	11	punct	O	
+11	thick	thick	JJ	ADJ	12	amod	O	
+12	statement	statement	NN	NOUN	5	pobj	O	
+13	from	from	IN	ADP	12	prep	O	
+14	James	james	NNP	PROPN	15	compound	B	PERSON
+15	Cirona	cirona	NNP	PROPN	13	pobj	I	PERSON
+16	,	,	,	PUNCT	15	punct	O	
+17	president	president	NN	NOUN	15	appos	O	
+18	of	of	IN	ADP	17	prep	O	
+19	the	the	DT	DET	23	det	B	ORG
+20	Federal	federal	NNP	PROPN	23	compound	I	ORG
+21	Home	home	NNP	PROPN	23	compound	I	ORG
+22	Loan	loan	NNP	PROPN	23	compound	I	ORG
+23	Bank	bank	NNP	PROPN	18	pobj	I	ORG
+24	of	of	IN	ADP	23	prep	O	
+25	San	san	NNP	PROPN	26	compound	B	GPE
+26	Francisco	francisco	NNP	PROPN	24	pobj	I	GPE
+27	.	.	.	PUNCT	4	punct	O	
+
+#id: sent1405
+#text: ` ` He was going pretty fast , wasn 't he ? ' ' said Daniel Urquhart , 8 , of Aumsville , whose slug crept to the championship.
+1	`	`	''	PUNCT	11	punct	O	
+2	`	`	''	PUNCT	5	punct	O	
+3	He	he	PRP	PRON	5	nsubj	O	
+4	was	be	VBD	VERB	5	aux	O	
+5	going	go	VBG	VERB	11	acl	O	
+6	pretty	pretty	RB	ADV	7	advmod	O	
+7	fast	fast	RB	ADV	5	advmod	O	
+8	,	,	,	PUNCT	11	punct	O	
+9	wasn	wasn	NN	NOUN	11	nmod	O	
+10	'	'	''	PUNCT	11	punct	O	
+11	t	t	NN	NOUN	16	nsubj	O	
+12	he	he	PRP	PRON	11	nsubj	O	
+13	?	?	.	PUNCT	11	punct	O	
+14	'	'	''	PUNCT	11	punct	O	
+15	'	'	''	PUNCT	16	punct	O	
+16	said	say	VBD	VERB	0	ROOT	O	
+17	Daniel	daniel	NNP	PROPN	18	compound	B	PERSON
+18	Urquhart	urquhart	NNP	PROPN	16	nsubj	I	PERSON
+19	,	,	,	PUNCT	18	punct	O	
+20	8	8	CD	NUM	18	appos	B	DATE
+21	,	,	,	PUNCT	18	punct	O	
+22	of	of	IN	ADP	18	prep	O	
+23	Aumsville	aumsville	NNP	PROPN	22	pobj	B	GPE
+24	,	,	,	PUNCT	18	punct	O	
+25	whose	whose	WP$	ADJ	26	poss	O	
+26	slug	slug	NN	NOUN	27	nsubj	O	
+27	crept	creep	VBD	VERB	18	relcl	O	
+28	to	to	IN	ADP	27	prep	O	
+29	the	the	DT	DET	30	det	O	
+30	championship	championship	NN	NOUN	28	pobj	O	
+31	.	.	.	PUNCT	16	punct	O	
+
+#id: sent1415
+#text: Text of the statement issued by the Organization of the Oppressed on Earth claiming U.S. Marine Lt. William R. Higgins was hanged.
+1	Text	text	NNP	PROPN	0	ROOT	O	
+2	of	of	IN	ADP	1	prep	O	
+3	the	the	DT	DET	4	det	O	
+4	statement	statement	NN	NOUN	2	pobj	O	
+5	issued	issue	VBN	VERB	4	acl	O	
+6	by	by	IN	ADP	5	agent	O	
+7	the	the	DT	DET	8	det	B	ORG
+8	Organization	organization	NNP	PROPN	6	pobj	I	ORG
+9	of	of	IN	ADP	8	prep	I	ORG
+10	the	the	DT	DET	11	det	I	ORG
+11	Oppressed	oppressed	NNP	PROPN	9	pobj	I	ORG
+12	on	on	IN	ADP	5	prep	I	ORG
+13	Earth	earth	NNP	PROPN	12	pobj	I	ORG
+14	claiming	claim	VBG	VERB	4	acl	O	
+15	U.S.	u.s.	NNP	PROPN	17	compound	B	ORG
+16	Marine	marine	NNP	PROPN	17	compound	I	ORG
+17	Lt	lt	NNP	PROPN	14	dobj	I	ORG
+18	.	.	.	PUNCT	1	punct	O	
+19	William	william	NNP	PROPN	21	compound	B	PERSON
+20	R.	r.	NNP	PROPN	21	compound	I	PERSON
+21	Higgins	higgins	NNP	PROPN	23	nsubjpass	I	PERSON
+22	was	be	VBD	VERB	23	auxpass	O	
+23	hanged	hang	VBN	VERB	0	ROOT	O	
+24	.	.	.	PUNCT	23	punct	O	
+
+#id: sent1417
+#text: In the name of God , the Merciful , the Compassionate , Since criminal America and the Zionist enemy did not take our decision to execute American spy Higgins seriously , and since Sheik Abdul Karim Obeid and his two brethren were not freed by the specified deadline out of disdain for our ultimatum , the life of Higgins and our sacred sanctities , and to implement God 's just will , the execution of American spy Higgins has been carried out by hanging at 3 p.m. this Monday afternoon 28 Zul Hijja , 1409 Hegira , which coincides with July 31 , 1989 A.D. He will be an example for those who fear the day of reckoning.
+1	In	in	IN	ADP	22	prep	O	
+2	the	the	DT	DET	3	det	O	
+3	name	name	NN	NOUN	1	pobj	O	
+4	of	of	IN	ADP	3	prep	O	
+5	God	god	NNP	PROPN	4	pobj	O	
+6	,	,	,	PUNCT	5	punct	O	
+7	the	the	DT	DET	8	det	O	
+8	Merciful	merciful	JJ	ADJ	5	appos	O	
+9	,	,	,	PUNCT	5	punct	O	
+10	the	the	DT	DET	11	det	O	
+11	Compassionate	compassionate	JJ	ADJ	5	appos	O	
+12	,	,	,	PUNCT	22	punct	O	
+13	Since	since	IN	ADP	22	mark	O	
+14	criminal	criminal	JJ	ADJ	15	amod	O	
+15	America	america	NNP	PROPN	22	nsubj	B	GPE
+16	and	and	CC	CONJ	15	cc	O	
+17	the	the	DT	DET	19	det	O	
+18	Zionist	zionist	JJ	ADJ	19	amod	B	NORP
+19	enemy	enemy	NN	NOUN	15	conj	O	
+20	did	do	VBD	VERB	22	aux	O	
+21	not	not	RB	ADV	22	neg	O	
+22	take	take	VB	VERB	0	ROOT	O	
+23	our	our	PRP$	ADJ	24	poss	O	
+24	decision	decision	NN	NOUN	22	dobj	O	
+25	to	to	TO	PART	26	aux	O	
+26	execute	execute	VB	VERB	24	acl	O	
+27	American	american	JJ	ADJ	28	amod	B	NORP
+28	spy	spy	NN	NOUN	26	dobj	O	
+29	Higgins	higgins	NNP	PROPN	30	advmod	B	PERSON
+30	seriously	seriously	RB	ADV	26	advmod	O	
+31	,	,	,	PUNCT	22	punct	O	
+32	and	and	CC	CONJ	22	cc	O	
+33	since	since	IN	ADP	45	mark	O	
+34	Sheik	sheik	NNP	PROPN	37	compound	O	
+35	Abdul	abdul	NNP	PROPN	37	compound	B	PERSON
+36	Karim	karim	NNP	PROPN	37	compound	I	PERSON
+37	Obeid	obeid	NNP	PROPN	45	nsubjpass	I	PERSON
+38	and	and	CC	CONJ	37	cc	O	
+39	his	his	PRP$	ADJ	41	poss	O	
+40	two	two	CD	NUM	41	nummod	B	CARDINAL
+41	brethren	brother	NNS	NOUN	37	conj	O	
+42	we	-PRON-	PRP	PRON	45	nsubj	O	
+43	re	re	VBP	VERB	45	advmod	O	
+44	not	not	RB	ADV	45	neg	O	
+45	freed	free	VBN	VERB	82	advcl	O	
+46	by	by	IN	ADP	45	agent	O	
+47	the	the	DT	DET	49	det	O	
+48	specified	specify	VBN	VERB	49	amod	O	
+49	deadline	deadline	NN	NOUN	46	pobj	O	
+50	out	out	IN	ADP	45	prep	O	
+51	of	of	IN	ADP	50	prep	O	
+52	disdain	disdain	NN	NOUN	51	pobj	O	
+53	for	for	IN	ADP	52	prep	O	
+54	our	our	PRP$	ADJ	55	poss	O	
+55	ultimatum	ultimatum	NN	NOUN	53	pobj	O	
+56	,	,	,	PUNCT	45	punct	O	
+57	the	the	DT	DET	58	det	O	
+58	life	life	NN	NOUN	82	nsubjpass	O	
+59	of	of	IN	ADP	58	prep	O	
+60	Higgins	higgins	NNP	PROPN	59	pobj	B	PERSON
+61	and	and	CC	CONJ	60	cc	O	
+62	our	our	PRP$	ADJ	64	poss	O	
+63	sacred	sacred	JJ	ADJ	64	amod	O	
+64	sanctities	sanctity	NNS	NOUN	60	conj	O	
+65	,	,	,	PUNCT	64	punct	O	
+66	and	and	CC	CONJ	58	cc	O	
+67	to	to	TO	PART	68	aux	O	
+68	implement	implement	VB	VERB	58	conj	O	
+69	God	god	NNP	PROPN	72	poss	O	
+70	's	's	POS	PART	69	case	O	
+71	just	just	RB	ADV	72	advmod	O	
+72	will	will	MD	VERB	68	dobj	O	
+73	,	,	,	PUNCT	82	punct	O	
+74	the	the	DT	DET	75	det	O	
+75	execution	execution	NN	NOUN	82	nsubjpass	O	
+76	of	of	IN	ADP	75	prep	O	
+77	American	american	JJ	ADJ	78	amod	B	NORP
+78	spy	spy	NN	NOUN	76	pobj	O	
+79	Higgins	higgins	NNP	PROPN	82	nsubjpass	B	PERSON
+80	has	have	VBZ	VERB	82	aux	O	
+81	been	be	VBN	VERB	82	auxpass	O	
+82	carried	carry	VBN	VERB	22	conj	O	
+83	out	out	RP	PART	82	prt	O	
+84	by	by	IN	ADP	82	prep	O	
+85	hanging	hang	VBG	VERB	84	pcomp	O	
+86	at	at	IN	ADP	85	prep	O	
+87	3	3	CD	NUM	88	nummod	B	TIME
+88	p.m.	p.m.	NN	NOUN	86	pobj	I	TIME
+89	this	this	DT	DET	91	det	B	DATE
+90	Monday	monday	NNP	PROPN	91	compound	I	DATE
+91	afternoon	afternoon	NN	NOUN	85	npadvmod	O	
+92	28	28	CD	NUM	94	nummod	B	CARDINAL
+93	Zul	zul	NNP	PROPN	94	compound	B	PERSON
+94	Hijja	hijja	NNP	PROPN	91	appos	I	PERSON
+95	,	,	,	PUNCT	82	punct	O	
+96	1409	1409	CD	NUM	97	nummod	O	
+97	Hegira	hegira	NNP	PROPN	82	appos	B	ORG
+98	,	,	,	PUNCT	97	punct	O	
+99	which	which	WDT	ADJ	100	nsubj	O	
+100	coincides	coincide	VBZ	VERB	97	relcl	O	
+101	with	with	IN	ADP	100	prep	O	
+102	July	july	NNP	PROPN	101	pobj	B	DATE
+103	31	31	CD	NUM	102	nummod	I	DATE
+104	,	,	,	PUNCT	102	punct	I	DATE
+105	1989	1989	CD	NUM	102	nummod	I	DATE
+106	A.D.	a.d.	NN	NOUN	109	nsubj	I	DATE
+107	He	he	PRP	PRON	109	nsubj	O	
+108	will	will	MD	VERB	109	aux	O	
+109	be	be	VB	VERB	97	nmod	O	
+110	an	an	DT	DET	111	det	O	
+111	example	example	NN	NOUN	109	attr	O	
+112	for	for	IN	ADP	111	prep	O	
+113	those	those	DT	DET	112	pobj	O	
+114	who	who	WP	NOUN	115	nsubj	O	
+115	fear	fear	VBP	VERB	113	relcl	O	
+116	the	the	DT	DET	117	det	O	
+117	day	day	NN	NOUN	115	dobj	O	
+118	of	of	IN	ADP	117	prep	O	
+119	reckoning	reckoning	NN	NOUN	118	pobj	O	
+120	.	.	.	PUNCT	109	punct	O	
+
+#id: sent1434
+#text: In southwest Louisiana 's Cameron Parish ( county ) , civil defense director Hayes Picou about 8 , 500 of the low-lying parish 's 10 , 000 residents had evacuated the southern coast , most to stay with friends or relatives.
+1	In	in	IN	ADP	32	prep	O	
+2	southwest	southwest	JJ	ADJ	3	compound	O	
+3	Louisiana	louisiana	NNP	PROPN	6	poss	B	GPE
+4	's	's	POS	PART	3	case	O	
+5	Cameron	cameron	NNP	PROPN	6	compound	B	FAC
+6	Parish	parish	NNP	PROPN	1	pobj	I	FAC
+7	(	(	-LRB-	PUNCT	8	punct	O	
+8	county	county	NN	NOUN	6	appos	O	
+9	)	)	-RRB-	PUNCT	8	punct	O	
+10	,	,	,	PUNCT	8	punct	O	
+11	civil	civil	JJ	ADJ	12	amod	O	
+12	defense	defense	NN	NOUN	13	compound	O	
+13	director	director	NN	NOUN	15	compound	O	
+14	Hayes	hayes	NNP	PROPN	15	compound	B	PERSON
+15	Picou	picou	NNP	PROPN	32	nsubj	I	PERSON
+16	about	about	IN	ADP	17	advmod	O	
+17	8	8	CD	NUM	15	nummod	O	
+18	,	,	,	PUNCT	15	punct	O	
+19	500	500	CD	NUM	15	nummod	B	CARDINAL
+20	of	of	IN	ADP	15	prep	O	
+21	the	the	DT	DET	25	det	O	
+22	low	low	JJ	ADJ	24	advmod	O	
+23	-	-	HYPH	PUNCT	24	punct	O	
+24	lying	lie	VBG	VERB	25	amod	O	
+25	parish	parish	NN	NOUN	30	poss	O	
+26	's	's	POS	PART	25	case	O	
+27	10	10	CD	NUM	29	dep	B	CARDINAL
+28	,	,	,	PUNCT	29	punct	O	
+29	000	000	CD	NUM	30	nummod	B	CARDINAL
+30	residents	resident	NNS	NOUN	20	pobj	O	
+31	had	have	VBD	VERB	32	aux	O	
+32	evacuated	evacuate	VBN	VERB	0	ROOT	O	
+33	the	the	DT	DET	35	det	O	
+34	southern	southern	JJ	ADJ	35	amod	O	
+35	coast	coast	NN	NOUN	32	dobj	O	
+36	,	,	,	PUNCT	32	punct	O	
+37	most	most	JJS	ADJ	39	nsubj	O	
+38	to	to	TO	PART	39	aux	O	
+39	stay	stay	VB	VERB	32	advcl	O	
+40	with	with	IN	ADP	39	prep	O	
+41	friends	friend	NNS	NOUN	40	pobj	O	
+42	or	or	CC	CONJ	41	cc	O	
+43	relatives	relative	NNS	NOUN	41	conj	O	
+44	.	.	.	PUNCT	32	punct	O	
+
+#id: sent1483
+#text: The Quayles ' children _ Tucker , 15 , Benjamin , 12 , and Corinne , 10 _ live on the top floor of the three-story building , which is on the rolling grounds of the Naval Observatory in northwest Washington and was built in 1894.
+1	The	the	DT	DET	2	det	O	
+2	Quayles	quayles	NNPS	PROPN	4	poss	O	
+3	'	'	POS	PART	2	case	O	
+4	children	child	NNS	NOUN	19	nsubj	O	
+5	_	_	POS	PART	6	compound	O	
+6	Tucker	tucker	NNP	PROPN	4	appos	O	
+7	,	,	,	PUNCT	6	punct	O	
+8	15	15	CD	NUM	6	conj	B	CARDINAL
+9	,	,	,	PUNCT	6	punct	O	
+10	Benjamin	benjamin	NNP	PROPN	6	conj	O	
+11	,	,	,	PUNCT	6	punct	O	
+12	12	12	CD	NUM	6	appos	B	DATE
+13	,	,	,	PUNCT	6	punct	O	
+14	and	and	CC	CONJ	6	cc	O	
+15	Corinne	corinne	NNP	PROPN	6	conj	B	PERSON
+16	,	,	,	PUNCT	6	punct	O	
+17	10	10	CD	NUM	19	nsubj	B	CARDINAL
+18	_	_	TO	PART	19	advmod	O	
+19	live	live	VB	VERB	0	ROOT	O	
+20	on	on	IN	ADP	19	prep	O	
+21	the	the	DT	DET	23	det	O	
+22	top	top	JJ	ADJ	23	amod	O	
+23	floor	floor	NN	NOUN	20	pobj	O	
+24	of	of	IN	ADP	23	prep	O	
+25	the	the	DT	DET	29	det	O	
+26	three	three	CD	NUM	28	nummod	B	CARDINAL
+27	-	-	HYPH	PUNCT	28	punct	O	
+28	story	story	NN	NOUN	29	compound	O	
+29	building	building	NN	NOUN	24	pobj	O	
+30	,	,	,	PUNCT	29	punct	O	
+31	which	which	WDT	ADJ	32	nsubj	O	
+32	is	be	VBZ	VERB	29	relcl	O	
+33	on	on	IN	ADP	32	prep	O	
+34	the	the	DT	DET	36	det	O	
+35	rolling	rolling	JJ	ADJ	36	amod	O	
+36	grounds	ground	NNS	NOUN	33	pobj	O	
+37	of	of	IN	ADP	36	prep	O	
+38	the	the	DT	DET	40	det	B	ORG
+39	Naval	naval	NNP	PROPN	40	compound	I	ORG
+40	Observatory	observatory	NNP	PROPN	37	pobj	I	ORG
+41	in	in	IN	ADP	40	prep	O	
+42	northwest	northwest	JJ	ADJ	43	compound	O	
+43	Washington	washington	NNP	PROPN	41	pobj	B	GPE
+44	and	and	CC	CONJ	32	cc	O	
+45	was	be	VBD	VERB	46	auxpass	O	
+46	built	build	VBN	VERB	19	advcl	O	
+47	in	in	IN	ADP	46	prep	O	
+48	1894	1894	CD	NUM	47	pobj	B	DATE
+49	.	.	.	PUNCT	19	punct	O	
+
+#id: sent1500
+#text: ` ` We were there six days unsupported , ' ' said society co-leader Richard Taylor , an Atlanta architect.
+1	`	`	''	PUNCT	0	ROOT	O	
+2	`	`	''	PUNCT	13	punct	O	
+3	We	we	PRP	PRON	5	nsubj	O	
+4	we	-PRON-	PRP	PRON	5	nsubj	O	
+5	re	re	VBP	VERB	13	ccomp	O	
+6	there	there	RB	ADV	5	advmod	O	
+7	six	six	CD	NUM	8	nummod	B	DATE
+8	days	day	NNS	NOUN	5	npadvmod	I	DATE
+9	unsupported	unsupported	JJ	ADJ	5	advcl	O	
+10	,	,	,	PUNCT	5	punct	O	
+11	'	'	''	PUNCT	5	punct	O	
+12	'	'	''	PUNCT	13	punct	O	
+13	said	say	VBD	VERB	0	ROOT	O	
+14	society	society	NN	NOUN	17	compound	O	
+15	co	co	IN	ADP	17	compound	O	
+16	-	-	HYPH	PUNCT	15	punct	O	
+17	leader	leader	NN	NOUN	19	compound	O	
+18	Richard	richard	NNP	PROPN	19	compound	B	PERSON
+19	Taylor	taylor	NNP	PROPN	13	nsubj	I	PERSON
+20	,	,	,	PUNCT	19	punct	O	
+21	an	an	DT	DET	23	det	O	
+22	Atlanta	atlanta	NNP	PROPN	23	compound	B	GPE
+23	architect	architect	NN	NOUN	19	appos	O	
+24	.	.	.	PUNCT	13	punct	O	
+
+#id: sent1501
+#text: ` ` We 'd play hearts for hours at a time , ' ' said Atlanta businessman Neil Estes.
+1	`	`	''	PUNCT	15	punct	O	
+2	`	`	''	PUNCT	5	punct	O	
+3	We	we	PRP	PRON	5	nsubj	O	
+4	'd	'd	MD	VERB	5	aux	O	
+5	play	play	VB	VERB	15	ccomp	O	
+6	hearts	heart	NNS	NOUN	5	dobj	O	
+7	for	for	IN	ADP	5	prep	O	
+8	hours	hour	NNS	NOUN	7	pobj	B	TIME
+9	at	at	IN	ADP	5	prep	O	
+10	a	a	DT	DET	11	det	O	
+11	time	time	NN	NOUN	9	pobj	O	
+12	,	,	,	PUNCT	5	punct	O	
+13	'	'	''	PUNCT	5	punct	O	
+14	'	'	''	PUNCT	15	punct	O	
+15	said	say	VBD	VERB	0	ROOT	O	
+16	Atlanta	atlanta	NNP	PROPN	17	compound	B	GPE
+17	businessman	businessman	NN	NOUN	19	compound	O	
+18	Neil	neil	NNP	PROPN	19	compound	B	PERSON
+19	Estes	estes	NNP	PROPN	15	nsubj	I	PERSON
+20	.	.	.	PUNCT	15	punct	O	
+
+#id: sent1505
+#text: Epps credited Norman Vaughan , 83 , of Trapper Creek , Alaska , the last man to see the planes , with keeping the expedition 's hopes alive.
+1	Epps	epps	NNP	PROPN	2	nsubj	B	PERSON
+2	credited	credit	VBD	VERB	0	ROOT	O	
+3	Norman	norman	NNP	PROPN	4	compound	B	PERSON
+4	Vaughan	vaughan	NNP	PROPN	2	dobj	I	PERSON
+5	,	,	,	PUNCT	4	punct	O	
+6	83	83	CD	NUM	4	appos	B	DATE
+7	,	,	,	PUNCT	4	punct	O	
+8	of	of	IN	ADP	4	prep	O	
+9	Trapper	trapper	NNP	PROPN	10	compound	B	GPE
+10	Creek	creek	NNP	PROPN	8	pobj	I	GPE
+11	,	,	,	PUNCT	10	punct	O	
+12	Alaska	alaska	NNP	PROPN	10	appos	B	GPE
+13	,	,	,	PUNCT	10	punct	O	
+14	the	the	DT	DET	16	det	O	
+15	last	last	JJ	ADJ	16	amod	O	
+16	man	man	NN	NOUN	4	appos	O	
+17	to	to	TO	PART	18	aux	O	
+18	see	see	VB	VERB	2	xcomp	O	
+19	the	the	DT	DET	20	det	O	
+20	planes	plane	NNS	NOUN	18	dobj	O	
+21	,	,	,	PUNCT	18	punct	O	
+22	with	with	IN	ADP	18	prep	O	
+23	keeping	keep	VBG	VERB	22	pcomp	O	
+24	the	the	DT	DET	25	det	O	
+25	expedition	expedition	NN	NOUN	27	poss	O	
+26	's	's	POS	PART	25	case	O	
+27	hopes	hope	NNS	NOUN	23	dobj	O	
+28	alive	alive	JJ	ADJ	23	oprd	O	
+29	.	.	.	PUNCT	2	punct	O	
+
+#id: sent1523
+#text: ` ` What we have witnessed , in the Israeli retaliation in kind for the kidnapping of their people , ( is ) that violence truly does beget violence and that I hope the United States will use this opportunity for reconciliation rather than retaliation , ' ' Mrs. Say said in an interview from her home near Cadiz in western Kentucky.
+1	`	`	''	PUNCT	51	punct	O	
+2	`	`	''	PUNCT	22	punct	O	
+3	What	what	WP	NOUN	6	dobj	O	
+4	we	we	PRP	PRON	6	nsubj	O	
+5	have	have	VBP	VERB	6	aux	O	
+6	witnessed	witness	VBN	VERB	22	csubj	O	
+7	,	,	,	PUNCT	22	punct	O	
+8	in	in	IN	ADP	22	prep	O	
+9	the	the	DT	DET	11	det	O	
+10	Israeli	israeli	JJ	ADJ	11	amod	B	NORP
+11	retaliation	retaliation	NN	NOUN	8	pobj	O	
+12	in	in	IN	ADP	11	prep	O	
+13	kind	kind	RB	ADV	12	pobj	O	
+14	for	for	IN	ADP	11	prep	O	
+15	the	the	DT	DET	16	det	O	
+16	kidnapping	kidnapping	NN	NOUN	14	pobj	O	
+17	of	of	IN	ADP	16	prep	O	
+18	their	their	PRP$	ADJ	19	poss	O	
+19	people	people	NNS	NOUN	17	pobj	O	
+20	,	,	,	PUNCT	22	punct	O	
+21	(	(	-LRB-	PUNCT	22	punct	O	
+22	is	be	VBZ	VERB	51	ccomp	O	
+23	)	)	-RRB-	PUNCT	22	punct	O	
+24	that	that	DT	DET	25	det	O	
+25	violence	violence	NN	NOUN	51	nsubj	O	
+26	truly	truly	RB	ADV	51	advmod	O	
+27	does	do	VBZ	VERB	51	ccomp	O	
+28	beget	beget	VB	VERB	29	poss	O	
+29	violence	violence	NN	NOUN	27	dobj	O	
+30	and	and	CC	CONJ	27	cc	O	
+31	that	that	IN	ADP	33	mark	O	
+32	I	i	PRP	PRON	33	nsubj	O	
+33	hope	hope	VBP	VERB	27	conj	O	
+34	the	the	DT	DET	36	det	B	GPE
+35	United	united	NNP	PROPN	36	compound	I	GPE
+36	States	states	NNP	PROPN	38	nsubj	I	GPE
+37	will	will	MD	VERB	38	aux	O	
+38	use	use	VB	VERB	33	ccomp	O	
+39	this	this	DT	DET	40	det	O	
+40	opportunity	opportunity	NN	NOUN	38	dobj	O	
+41	for	for	IN	ADP	38	prep	O	
+42	reconciliation	reconciliation	NN	NOUN	41	pobj	O	
+43	rather	rather	RB	ADV	44	advmod	O	
+44	than	than	IN	ADP	42	cc	O	
+45	retaliation	retaliation	NN	NOUN	42	conj	O	
+46	,	,	,	PUNCT	38	punct	O	
+47	'	'	''	PUNCT	33	punct	O	
+48	'	'	''	PUNCT	33	punct	O	
+49	Mrs.	mrs.	NNP	PROPN	50	compound	O	
+50	Say	say	NNP	PROPN	51	nsubj	O	
+51	said	say	VBD	VERB	0	ROOT	O	
+52	in	in	IN	ADP	51	prep	O	
+53	an	an	DT	DET	54	det	O	
+54	interview	interview	NN	NOUN	52	pobj	O	
+55	from	from	IN	ADP	54	prep	O	
+56	her	her	PRP$	ADJ	57	poss	O	
+57	home	home	NN	NOUN	55	pobj	O	
+58	near	near	IN	ADP	57	prep	O	
+59	Cadiz	cadiz	NNP	PROPN	58	pobj	B	GPE
+60	in	in	IN	ADP	59	prep	O	
+61	western	western	JJ	ADJ	62	amod	O	
+62	Kentucky	kentucky	NNP	PROPN	60	pobj	B	GPE
+63	.	.	.	PUNCT	51	punct	O	
+
+#id: sent1524
+#text: Higgins ' sister , Mary Fisher , said from her home in the Louisville suburb of Okolona that she believed Higgins ' was dead before she saw the videotape.
+1	Higgins	higgins	NNP	PROPN	3	poss	B	PERSON
+2	'	'	POS	PART	1	case	O	
+3	sister	sister	NN	NOUN	8	nsubj	O	
+4	,	,	,	PUNCT	3	punct	O	
+5	Mary	mary	NNP	PROPN	6	compound	B	PERSON
+6	Fisher	fisher	NNP	PROPN	3	appos	I	PERSON
+7	,	,	,	PUNCT	3	punct	O	
+8	said	say	VBD	VERB	0	ROOT	O	
+9	from	from	IN	ADP	8	prep	O	
+10	her	her	PRP$	ADJ	11	poss	O	
+11	home	home	NN	NOUN	9	pobj	O	
+12	in	in	IN	ADP	11	prep	O	
+13	the	the	DT	DET	15	det	O	
+14	Louisville	louisville	NNP	PROPN	15	compound	B	GPE
+15	suburb	suburb	NN	NOUN	12	pobj	O	
+16	of	of	IN	ADP	15	prep	O	
+17	Okolona	okolona	NNP	PROPN	16	pobj	O	
+18	that	that	IN	ADP	20	mark	O	
+19	she	she	PRP	PRON	20	nsubj	O	
+20	believed	believe	VBD	VERB	8	ccomp	O	
+21	Higgins	higgins	NNP	PROPN	23	nsubj	B	PERSON
+22	'	'	POS	PART	21	case	O	
+23	was	be	VBD	VERB	20	ccomp	O	
+24	dead	dead	JJ	ADJ	23	acomp	O	
+25	before	before	IN	ADP	27	mark	O	
+26	she	she	PRP	PRON	27	nsubj	O	
+27	saw	see	VBD	VERB	23	advcl	O	
+28	the	the	DT	DET	29	det	O	
+29	videotape	videotape	NN	NOUN	27	dobj	O	
+30	.	.	.	PUNCT	8	punct	O	
+
+#id: sent1526
+#text: U.S. Sen. Mitch McConnell , who attended church in south Louisville with Higgins in the 1950s , recommended he be given the nation 's highest honor , the Medal of Honor.
+1	U.S.	u.s.	NNP	PROPN	2	compound	B	GPE
+2	Sen.	sen.	NNP	PROPN	4	compound	O	
+3	Mitch	mitch	NNP	PROPN	4	compound	B	PERSON
+4	McConnell	mcconnell	NNP	PROPN	18	nsubj	I	PERSON
+5	,	,	,	PUNCT	4	punct	O	
+6	who	who	WP	NOUN	7	nsubj	O	
+7	attended	attend	VBD	VERB	4	relcl	O	
+8	church	church	NN	NOUN	7	dobj	O	
+9	in	in	IN	ADP	8	prep	O	
+10	south	south	JJ	ADJ	11	amod	O	
+11	Louisville	louisville	NNP	PROPN	9	pobj	B	GPE
+12	with	with	IN	ADP	7	prep	O	
+13	Higgins	higgins	NNP	PROPN	12	pobj	B	PERSON
+14	in	in	IN	ADP	7	prep	O	
+15	the	the	DT	DET	16	det	B	DATE
+16	1950s	1950	NNS	NOUN	14	pobj	I	DATE
+17	,	,	,	PUNCT	4	punct	O	
+18	recommended	recommend	VBD	VERB	0	ROOT	O	
+19	he	he	PRP	PRON	21	nsubjpass	O	
+20	be	be	VB	VERB	21	auxpass	O	
+21	given	give	VBN	VERB	18	ccomp	O	
+22	the	the	DT	DET	23	det	O	
+23	nation	nation	NN	NOUN	26	poss	O	
+24	's	's	POS	PART	23	case	O	
+25	highest	high	JJS	ADJ	26	amod	O	
+26	honor	honor	NN	NOUN	21	dobj	O	
+27	,	,	,	PUNCT	26	punct	O	
+28	the	the	DT	DET	29	det	B	ORG
+29	Medal	medal	NNP	PROPN	26	appos	I	ORG
+30	of	of	IN	ADP	29	prep	I	ORG
+31	Honor	honor	NNP	PROPN	30	pobj	I	ORG
+32	.	.	.	PUNCT	18	punct	O	
+
+#id: sent1534
+#text: Lancaster , a farming town of 3 , 400 , claims Higgins as a native son although he was born a county away in Danville , which had the nearest hospital , and grew up mainly in Louisville.
+1	Lancaster	lancaster	NNP	PROPN	11	nsubj	B	GPE
+2	,	,	,	PUNCT	1	punct	O	
+3	a	a	DT	DET	5	det	O	
+4	farming	farming	NN	NOUN	5	compound	O	
+5	town	town	NN	NOUN	1	appos	O	
+6	of	of	IN	ADP	5	prep	O	
+7	3	3	CD	NUM	6	pobj	B	CARDINAL
+8	,	,	,	PUNCT	5	punct	O	
+9	400	400	CD	NUM	5	appos	B	CARDINAL
+10	,	,	,	PUNCT	1	punct	O	
+11	claims	claim	VBZ	VERB	0	ROOT	O	
+12	Higgins	higgins	NNP	PROPN	11	dobj	B	PERSON
+13	as	as	IN	ADP	11	prep	O	
+14	a	a	DT	DET	16	det	O	
+15	native	native	JJ	ADJ	16	amod	O	
+16	son	son	NN	NOUN	13	pobj	O	
+17	although	although	IN	ADP	20	mark	O	
+18	he	he	PRP	PRON	20	nsubjpass	O	
+19	was	be	VBD	VERB	20	auxpass	O	
+20	born	bear	VBN	VERB	11	advcl	O	
+21	a	a	DT	DET	22	det	O	
+22	county	county	NN	NOUN	20	dobj	O	
+23	away	away	RB	ADV	20	advmod	O	
+24	in	in	IN	ADP	23	prep	O	
+25	Danville	danville	NNP	PROPN	24	pobj	B	GPE
+26	,	,	,	PUNCT	11	punct	O	
+27	which	which	WDT	ADJ	28	nsubj	O	
+28	had	have	VBD	VERB	11	relcl	O	
+29	the	the	DT	DET	31	det	O	
+30	nearest	near	JJS	ADJ	31	amod	O	
+31	hospital	hospital	NN	NOUN	28	dobj	O	
+32	,	,	,	PUNCT	11	punct	O	
+33	and	and	CC	CONJ	11	cc	O	
+34	grew	grow	VBD	VERB	11	conj	O	
+35	up	up	RP	PART	34	prt	O	
+36	mainly	mainly	RB	ADV	37	advmod	O	
+37	in	in	IN	ADP	34	prep	O	
+38	Louisville	louisville	NNP	PROPN	37	pobj	B	GPE
+39	.	.	.	PUNCT	11	punct	O	
+
+#id: sent1612
+#text: ` ` That original one was knocked down for a reason by the tanks , and I presume this one was knocked down for the same reason , ' ' Santa Monica artist Tom Van Sant said Monday after the 23-foot-tall statue was found crushed and broken in pieces.
+1	`	`	''	PUNCT	7	punct	O	
+2	`	`	''	PUNCT	7	punct	O	
+3	That	that	DT	DET	5	det	O	
+4	original	original	JJ	ADJ	5	amod	O	
+5	one	one	NN	NOUN	7	nsubjpass	O	
+6	was	be	VBD	VERB	7	auxpass	O	
+7	knocked	knock	VBN	VERB	37	ccomp	O	
+8	down	down	RP	PART	7	prt	O	
+9	for	for	IN	ADP	7	prep	O	
+10	a	a	DT	DET	11	det	O	
+11	reason	reason	NN	NOUN	9	pobj	O	
+12	by	by	IN	ADP	11	prep	O	
+13	the	the	DT	DET	14	det	O	
+14	tanks	tank	NNS	NOUN	12	pobj	O	
+15	,	,	,	PUNCT	7	punct	O	
+16	and	and	CC	CONJ	7	cc	O	
+17	I	i	PRP	PRON	18	nsubj	O	
+18	presume	presume	VBP	VERB	7	conj	O	
+19	this	this	DT	DET	20	det	O	
+20	one	one	NN	NOUN	22	nsubjpass	O	
+21	was	be	VBD	VERB	22	auxpass	O	
+22	knocked	knock	VBN	VERB	18	ccomp	O	
+23	down	down	RP	PART	22	prt	O	
+24	for	for	IN	ADP	22	prep	O	
+25	the	the	DT	DET	27	det	O	
+26	same	same	JJ	ADJ	27	amod	O	
+27	reason	reason	NN	NOUN	24	pobj	O	
+28	,	,	,	PUNCT	22	punct	O	
+29	'	'	''	PUNCT	37	punct	O	
+30	'	'	``	PUNCT	37	punct	O	
+31	Santa	santa	NNP	PROPN	32	compound	B	GPE
+32	Monica	monica	NNP	PROPN	33	compound	I	GPE
+33	artist	artist	NN	NOUN	36	compound	O	
+34	Tom	tom	NNP	PROPN	36	compound	B	PERSON
+35	Van	van	NNP	PROPN	36	compound	I	PERSON
+36	Sant	sant	NNP	PROPN	37	nsubj	I	PERSON
+37	said	say	VBD	VERB	0	ROOT	O	
+38	Monday	monday	NNP	PROPN	37	npadvmod	B	DATE
+39	after	after	IN	ADP	46	mark	O	
+40	the	the	DT	DET	44	det	O	
+41	23-foot	23-foot	CD	NUM	43	advmod	O	
+42	-	-	HYPH	PUNCT	43	punct	O	
+43	tall	tall	JJ	ADJ	44	amod	O	
+44	statue	statue	NN	NOUN	46	nsubjpass	O	
+45	was	be	VBD	VERB	46	auxpass	O	
+46	found	find	VBN	VERB	37	advcl	O	
+47	crushed	crush	VBN	VERB	46	xcomp	O	
+48	and	and	CC	CONJ	47	cc	O	
+49	broken	break	VBN	VERB	47	conj	O	
+50	in	in	IN	ADP	49	prep	O	
+51	pieces	piece	NNS	NOUN	50	pobj	O	
+52	.	.	.	PUNCT	37	punct	O	
+
+#id: sent1632
+#text: ` ` He is the same easy-going , soft-spoken , self-effacing man we knew as governor of New Hampshire , ' ' said Virginia Gov. Gerald Baliles , a Democrat.
+1	`	`	''	PUNCT	29	punct	O	
+2	`	`	''	PUNCT	4	punct	O	
+3	He	he	PRP	PRON	4	nsubj	O	
+4	is	be	VBZ	VERB	29	ccomp	O	
+5	the	the	DT	DET	18	det	O	
+6	same	same	JJ	ADJ	18	amod	O	
+7	easy	easy	JJ	ADJ	9	amod	O	
+8	-	-	HYPH	PUNCT	9	punct	O	
+9	going	going	JJ	ADJ	18	amod	O	
+10	,	,	,	PUNCT	13	punct	O	
+11	soft	soft	JJ	ADJ	13	amod	O	
+12	-	-	HYPH	PUNCT	13	punct	O	
+13	spoken	spoken	JJ	ADJ	18	amod	O	
+14	,	,	,	PUNCT	18	punct	O	
+15	self	self	NN	NOUN	17	npadvmod	O	
+16	-	-	HYPH	PUNCT	17	punct	O	
+17	effacing	efface	VBG	VERB	18	amod	O	
+18	man	man	NN	NOUN	4	attr	O	
+19	we	we	PRP	PRON	20	nsubj	O	
+20	knew	know	VBD	VERB	18	relcl	O	
+21	as	as	IN	ADP	20	prep	O	
+22	governor	governor	NN	NOUN	21	pobj	O	
+23	of	of	IN	ADP	22	prep	O	
+24	New	new	NNP	PROPN	25	compound	B	GPE
+25	Hampshire	hampshire	NNP	PROPN	23	pobj	I	GPE
+26	,	,	,	PUNCT	20	punct	O	
+27	'	'	''	PUNCT	20	punct	O	
+28	'	'	''	PUNCT	20	punct	O	
+29	said	say	VBD	VERB	0	ROOT	O	
+30	Virginia	virginia	NNP	PROPN	31	compound	B	GPE
+31	Gov.	gov.	NNP	PROPN	33	compound	O	
+32	Gerald	gerald	NNP	PROPN	33	compound	B	PERSON
+33	Baliles	baliles	NNP	PROPN	29	nsubj	I	PERSON
+34	,	,	,	PUNCT	33	punct	O	
+35	a	a	DT	DET	36	det	O	
+36	Democrat	democrat	NNP	PROPN	33	appos	B	NORP
+37	.	.	.	PUNCT	29	punct	O	
+
+#id: sent1635
+#text: Bush , who acknowledged that Sununu was ` ` not quiet and retiring ' ' also had words for Virginia 's Baliles , who was stepping down after a year as chairman of the association.
+1	Bush	bush	NNP	PROPN	17	nsubj	B	PERSON
+2	,	,	,	PUNCT	1	punct	O	
+3	who	who	WP	NOUN	4	nsubj	O	
+4	acknowledged	acknowledge	VBD	VERB	1	relcl	O	
+5	that	that	IN	ADP	7	mark	O	
+6	Sununu	sununu	NNP	PROPN	7	nsubj	B	PERSON
+7	was	be	VBD	VERB	4	ccomp	O	
+8	`	`	XX	X	7	prep	O	
+9	`	`	''	PUNCT	11	punct	O	
+10	not	not	RB	ADV	11	neg	O	
+11	quiet	quiet	JJ	ADJ	7	acomp	O	
+12	and	and	CC	CONJ	11	cc	O	
+13	retiring	retire	VBG	VERB	11	conj	O	
+14	'	'	''	PUNCT	13	punct	O	
+15	'	'	''	PUNCT	17	punct	O	
+16	also	also	RB	ADV	17	advmod	O	
+17	had	have	VBD	VERB	0	ROOT	O	
+18	words	word	NNS	NOUN	17	dobj	O	
+19	for	for	IN	ADP	18	prep	O	
+20	Virginia	virginia	NNP	PROPN	22	poss	B	GPE
+21	's	's	POS	PART	20	case	O	
+22	Baliles	baliles	NNP	PROPN	19	pobj	B	PERSON
+23	,	,	,	PUNCT	22	punct	O	
+24	who	who	WP	NOUN	26	nsubj	O	
+25	was	be	VBD	VERB	26	aux	O	
+26	stepping	step	VBG	VERB	22	relcl	O	
+27	down	down	RP	PART	26	prt	O	
+28	after	after	IN	ADP	26	prep	O	
+29	a	a	DT	DET	30	det	B	DATE
+30	year	year	NN	NOUN	28	pobj	I	DATE
+31	as	as	IN	ADP	30	prep	O	
+32	chairman	chairman	NN	NOUN	31	pobj	O	
+33	of	of	IN	ADP	32	prep	O	
+34	the	the	DT	DET	35	det	O	
+35	association	association	NN	NOUN	33	pobj	O	
+36	.	.	.	PUNCT	17	punct	O	
+
+#id: sent1637
+#text: The president appeared a bit startled when he saw Ohio 's governor , Democrat Richard Celeste.
+1	The	the	DT	DET	2	det	O	
+2	president	president	NN	NOUN	3	nsubj	O	
+3	appeared	appear	VBD	VERB	0	ROOT	O	
+4	a	a	DT	DET	5	det	O	
+5	bit	bit	NN	NOUN	6	npadvmod	O	
+6	startled	startled	JJ	ADJ	3	oprd	O	
+7	when	when	WRB	ADV	9	advmod	O	
+8	he	he	PRP	PRON	9	nsubj	O	
+9	saw	see	VBD	VERB	3	advcl	O	
+10	Ohio	ohio	NNP	PROPN	12	poss	B	GPE
+11	's	's	POS	PART	10	case	O	
+12	governor	governor	NN	NOUN	9	dobj	O	
+13	,	,	,	PUNCT	12	punct	O	
+14	Democrat	democrat	NNP	PROPN	16	compound	B	NORP
+15	Richard	richard	NNP	PROPN	16	compound	B	PERSON
+16	Celeste	celeste	NNP	PROPN	12	appos	I	PERSON
+17	.	.	.	PUNCT	3	punct	O	
+
