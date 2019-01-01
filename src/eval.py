@@ -12,7 +12,7 @@ def get_precision(gold, pred):
         else:
             FP += 1
 
-    return TP / (TP + FP)
+    return TP / len(pred)
 
 
 def get_recall(gold, pred):
@@ -32,12 +32,12 @@ def get_F1(recall, precision):
 
 
 if __name__ == '__main__':
-    gold_file = sys.argv[1] if len(sys.argv) > 1 else '../data/Annotation/DEV.annotations.txt'
-    pred_file = sys.argv[2] if len(sys.argv) > 2 else '../data/Annotation/DEV.annotations.txt'
+    gold_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Annotation/DEV.annotations.txt'
+    pred_file = sys.argv[2] if len(sys.argv) > 2 else 'data/Annotation/DEV.annotations.txt'
 
 
     gold = read_annotations_file(gold_file)
-    pred = read_annotations_file(gold_file)
+    pred = read_annotations_file(pred_file)
 
     precision = get_precision(gold, pred)
     recall = get_recall(gold, pred)

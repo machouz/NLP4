@@ -25,7 +25,13 @@ def split_processed_file(fname):
 def sentence2dic(processed_sentence):
     sentence = []
     for word in processed_sentence:
-        ID, TEXT, LEMMA, TAG, POS, HEAD, DEP, IOB, TYPE = word.split("\t")
+        splitted = word.split("\t")
+        if len(splitted) == 9:
+            ID, TEXT, LEMMA, TAG, POS, HEAD, DEP, IOB, TYPE = splitted
+        else:
+            ID, TEXT, LEMMA, TAG, POS, HEAD, DEP, IOB = splitted
+            TYPE = ''
+
         dict = {"ID": ID, "TEXT": TEXT, "LEMMA": LEMMA, "TAG": TAG, "POS": POS, "HEAD": HEAD, "DEP": DEP, "IOB": IOB,
                 "TYPE": TYPE}
         sentence.append(dict)

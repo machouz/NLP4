@@ -1,7 +1,9 @@
 import codecs 
 import spacy 
 import sys
+import numpy as np
 
+file_name = sys.argv[1] if len(sys.argv) > 1 else 'data/Corpus/Corpus.DEV.txt'
 
 nlp = spacy.load('en')
 
@@ -12,7 +14,8 @@ def read_lines(fname):
         sent = sent.replace("-RRB-",")")
         yield sent_id, sent
 
-for sent_id, sent_str in read_lines(sys.argv[1]):
+for sent_id, sent_str in read_lines(file_name):
+    output = []
     sent = nlp(sent_str)
     print "#id:",sent_id
     print "#text:",sent.text
@@ -21,8 +24,13 @@ for sent_id, sent_str in read_lines(sys.argv[1]):
         if word == word.head:               # and the ROOT to be 0.
             assert(word.dep_=="ROOT"),word.dep_
             head_id = "0" # root
-        print "\t".join([str(word.i+1), word.text, word.lemma_, word.tag_, word.pos_, head_id, word.dep_, word.ent_iob_, word.ent_type_])
+        se = "\t".join([str(word.i+1), word.text, word.lemma_, word.tag_, word.pos_, head_id, word.dep_, word.ent_iob_, word.ent_type_])
+        output.append(se)
+        print se
     print
+
+
+#np.savetxt('data/Processed_Corpus/Corpus.DEV.new.processed.txt', output, fmt='%s')
     # print "#", Noun Chunks:
     # for np in sent.noun_chunks:
     #    print(np.text, np.root.text, np.root.dep_, np.root.head.text)
