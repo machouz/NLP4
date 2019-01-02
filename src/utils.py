@@ -12,6 +12,22 @@ def read_annotations_file(fname):
     return np.array(output)
 
 
+def dic_annotations_file(fname):
+    output = {}
+    with open(fname, 'r') as f:
+        for line in f:
+            sent, per, relation, loc, _ = line.split('\t')
+            if relation == 'Live_In':
+                if sent not in output:
+                    output[sent] = {}
+                if "per" not in output[sent]:
+                    output[sent]["per"] = []
+                if "loc" not in output[sent]:
+                    output[sent]["loc"] = []
+                output[sent]["per"].append(per)
+                output[sent]["loc"].append(loc)
+    return output
+
 def split_processed_file(fname):
     processed = []
     for line in file(fname):
