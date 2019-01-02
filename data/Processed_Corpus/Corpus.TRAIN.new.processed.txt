@@ -1,0 +1,27 @@
+1	The	the	DT	DET	2	det	O	
+2	hearing	hearing	NN	NOUN	4	nsubjpass	O	
+3	was	be	VBD	VERB	4	auxpass	O	
+4	announced	announce	VBN	VERB	0	ROOT	O	
+5	last	last	JJ	ADJ	6	amod	B	DATE
+6	week	week	NN	NOUN	4	npadvmod	I	DATE
+7	for	for	IN	ADP	4	prep	O	
+8	James	james	NNP	PROPN	10	compound	B	PERSON
+9	Earl	earl	NNP	PROPN	10	compound	I	PERSON
+10	Ray	ray	NNP	PROPN	7	pobj	I	PERSON
+11	,	,	,	PUNCT	10	punct	O	
+12	60	60	CD	NUM	10	appos	B	DATE
+13	,	,	,	PUNCT	10	punct	O	
+14	serving	serve	VBG	VERB	4	advcl	O	
+15	99	99	CD	NUM	16	nummod	B	DATE
+16	years	year	NNS	NOUN	14	dobj	I	DATE
+17	for	for	IN	ADP	16	prep	O	
+18	assassinating	assassinate	VBG	VERB	17	pcomp	O	
+19	King	king	NNP	PROPN	18	dobj	O	
+20	in	in	IN	ADP	19	prep	O	
+21	Memphis	memphis	NNP	PROPN	20	pobj	B	GPE
+22	on	on	IN	ADP	18	prep	O	
+23	April	april	NNP	PROPN	22	pobj	B	DATE
+24	4	4	CD	NUM	23	nummod	I	DATE
+25	,	,	,	PUNCT	23	punct	I	DATE
+26	1968	1968	CD	NUM	23	nummod	I	DATE
+27	.	.	.	PUNCT	4	punct	O	
