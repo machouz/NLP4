@@ -31,6 +31,21 @@ def get_F1(recall, precision):
     return 2*(recall * precision) / (recall + precision)
 
 
+def get_errors(gold, pred):
+    FP = []
+    FN = []
+
+    for true in gold:
+        if true not in pred:
+            FN.append(true)
+
+    for pr in pred:
+        if pr not in gold:
+            FP.append(pr)
+
+    return FP, FN
+
+
 if __name__ == '__main__':
     gold_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Annotation/DEV.annotations.txt'
     pred_file = sys.argv[2] if len(sys.argv) > 2 else 'data/Annotation/DEV.annotations.txt'
