@@ -1,1 +1,3 @@
 distance (number of words between per and loc)
+gazeeter
+exists a verb in the sentence

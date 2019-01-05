@@ -61,3 +61,17 @@ if __name__ == '__main__':
     print("Precision: {}".format(precision))
     print("Recall: {}".format(recall))
     print("F1: {}".format(F1))
+
+    print
+    print("False Positive ------")
+    FP, FN = get_errors(gold, pred)
+    for fp in FP:
+        print fp
+
+    '''
+    print
+    print("False Negative ------")
+    FP, FN = get_errors(gold, pred)
+    for fp in FP:
+        print fp
+    '''
