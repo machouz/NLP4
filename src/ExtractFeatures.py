@@ -4,24 +4,21 @@ import math
 
 
 
-
-
-def extract_persons_location(num, sentence, gaz=True):
+def extract_persons_location(num, sentence):
     persons = []
     locations = []
     new_sentence = []
     i = 0
     while i < len(sentence):
-        if sentence[i]['TYPE'] == 'PERSON' :#and sentence[i]['LEMMA'] not in gazetter:
-            pers = sentence[i].copy()
+        if sentence[i]['TYPE'] == 'PERSON':
+            pers = sentence[i]
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') \
-                or (gaz and  sentence[i]['LEMMA'] in gazetter):
-            loca = sentence[i].copy()
+        elif sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC' :
+            loca = sentence[i]
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
                 loca['TEXT'] += ' ' + sentence[i]['TEXT']
@@ -90,22 +87,13 @@ def filter_by_adj(data):
 
     return output
 
-def filter_by_dep(data):
-    output = []
-    for num, per, loc, sentence in data:
-        start = int(per['ID']) - 1
-        end = int(loc['ID']) - 1
-        flag = True
-        for i in range(start, end):
-            if sentence[i]["DEP"] == "mark":
-                flag = False
-                break
-
-        if flag:
-            output.append([num, per, loc, sentence])
-
-
-    return output
+def exists_mark(per, loc, sentence):
+    start = int(per['ID']) - 1
+    end = int(loc['ID']) - 1
+    for i in range(start, end):
+        if sentence[i]["DEP"] == "mark":
+            return True
+    return False
 
 def filter_by_dependecies(data):
     output = []
@@ -113,52 +101,14 @@ def filter_by_dependecies(data):
         output.append([num, per, loc, sentence])
     return output
 
-def filter_by_verb(data):
-    output = []
-    for num, per, loc, sentence in data:
-        flag = False
-        for word in sentence:
-            if word['POS'] == 'VERB':
-                flag = True
+def exists_verb(per, loc, sentence):
+    start = int(per['ID']) - 1
+    end = int(loc['ID']) - 1
+    for i in range(start, end):
+        if sentence[i]["POS"] == "VERB":
+            return True
+    return False
 
-        if flag:
-            output.append([num, per, loc, sentence])
-    return output
-
-
-def filter_by_from(data):
-    output = []
-    for num, per, loc, sentence in data:
-        start = 0
-        end = int(loc['ID']) - 1
-        flag = False
-        for i in range(start, end):
-            if sentence[i]["LEMMA"] == "be":
-                flag = True
-                break
-
-        if flag:
-            output.append([num, per, loc, sentence])
-
-    return output
-
-
-def filter_person_by_gazeeter(data):
-    output=[]
-    for num, per, loc, sentence in data:
-        if per['LEMMA'] not in gazetter:
-            output.append([num, per, loc, sentence])
-
-    return output
-
-
-def filter_loc_by_gazeeter(data):
-    output = []
-    for num, per, loc, sentence in data:
-        if loc['LEMMA'] in gazetter:
-            output.append([num, per, loc, sentence])
-
-    return output
 
 def create_output(data):
     output = []
@@ -171,12 +121,32 @@ def create_output(data):
 
     return output
 
+def verb_lemma(per, loc, sentence):
+    start = int(per['ID']) - 1
+    end = int(loc['ID']) - 1
+    for i in range(start, end):
+        if sentence[i]["POS"] == "VERB":
+            return sentence[i]["LEMMA"]
+    return None
+
+
+def extract_features(num, person, location, sentence, label):
+    distance = int(location['ID']) - int(person['ID'])
+    mark = exists_mark(person, location, sentence)
+    exist_verb = exists_verb(person, location, sentence)
+    lemma_verb = verb_lemma(person, location, sentence)
+    per_gazetter = 1 if person['LEMMA'] in gazetter else 0
+    loc_gazetter = 1 if location['LEMMA'] in gazetter else 0
+
+    tag_loc = location['TYPE']
+
+
+
+
 if __name__ == '__main__':
 
-    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.DEV.new.processed.txt'
-    output_file = sys.argv[2] if len(sys.argv) > 1 else 'data/Annotation/output_greedy.txt'
-
-
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.TRAIN.processed.txt'
+    output_file = sys.argv[2] if len(sys.argv) > 1 else 'features_file'
 
 
     data = read_processed_file(input_file)
@@ -187,22 +157,8 @@ if __name__ == '__main__':
         sentences.extend(sent)
 
     output = sentences
-    #output = filter_person_by_gazeeter(output)
+    #output = filter_by_subject(output)
     output = create_output(output)
 
     np.savetxt(output_file, output, fmt='%s')
 
-
-'''
-Precision: 0.645728643216
-Recall: 0.938461538462
-F1: 0.765048922724
-'''
-
-
-'''
-with gazetter in extract, increase the recall
-Precision: 0.548340548341
-Recall: 0.969230769231
-F1: 0.700419842303
-'''

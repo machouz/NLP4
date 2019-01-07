@@ -1,3 +1,23 @@
 distance (number of words between per and loc)
-gazeeter
+gazeeter not splited
 exists a verb in the sentence
+
+from before the location
+wordnet
+
+machine learning with also negative data
+2 entities, binary classifier there is or no relation between them
+
+
+features:
+lexical: Bag of words, N-grams, prefixes/suffixes, nouns, verbs, entity types, entity mentions,
+word sequences between entities, distance between entities
+syntactic: Base-phrase chunk paths, bag of chunk heads, part-of-speech sequences, dependency tree paths between entities,
+constituent tree paths between entities, tree distance between entities
+semantic: Synonyms in WordNet, gazetteers
+
+subject of the location
+
+Quebec -> premier -> durassa (roland durassa) sent934
+
+coreference

@@ -1,6 +1,29 @@
 import numpy as np
 
 
+cities_path = 'data/country-city-and-state-csv/cities.csv'
+countries_path = 'data/country-city-and-state-csv/countries.csv'
+states_path = 'data/country-city-and-state-csv/states.csv'
+machou_path = 'data/country-city-and-state-csv/world-cities.csv'
+
+gazetter = []
+for line in file(cities_path):
+    gazetter.append(line.rstrip().lower())
+
+
+for line in file(countries_path):
+    country, _ = line.split(',')
+    gazetter.append(country.lower())
+
+for line in file(states_path):
+    state, _ = line.split(',')
+    gazetter.append(state.lower())
+
+
+gazetter = list(set(gazetter))
+
+
+
 def read_annotations_file(fname):
     output = []
     with open(fname, 'r') as f:
