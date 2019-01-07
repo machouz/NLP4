@@ -1,12 +1,11 @@
 from datetime import datetime
-from sys import argv
 import sys
 import os
 from utils import *
 
-features_file = argv[1]
-feature_vecs_file = argv[2]
-feature_map_file = argv[3]
+features_file = sys.argv[1] if len(sys.argv) > 1 else 'features_file'
+feature_vecs_file = sys.argv[2] if len(sys.argv) > 2 else 'feature_vecs_file'
+feature_map_file = sys.argv[3] if len(sys.argv) > 1 else 'feature_map_file'
 
 
 def featureConvert(fname):

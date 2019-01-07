@@ -1,6 +1,5 @@
 import numpy as np
 
-
 cities_path = 'data/country-city-and-state-csv/cities.csv'
 countries_path = 'data/country-city-and-state-csv/countries.csv'
 states_path = 'data/country-city-and-state-csv/states.csv'
@@ -10,7 +9,6 @@ gazetter = []
 for line in file(cities_path):
     gazetter.append(line.rstrip().lower())
 
-
 for line in file(countries_path):
     country, _ = line.split(',')
     gazetter.append(country.lower())
@@ -19,9 +17,7 @@ for line in file(states_path):
     state, _ = line.split(',')
     gazetter.append(state.lower())
 
-
 gazetter = list(set(gazetter))
-
 
 
 def read_annotations_file(fname):
@@ -32,6 +28,17 @@ def read_annotations_file(fname):
             if relation == 'Live_In':
                 output.append(np.array([sent, per, loc]))
     return np.array(output)
+
+
+def annotations_file_by_sent(fname):
+    anno_by_sent = {}
+    annotations = read_annotations_file(fname)
+    for sent, per, loc in annotations:
+        if sent in anno_by_sent:
+            anno_by_sent[sent].append([per, loc])
+        else:
+            anno_by_sent[sent] = [[per, loc]]
+    return anno_by_sent
 
 
 def dic_annotations_file(ann_name, pro_name):
@@ -101,6 +108,25 @@ def read_processed_file(fname):
     lines = [(processed[0], processed[1][2:-1]) for processed in lines]  # remove two first comment and last \n
     lines = [(sentence[0], sentence2dic(sentence[1])) for sentence in lines]
     return lines
+
+
+def write_to_file(fname, data):
+    np.savetxt(fname, data, fmt="%s", delimiter='\n')
+
+
+def dic_to_file(dic, fname):
+    data = []
+    for key, label in dic.items():
+        data.append(key + " " + str(label))
+    write_to_file(fname, data)
+
+
+def file_to_dic(fname):
+    data = {}
+    for line in file(fname):
+        key, label = line[:-1].split(' ')
+        data[key] = int(label)
+    return data
 
 
 def get_words_id(word, words_id):
