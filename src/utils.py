@@ -17,6 +17,7 @@ for line in file(states_path):
     state, _ = line.split(',')
     gazetter.append(state.lower())
 
+
 gazetter = list(set(gazetter))
 
 
@@ -26,6 +27,8 @@ def read_annotations_file(fname):
         for line in f:
             sent, per, relation, loc, _ = line.split('\t')
             if relation == 'Live_In':
+                per = per[:-1] if per[-1] == '.' or per[-1] == " " else per
+                loc = loc[:-1] if loc[-1] == '.' or loc[-1] == " " else loc
                 output.append(np.array([sent, per, loc]))
     return np.array(output)
 

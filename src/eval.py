@@ -9,18 +9,26 @@ def get_precision(gold, pred):
         for num_gold, per_gold, loc_gold in gold:
             if num_pred == num_gold and per_pred == per_gold and loc_pred == loc_gold:
                 TP += 1
+                break
 
     return TP / len(pred)
 
 
+def contains(gold, one_pred):
+    num_p, per_p, loc_p = one_pred
+    for num, per, loc in gold:
+        if num == num_p and per == per_p and loc == loc_p:
+            return True
+    return False
+
 def get_recall(gold, pred):
     TP = 0.0
 
-    for num_gold, per_gold, loc_gold in gold:
-        for num_pred, per_pred, loc_pred in pred:
+    for num_pred, per_pred, loc_pred in pred:
+        for num_gold, per_gold, loc_gold in gold:
             if num_pred == num_gold and per_pred == per_gold and loc_pred == loc_gold:
                 TP += 1
-
+                break
 
     return TP / len(gold)
 

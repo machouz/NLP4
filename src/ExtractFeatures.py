@@ -1,6 +1,9 @@
 import sys
 from utils import *
 import math
+import spacy
+
+nlp = spacy.load('en')
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -15,7 +18,7 @@ def extract_persons_location(num, sentence, gaz=True):
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') or (gaz and  sentence[i]['LEMMA'] in gazetter):
+        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC'):# or (gaz and  sentence[i]['LEMMA'] in gazetter):
 
             loca = sentence[i].copy()
             i += 1
@@ -33,7 +36,6 @@ def extract_persons_location(num, sentence, gaz=True):
             new_sentence.append(sent)
 
     return new_sentence
-
 
 
 
@@ -102,7 +104,18 @@ def extract_features(num, person, location, sentence):
     features["lemma_verb"] = verb_lemma(person, location, sentence)
     features["per_gazetter"] = 1 if person['LEMMA'] in gazetter else 0
     features["loc_gazetter"] = 1 if location['LEMMA'] in gazetter else 0
-    features["tag_loc"] = location['TYPE']
+    features["type_loc"] = location['TYPE']
+    features["per_tag"] = person["TAG"]
+    features["loc_tag"] = location["TAG"]
+    features["per_pos"] = person["POS"]
+    features["loc_pos"] = location["POS"]
+
+    live = False
+    for word in sentence:
+        if word["LEMMA"] == 'live':
+            live = True
+
+    features["live"] = live
 
     return features
 

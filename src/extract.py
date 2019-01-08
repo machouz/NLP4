@@ -4,6 +4,12 @@ import math
 
 
 
+def contains(gold, one_pred):
+    num_p, per_p, loc_p, sentence = one_pred
+    for num, per, loc, sentence in gold:
+         if num == num_p and per == per_p and loc == loc_p:
+             return True
+    return False
 
 
 def extract_persons_location(num, sentence, gaz=True):
@@ -19,7 +25,7 @@ def extract_persons_location(num, sentence, gaz=True):
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') :#or (gaz and  sentence[i]['LEMMA'] in gazetter):
+        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC'):# or (gaz and  sentence[i]['LEMMA'] in gazetter):
 
             loca = sentence[i].copy()
             i += 1
@@ -34,7 +40,8 @@ def extract_persons_location(num, sentence, gaz=True):
     for per in persons:
         for loc in locations:
             sent = [num, per, loc, sentence]
-            new_sentence.append(sent)
+            if not contains(new_sentence, sent):
+                new_sentence.append(sent)
 
     return new_sentence
 
@@ -187,22 +194,22 @@ if __name__ == '__main__':
         sentences.extend(sent)
 
     output = sentences
-    #output = filter_person_by_gazeeter(output)
+    output = filter_by_verb(output)
     output = create_output(output)
 
     np.savetxt(output_file, output, fmt='%s')
 
 
 '''
-Precision: 0.221105527638
-Recall: 0.676923076923
-F1: 0.333333333333
+Precision: 0.206030150754
+Recall: 0.630769230769
+F1: 0.310606060606
 '''
 
 
 '''
 with gazetter in extract, increase the recall
-Precision: 0.137085137085
-Recall: 0.730769230769
-F1: 0.230862697448
+Precision: 0.0777972027972
+Recall: 0.684615384615
+F1: 0.139717425432
 '''

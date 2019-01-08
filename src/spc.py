@@ -3,7 +3,7 @@ import spacy
 import sys
 import numpy as np
 
-file_name = sys.argv[1] if len(sys.argv) > 1 else 'data/Corpus/Corpus.DEV.txt'
+file_name = sys.argv[1] if len(sys.argv) > 1 else 'data/Corpus/Corpus.TRAIN.txt'
 
 nlp = spacy.load('en')
 
