@@ -19,8 +19,8 @@ def extract_persons_location(num, sentence, gaz=True):
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') \
-                or (gaz and  sentence[i]['LEMMA'] in gazetter):
+        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') :#or (gaz and  sentence[i]['LEMMA'] in gazetter):
+
             loca = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
@@ -173,8 +173,8 @@ def create_output(data):
 
 if __name__ == '__main__':
 
-    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.DEV.new.processed.txt'
-    output_file = sys.argv[2] if len(sys.argv) > 1 else 'data/Annotation/output_greedy.txt'
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.TRAIN.processed.txt'
+    output_file = sys.argv[2] if len(sys.argv) > 1 else 'data/Annotation/output_greedy_train.txt'
 
 
 
@@ -194,15 +194,15 @@ if __name__ == '__main__':
 
 
 '''
-Precision: 0.645728643216
-Recall: 0.938461538462
-F1: 0.765048922724
+Precision: 0.221105527638
+Recall: 0.676923076923
+F1: 0.333333333333
 '''
 
 
 '''
 with gazetter in extract, increase the recall
-Precision: 0.548340548341
-Recall: 0.969230769231
-F1: 0.700419842303
+Precision: 0.137085137085
+Recall: 0.730769230769
+F1: 0.230862697448
 '''

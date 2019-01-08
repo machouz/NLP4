@@ -2,22 +2,22 @@ import sys
 from utils import *
 import math
 
-
-def extract_persons_location(num, sentence):
+def extract_persons_location(num, sentence, gaz=True):
     persons = []
     locations = []
     new_sentence = []
     i = 0
     while i < len(sentence):
-        if sentence[i]['TYPE'] == 'PERSON':
-            pers = sentence[i]
+        if sentence[i]['TYPE'] == 'PERSON' :#and sentence[i]['LEMMA'] not in gazetter:
+            pers = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC':
-            loca = sentence[i]
+        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC') or (gaz and  sentence[i]['LEMMA'] in gazetter):
+
+            loca = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
                 loca['TEXT'] += ' ' + sentence[i]['TEXT']
@@ -33,6 +33,7 @@ def extract_persons_location(num, sentence):
             new_sentence.append(sent)
 
     return new_sentence
+
 
 
 
@@ -84,7 +85,18 @@ def verb_lemma(per, loc, sentence):
 
 def extract_features(num, person, location, sentence):
     features = {}
-    features["distance"] = int(location['ID']) - int(person['ID'])
+    distance = int(location['ID']) - int(person['ID'])
+    features["before"] = 1 if distance > 0 else 0
+    dist_feat = 0
+    if distance < 0:
+        dist_feat = -1
+    elif distance < 5:
+        dist_feat = 0
+    elif distance < 10:
+        dist_feat = 1
+    else:
+        dist_feat = 2
+    features["distance"] = dist_feat
     features["mark"] = 1 if exists_mark(person, location, sentence) else 0
     features["exist_verb"] = 1 if exists_verb(person, location, sentence) else 0
     features["lemma_verb"] = verb_lemma(person, location, sentence)
