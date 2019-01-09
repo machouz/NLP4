@@ -37,6 +37,6 @@ for num, per, loc, sentence in sentences:
     features_dic = extract_features(num, per, loc, sentence)
     features_vec = feature_convert(features_dic)
     tag_index = model.predict([features_vec])[0]
-    if tag_index == 1.:
+    if tag_index == features2id['1']:
         output.append(num + '\t' + per["TEXT"] + '\tLive_In\t' + loc["TEXT"] + '\t(' + "aaa" + ')')
     np.savetxt(output_file, output, fmt='%s')
