@@ -7,10 +7,12 @@ features_file = sys.argv[1] if len(sys.argv) > 1 else 'features_file'
 feature_vecs_file = sys.argv[2] if len(sys.argv) > 2 else 'feature_vecs_file'
 feature_map_file = sys.argv[3] if len(sys.argv) > 1 else 'feature_map_file'
 
+
 def check_int(s):
     if s[0] in ('-', '+'):
         return s[1:].isdigit()
     return s.isdigit()
+
 
 def featureConvert(fname):
     features_id = {}
@@ -34,8 +36,7 @@ def featureConvert(fname):
             if feature not in features_id:
                 features_id[feature] = i
                 i += 1
-            features.append((features_id[feature],value))
-
+            features.append((features_id[feature], value))
         features = map(lambda x: "{}:{}".format(*x), sorted(features))
 
         vec = [str(label)] + features

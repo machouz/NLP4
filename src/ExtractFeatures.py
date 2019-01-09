@@ -2,19 +2,22 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
-import spacy
+
 
 def check_person(person):
     if person['TYPE'] == 'PERSON':
         return True
     return False
 
+
 def check_location(location):
     if (location['TYPE'] == 'GPE' or location['TYPE'] == 'NORP' or location[
-            'TYPE'] == 'LOC'):# or (gaz and  sentence[i]['LEMMA'] in gazetter)
+        'TYPE'] == 'LOC'):  # or (gaz and  sentence[i]['LEMMA'] in gazetter)
         return True
     return False
-nlp = spacy.load("en_core_web_sm")
+
+
+# nlp = spacy.load("en_core_web_sm")
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -136,6 +139,16 @@ def mark(per, loc, sentence):
     return counter
 
 
+def conj(per, loc, sentence):
+    start = int(per['ID']) - 1
+    end = int(loc['ID']) - 1
+    counter = 0
+    for i in range(start, end):
+        if sentence[i]["POS"] == "CONJ":
+            counter += 1
+    return counter
+
+
 def filter_by_dependecies(data):
     output = []
     for num, per, loc, sentence in data:
@@ -173,13 +186,14 @@ def verb_lemma(per, loc, sentence):
     return None
 
 
-def exists_punk(person, location, sentence):
+def punctuation(person, location, sentence):
     start = int(person['ID']) - 1
     end = int(location['ID']) - 1
+    counter = 0
     for i in range(start, end):
         if sentence[i]["POS"] == "PUNCT":
-            return True
-    return False
+            counter += 1
+    return counter
 
 
 def locations(sentence):
@@ -187,20 +201,16 @@ def locations(sentence):
     for word in sentence:
         if check_location(word):
             counter += 1
-    if counter >= 3:
-        return 3
-    else:
-        return counter
+    return counter
+
 
 def persons(sentence):
     counter = 0
     for word in sentence:
         if check_person(word):
             counter += 1
-    if counter >= 3:
-        return 3
-    else:
-        return counter
+    return counter
+
 
 def person_subject(person, sentence):
     sent = map(lambda x: x['TEXT'], sentence)
@@ -210,31 +220,79 @@ def person_subject(person, sentence):
     pers = person["ID"]
 
 
+def between_lemma(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    words = []
+    for i in range(min(start, end), max(start, end)):
+        if len(sentence[i]["LEMMA"]) > 0:
+            words.append(sentence[i]["LEMMA"])
+    return list(set(words))
+
+
+def between_pos(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    words = []
+    for i in range(min(start, end), max(start, end)):
+        if len(sentence[i]["POS"]) > 0:
+            words.append(sentence[i]["POS"])
+    return list(set(words))
+
+
+def between_dep(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    words = []
+    for i in range(min(start, end), max(start, end)):
+        if len(sentence[i]["DEP"]) > 0:
+            words.append(sentence[i]["DEP"])
+    return list(set(words))
+
+
+def verbs(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    counter = 0
+    for word in sentence:
+        if word["POS"] == "VERB":
+            counter += 1
+    return counter
+
+
 def extract_features(num, person, location, sentence):
     features = {}
+    features["between_pos"] = between_pos(person, location, sentence)
     distance = int(location['ID']) - int(person['ID'])
     features["before"] = True if distance > 0 else False
     features["distance"] = distance
-    # features["exist_punc"] = 1 if exists_punk(person, location, sentence) else 0
     features["mark"] = mark(person, location, sentence)
     features["num_of_locations"] = locations(sentence)
     features["num_of_persons"] = persons(sentence)
-    features["exist_verb"] = True if exists_verb(person, location, sentence) else False
     features["per_gazetter"] = True if person['LEMMA'] in gazetter else False
     features["loc_gazetter"] = True if location['LEMMA'] in gazetter else False
     features["lemma_verb"] = verb_lemma(person, location, sentence)
     features["per_tag"] = person["TAG"]
     features["loc_tag"] = location["TAG"]
-    features["per_pos"] = person["POS"]
-    features["loc_pos"] = location["POS"]
-    features["person_type"] = person["TYPE"]
-    features["location_type"] = location["TYPE"]
+    features["per_lemma"] = person["LEMMA"]
+    features["loc_lemma"] = location["LEMMA"]
     live = False
     for word in sentence:
         if word["LEMMA"] == 'live':
             live = True
 
     features["live"] = live
+    #features["between_dep"] = between_dep(person, location, sentence)
+    #features["between_lemma"] = between_lemma(person, location, sentence)
+    #features["between_tag"] = between_tag(person, location, sentence)
+    # features["conj"] = conj(person, location, sentence)
+    # features["num_of_verb"] = verbs(person, location, sentence)
+    # features["punctuation"] = punctuation(person, location, sentence)
+    # features["exist_verb"] = True if exists_verb(person, location, sentence) else False
+    # features["per_pos"] = person["POS"]
+    # features["loc_pos"] = location["POS"]
+    # features["person_type"] = person["TYPE"] if len(person["TYPE"]) else None
+    # features["location_type"] = location["TYPE"] if len(location["TYPE"]) else None
 
     return features
 
@@ -251,7 +309,11 @@ def write_features_file(featured_data, output_file):
         label = str(featured_word['current_tag'])
         del featured_word['current_tag']
         for key, value in featured_word.items():
-            label += " {}={}".format(key, value)
+            if type(value) == list:
+                for item in value:
+                    label += " {}=_{}".format(key, item)
+            else:
+                label += " {}={}".format(key, value)
         data.append(label)
     write_to_file(output_file, data)
 
@@ -277,7 +339,7 @@ if __name__ == '__main__':
     sentences = []
 
     for num, sentence in data:
-        sent = extract_persons_location_new(num, sentence)
+        sent = extract_persons_location(num, sentence)
         sentences.extend(sent)
 
     featured_data = []
