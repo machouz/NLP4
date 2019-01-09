@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import sys
 from utils import *
 import math
@@ -11,7 +12,7 @@ def extract_persons_location(num, sentence, gaz=True):
     new_sentence = []
     i = 0
     while i < len(sentence):
-        if sentence[i]['TYPE'] == 'PERSON' :#and sentence[i]['LEMMA'] not in gazetter:
+        if sentence[i]['TYPE'] == 'PERSON':#and sentence[i]['LEMMA'] not in gazetter:
             pers = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
@@ -37,6 +38,32 @@ def extract_persons_location(num, sentence, gaz=True):
 
     return new_sentence
 
+
+
+def extract_chunk(num, sentence):
+    new_sentence = []
+    all_tokens = []
+    sent = map(lambda x: x['TEXT'], sentence)
+    sent = " ".join(sent)
+
+    doc = nlp(sent)
+    for chunk in doc.noun_chunks:
+        tok = ""
+        for token in chunk:
+            if token.pos_ == "PROPN":
+                tok += token.text + " "
+
+        if len(tok) > 0:
+            all_tokens.append(tok.rstrip())
+
+
+    for token1 in all_tokens:
+        for token2 in all_tokens:
+            if token1 != token2:
+                sent = [num, token1, token2, sentence]
+                new_sentence.append(sent)
+
+    return new_sentence
 
 
 def exists_mark(per, loc, sentence):
@@ -158,6 +185,8 @@ if __name__ == '__main__':
     for num, sentence in data:
         sent = extract_persons_location(num, sentence)
         sentences.extend(sent)
+
+
 
     featured_data = []
     for num, per, loc, sentence in sentences:
