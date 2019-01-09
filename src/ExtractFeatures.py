@@ -2,7 +2,9 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
+import spacy
 
+nlp = spacy.load("en_core_web_sm")
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -36,6 +38,49 @@ def extract_persons_location(num, sentence, gaz=True):
 
     return new_sentence
 
+
+def extract_persons_location_new(num, sentence, gaz=True):
+    persons = []
+    locations = []
+    new_sentence = []
+    i = 0
+    while i < len(sentence):
+        if sentence[i]['TYPE'] == 'PERSON':  # and sentence[i]['LEMMA'] not in gazetter:
+            pers = sentence[i].copy()
+            i += 1
+            while i < len(sentence) and sentence[i]['IOB'] == 'I':
+                pers['TEXT'] += ' ' + sentence[i]['TEXT']
+                i += 1
+            persons.append(pers)
+        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i][
+            'TYPE'] == 'LOC'):  # or (gaz and  sentence[i]['LEMMA'] in gazetter):
+
+            loca = sentence[i].copy()
+            i += 1
+            while i < len(sentence) and sentence[i]['IOB'] == 'I':
+                loca['TEXT'] += ' ' + sentence[i]['TEXT']
+                i += 1
+            locations.append(loca)
+
+        elif sentence[i]["POS"] == "PROPN":
+            token = sentence[i].copy()
+            i += 1
+            while i < len(sentence) and sentence[i]["POS"] == "PROPN":
+                token["TEXT"] += " " + sentence[i]['TEXT']
+                i += 1
+            persons.append(token)
+            locations.append(token)
+
+        else:
+            i += 1
+
+    for per in persons:
+        for loc in locations:
+            if per["TEXT"] != loc["TEXT"]:
+                sent = [num, per, loc, sentence]
+                new_sentence.append(sent)
+
+    return new_sentence
 
 
 def extract_chunk(num, sentence):
@@ -119,6 +164,14 @@ def exists_punk(person, location, sentence):
     return False
 
 
+def person_subject(person, sentence):
+    sent = map(lambda x: x['TEXT'], sentence)
+    sent = " ".join(sent)
+
+    doc = nlp(sent)
+    pers = person["ID"]
+
+
 def extract_features(num, person, location, sentence):
     features = {}
     distance = int(location['ID']) - int(person['ID'])
@@ -141,11 +194,12 @@ def extract_features(num, person, location, sentence):
     features["per_gazetter"] = 1 if person['LEMMA'] in gazetter else 0
     features["loc_gazetter"] = 1 if location['LEMMA'] in gazetter else 0
     features["lemma_verb"] = verb_lemma(person, location, sentence)
-    features["type_loc"] = location['TYPE']
     features["per_tag"] = person["TAG"]
     features["loc_tag"] = location["TAG"]
     features["per_pos"] = person["POS"]
     features["loc_pos"] = location["POS"]
+    features["person_type"] = person["TYPE"]
+    features["location_type"] = location["TYPE"]
     live = False
     for word in sentence:
         if word["LEMMA"] == 'live':
@@ -192,7 +246,7 @@ if __name__ == '__main__':
     sentences = []
 
     for num, sentence in data:
-        sent = extract_persons_location(num, sentence)
+        sent = extract_persons_location_new(num, sentence)
         sentences.extend(sent)
 
 
