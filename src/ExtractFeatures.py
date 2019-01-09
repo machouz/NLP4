@@ -3,6 +3,16 @@ import sys
 from utils import *
 import math
 
+def check_person(person):
+    if person['TYPE'] == 'PERSON':
+        return True
+    return False
+
+def check_location(location):
+    if (location['TYPE'] == 'GPE' or location['TYPE'] == 'NORP' or location[
+            'TYPE'] == 'LOC'):# or (gaz and  sentence[i]['LEMMA'] in gazetter)
+        return True
+    return False
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -10,15 +20,14 @@ def extract_persons_location(num, sentence, gaz=True):
     new_sentence = []
     i = 0
     while i < len(sentence):
-        if sentence[i]['TYPE'] == 'PERSON':#and sentence[i]['LEMMA'] not in gazetter:
+        if check_person(sentence[i]):  # and sentence[i]['LEMMA'] not in gazetter:
             pers = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
                 pers['TEXT'] += ' ' + sentence[i]['TEXT']
                 i += 1
             persons.append(pers)
-        elif (sentence[i]['TYPE'] == 'GPE' or sentence[i]['TYPE'] == 'NORP' or sentence[i]['TYPE'] == 'LOC'):# or (gaz and  sentence[i]['LEMMA'] in gazetter):
-
+        elif check_location(sentence[i]):
             loca = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
@@ -37,7 +46,6 @@ def extract_persons_location(num, sentence, gaz=True):
     return new_sentence
 
 
-
 def extract_chunk(num, sentence):
     new_sentence = []
     all_tokens = []
@@ -53,7 +61,6 @@ def extract_chunk(num, sentence):
 
         if len(tok) > 0:
             all_tokens.append(tok.rstrip())
-
 
     for token1 in all_tokens:
         for token2 in all_tokens:
@@ -71,6 +78,16 @@ def exists_mark(per, loc, sentence):
         if sentence[i]["DEP"] == "mark":
             return True
     return False
+
+
+def mark(per, loc, sentence):
+    start = int(per['ID']) - 1
+    end = int(loc['ID']) - 1
+    counter = 0
+    for i in range(start, end):
+        if sentence[i]["DEP"] == "mark":
+            counter += 1
+    return counter
 
 
 def filter_by_dependecies(data):
@@ -119,27 +136,38 @@ def exists_punk(person, location, sentence):
     return False
 
 
+def locations(sentence):
+    counter = 0
+    for word in sentence:
+        if check_location(word):
+            counter += 1
+    if counter >= 3:
+        return 3
+    else:
+        return counter
+
+def persons(sentence):
+    counter = 0
+    for word in sentence:
+        if check_person(word):
+            counter += 1
+    if counter >= 3:
+        return 3
+    else:
+        return counter
+
 def extract_features(num, person, location, sentence):
     features = {}
     distance = int(location['ID']) - int(person['ID'])
-    features["before"] = 1 if distance > 0 else 0
-    dist_feat = 0
-    if distance < -3:
-        dist_feat = -2
-    elif distance < 0:
-        dist_feat = -1
-    elif distance < 3:
-        dist_feat = 0
-    elif distance < 10:
-        dist_feat = 1
-    else:
-        dist_feat = 2
-    features["distance"] = dist_feat
-    #features["exist_punc"] = 1 if exists_punk(person, location, sentence) else 0
-    features["mark"] = 1 if exists_mark(person, location, sentence) else 0
-    features["exist_verb"] = 1 if exists_verb(person, location, sentence) else 0
-    features["per_gazetter"] = 1 if person['LEMMA'] in gazetter else 0
-    features["loc_gazetter"] = 1 if location['LEMMA'] in gazetter else 0
+    features["before"] = True if distance > 0 else False
+    features["distance"] = distance
+    # features["exist_punc"] = 1 if exists_punk(person, location, sentence) else 0
+    features["mark"] = mark(person, location, sentence)
+    features["num_of_locations"] = locations(sentence)
+    features["num_of_persons"] = persons(sentence)
+    features["exist_verb"] = True if exists_verb(person, location, sentence) else False
+    features["per_gazetter"] = True if person['LEMMA'] in gazetter else False
+    features["loc_gazetter"] = True if location['LEMMA'] in gazetter else False
     features["lemma_verb"] = verb_lemma(person, location, sentence)
     features["type_loc"] = location['TYPE']
     features["per_tag"] = person["TAG"]
@@ -155,10 +183,12 @@ def extract_features(num, person, location, sentence):
 
     return features
 
+
 def extract_features_with_label(num, person, location, sentence, label):
-    features =extract_features(num, person, location, sentence)
+    features = extract_features(num, person, location, sentence)
     features["current_tag"] = label
     return features
+
 
 def write_features_file(featured_data, output_file):
     data = []
@@ -194,8 +224,6 @@ if __name__ == '__main__':
     for num, sentence in data:
         sent = extract_persons_location(num, sentence)
         sentences.extend(sent)
-
-
 
     featured_data = []
     for num, per, loc, sentence in sentences:
