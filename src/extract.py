@@ -18,7 +18,8 @@ def extract_persons_location(num, sentence, gaz=True):
     new_sentence = []
     i = 0
     while i < len(sentence):
-        if sentence[i]['TYPE'] == 'PERSON':  # and sentence[i]['LEMMA'] not in gazetter:
+
+        if sentence[i]['TYPE'] == 'PERSON' or (i + 1 < len(sentence) and sentence[i+1]["TYPE"] == "PERSON") :  # and sentence[i]['LEMMA'] not in gazetter:
             pers = sentence[i].copy()
             i += 1
             while i < len(sentence) and sentence[i]['IOB'] == 'I':
@@ -35,22 +36,15 @@ def extract_persons_location(num, sentence, gaz=True):
                 i += 1
             locations.append(loca)
 
-        elif sentence[i]["POS"] == "PROPN":
-            token = sentence[i].copy()
-            i += 1
-            while i < len(sentence) and sentence[i]["POS"] == "PROPN":
-                token["TEXT"] += " " + sentence[i]['TEXT']
-                i += 1
-            persons.append(token)
-            locations.append(token)
 
         else:
             i += 1
 
+
     for per in persons:
         for loc in locations:
-            if per["TEXT"] != loc["TEXT"]:
-                sent = [num, per, loc, sentence]
+            sent = [num, per, loc, sentence]
+            if not contains(new_sentence, sent):
                 new_sentence.append(sent)
 
     return new_sentence

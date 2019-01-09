@@ -4,6 +4,15 @@ from utils import *
 import math
 import spacy
 
+
+def contains(gold, one_pred):
+    num_p, per_p, loc_p = one_pred
+    for num, per, loc, sentence in gold:
+         if num == num_p and per["TEXT"] == per_p and loc["TEXT"] == loc_p:
+             return True
+    return False
+
+
 def check_person(person):
     if person['TYPE'] == 'PERSON':
         return True
@@ -215,7 +224,6 @@ def extract_features(num, person, location, sentence):
     distance = int(location['ID']) - int(person['ID'])
     features["before"] = True if distance > 0 else False
     features["distance"] = distance
-    # features["exist_punc"] = 1 if exists_punk(person, location, sentence) else 0
     features["mark"] = mark(person, location, sentence)
     features["num_of_locations"] = locations(sentence)
     features["num_of_persons"] = persons(sentence)
@@ -227,8 +235,8 @@ def extract_features(num, person, location, sentence):
     features["loc_tag"] = location["TAG"]
     features["per_pos"] = person["POS"]
     features["loc_pos"] = location["POS"]
-    features["person_type"] = person["TYPE"]
-    features["location_type"] = location["TYPE"]
+    features["person_type"] = person["TYPE"] if len(person["TYPE"]) > 0 else None
+    features["location_type"] = location["TYPE"] if len(location["TYPE"]) > 0 else None
     live = False
     for word in sentence:
         if word["LEMMA"] == 'live':
@@ -279,6 +287,7 @@ if __name__ == '__main__':
     for num, sentence in data:
         sent = extract_persons_location_new(num, sentence)
         sentences.extend(sent)
+
 
     featured_data = []
     for num, per, loc, sentence in sentences:
