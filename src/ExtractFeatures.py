@@ -2,9 +2,7 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
-import spacy
 
-nlp = spacy.load('en')
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -112,31 +110,42 @@ def verb_lemma(per, loc, sentence):
     return None
 
 
+def exists_punk(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    for i in range(start, end):
+        if sentence[i]["POS"] == "PUNCT":
+            return True
+    return False
+
+
 def extract_features(num, person, location, sentence):
     features = {}
     distance = int(location['ID']) - int(person['ID'])
     features["before"] = 1 if distance > 0 else 0
     dist_feat = 0
-    if distance < 0:
+    if distance < -3:
+        dist_feat = -2
+    elif distance < 0:
         dist_feat = -1
-    elif distance < 5:
+    elif distance < 3:
         dist_feat = 0
     elif distance < 10:
         dist_feat = 1
     else:
         dist_feat = 2
     features["distance"] = dist_feat
+    #features["exist_punc"] = 1 if exists_punk(person, location, sentence) else 0
     features["mark"] = 1 if exists_mark(person, location, sentence) else 0
     features["exist_verb"] = 1 if exists_verb(person, location, sentence) else 0
-    features["lemma_verb"] = verb_lemma(person, location, sentence)
     features["per_gazetter"] = 1 if person['LEMMA'] in gazetter else 0
     features["loc_gazetter"] = 1 if location['LEMMA'] in gazetter else 0
+    features["lemma_verb"] = verb_lemma(person, location, sentence)
     features["type_loc"] = location['TYPE']
     features["per_tag"] = person["TAG"]
     features["loc_tag"] = location["TAG"]
     features["per_pos"] = person["POS"]
     features["loc_pos"] = location["POS"]
-
     live = False
     for word in sentence:
         if word["LEMMA"] == 'live':
