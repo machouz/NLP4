@@ -260,8 +260,47 @@ def verbs(person, location, sentence):
     return counter
 
 
+def next_dep(word, sentence):
+    id = word["HEAD"]
+    if id == '0':
+        return None
+    else:
+        id = int(id) - 1
+        return sentence[id]
+
+
+def get_path(person, location, sentence):
+    last_per = person
+    last_loc = location
+    person_dep = [last_per]
+    location_dep = [last_loc]
+    per_f = False
+    loc_f = False
+    while True:
+        last_per = next_dep(last_per, sentence) if not per_f else None
+        last_loc = next_dep(last_loc, sentence) if not loc_f else None
+        if last_per is None:
+            per_f = True
+        if last_loc is None:
+            loc_f = True
+
+        if per_f and loc_f:
+            return person_dep[:-1] + location_dep[::-1]
+        if not per_f:
+            person_dep.append(last_per)
+        if not loc_f:
+            location_dep.append(last_loc)
+        if last_per in location_dep:
+            return person_dep[:-1] + location_dep[location_dep.index(last_per)::-1]
+        if last_loc in person_dep:
+            return person_dep[:person_dep.index(last_loc)] + location_dep[::-1]
+
+
 def extract_features(num, person, location, sentence):
     features = {}
+    dep_path = get_path(person, location, sentence)[1:-1]
+    features["dep_distance"] = len(dep_path)
+    features["dep_path"] = list(set(map(lambda x: x["LEMMA"], dep_path)))
     features["between_pos"] = between_pos(person, location, sentence)
     distance = int(location['ID']) - int(person['ID'])
     features["before"] = True if distance > 0 else False
@@ -282,9 +321,9 @@ def extract_features(num, person, location, sentence):
             live = True
 
     features["live"] = live
-    #features["between_dep"] = between_dep(person, location, sentence)
-    #features["between_lemma"] = between_lemma(person, location, sentence)
-    #features["between_tag"] = between_tag(person, location, sentence)
+    # features["between_dep"] = between_dep(person, location, sentence)
+    # features["between_lemma"] = between_lemma(person, location, sentence)
+    # features["between_tag"] = between_tag(person, location, sentence)
     # features["conj"] = conj(person, location, sentence)
     # features["num_of_verb"] = verbs(person, location, sentence)
     # features["punctuation"] = punctuation(person, location, sentence)

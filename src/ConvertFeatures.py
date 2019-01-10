@@ -29,13 +29,16 @@ def featureConvert(fname):
         features = []
         for feature in line[1:]:
             splitted = feature.split("=")
-            if check_int(splitted[1]):
-                feature, value = splitted[0], splitted[1]
-            else:
-                value = 1
-            if feature not in features_id:
-                features_id[feature] = i
-                i += 1
+            try:
+                if check_int(splitted[1]):
+                    feature, value = splitted[0], splitted[1]
+                else:
+                    value = 1
+                if feature not in features_id:
+                    features_id[feature] = i
+                    i += 1
+            except IndexError:
+                print "lolo"
             features.append((features_id[feature], value))
         features = map(lambda x: "{}:{}".format(*x), sorted(features))
 
