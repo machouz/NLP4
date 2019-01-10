@@ -206,6 +206,7 @@ def punctuation(person, location, sentence):
             counter += 1
     return counter
 
+
 def guillemet(person, location, sentence):
     start = int(person['ID']) - 1
     end = int(location['ID']) - 1
@@ -214,6 +215,7 @@ def guillemet(person, location, sentence):
         if sentence[i]["TAG"] == "''":
             counter += 1
     return counter
+
 
 def locations(sentence):
     counter = 0
@@ -341,8 +343,6 @@ def extract_features(num, person, location, sentence):
     dep_path = get_path(person, location, sentence)[1:-1]
     features["dep_distance"] = len(dep_path)
     features["dep_lemma"] = list(set(map(lambda x: x["LEMMA"], dep_path)))
-    features["dep_pos"] = list(set(map(lambda x: x["POS"], dep_path)))
-    features["dep_tag"] = list(set(map(lambda x: x["TAG"], dep_path)))
     features["dep_mark"] = True if mark_dep(dep_path) > 0 else False
     features["between_pos"] = between_pos(person, location, sentence)
     features["guillemet"] = guillemet(person, location, sentence)
@@ -368,6 +368,8 @@ def extract_features(num, person, location, sentence):
             if word["LEMMA"] == key:
                 features["murder"] = True
                 break
+    # features["dep_pos"] = list(set(map(lambda x: x["POS"], dep_path)))
+    # features["dep_tag"] = list(set(map(lambda x: x["TAG"], dep_path)))
     # features["lemma_verb"] = verb_lemma(person, location, sentence)# increase on the train
     # features["loc_pos"] = location["POS"] # increase on the train
     # features["between_dep"] = between_dep(person, location, sentence)
@@ -378,8 +380,8 @@ def extract_features(num, person, location, sentence):
     # features["punctuation"] = punctuation(person, location, sentence)
     # features["exist_verb"] = True if exists_verb(person, location, sentence) else False
     # features["per_pos"] = person["POS"]
-    #features["person_type"] = person["TYPE"] if len(person["TYPE"]) else None
-    #features["location_type"] = location["TYPE"] if len(location["TYPE"]) else None
+    # features["person_type"] = person["TYPE"] if len(person["TYPE"]) else None
+    # features["location_type"] = location["TYPE"] if len(location["TYPE"]) else None
 
     return features
 
