@@ -184,8 +184,8 @@ def create_output(data):
 
 if __name__ == '__main__':
 
-    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.TRAIN.processed.txt'
-    output_file = sys.argv[2] if len(sys.argv) > 1 else 'data/Annotation/output_greedy_train.txt'
+    input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.DEV.processed.txt'
+    output_file = sys.argv[2] if len(sys.argv) > 1 else 'data/Annotation/output_greedy_dev.txt'
 
 
 

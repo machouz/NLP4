@@ -21,3 +21,13 @@ subject of the location
 Quebec -> premier -> durassa (roland durassa) sent934
 
 coreference
+
+
+report
+
+
+-read a lot the data
+-lstm
+-rules based, good recall and bad precision
+-unbalanced data, few data
+-list of features

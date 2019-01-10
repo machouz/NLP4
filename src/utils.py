@@ -1,4 +1,5 @@
 import numpy as np
+import csv
 
 cities_path = 'data/country-city-and-state-csv/cities.csv'
 countries_path = 'data/country-city-and-state-csv/countries.csv'
@@ -6,6 +7,23 @@ states_path = 'data/country-city-and-state-csv/states.csv'
 machou_path = 'data/country-city-and-state-csv/world-cities.csv'
 
 gazetter = []
+
+with open(cities_path, 'r') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    for row in spamreader:
+         gazetter.append(row[0])
+
+with open(countries_path, 'r') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for i, row in enumerate(spamreader):
+         gazetter.append(row[0])
+
+with open(states_path, 'r') as csvfile:
+    spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+    for i, row in enumerate(spamreader):
+         gazetter.append(row[0])
+
+'''
 for line in file(cities_path):
     gazetter.append(line.rstrip().lower())
 
@@ -17,7 +35,7 @@ for line in file(states_path):
     state, _ = line.split(',')
     gazetter.append(state.lower())
 
-
+'''
 gazetter = list(set(gazetter))
 
 
@@ -82,11 +100,12 @@ def dim_dic_annotations_file(fname):
 
 def split_processed_file(fname):
     processed = []
-    for line in file(fname):
-        splitted = line.split()
-        if len(splitted) > 1 and splitted[0] == '#id:':
-            processed.append((splitted[1], []))
-        processed[-1][-1].append(line[:-1])  # remove \n from line
+    with open(fname, 'r') as f:
+        for line in f:
+            splitted = line.split()
+            if len(splitted) > 1 and splitted[0] == '#id:':
+                processed.append((splitted[1], []))
+            processed[-1][-1].append(line[:-1])  # remove \n from line
     return processed
 
 
