@@ -3,6 +3,8 @@ import sys
 from utils import *
 from ExtractFeatures import extract_features, extract_persons_location
 
+print '------------------------------------------'
+sys.stdout.flush()
 
 def feature_convert(features_dic):
     features_vec = zero_features_vector.copy()
@@ -13,10 +15,10 @@ def feature_convert(features_dic):
     return features_vec
 
 
-input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.TRAIN.processed.txt'
+input_file = sys.argv[1] if len(sys.argv) > 1 else 'data/Processed_Corpus/Corpus.DEV.processed.txt'
 model_file = sys.argv[2] if len(sys.argv) > 2 else 'model'
 feature_map_file = sys.argv[3] if len(sys.argv) > 3 else 'feature_map_file'
-output_file = sys.argv[4] if len(sys.argv) > 4 else 'data/Annotation/output_model_train.txt'
+output_file = sys.argv[4] if len(sys.argv) > 4 else 'data/Annotation/output_model_dev.txt'
 
 model = pickle.load(open(model_file, 'rb'))
 features2id = file_to_dic(feature_map_file)

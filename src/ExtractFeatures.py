@@ -2,14 +2,16 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
-import spacy
+
+
+# import spacy
 
 
 def contains(gold, one_pred):
     num_p, per_p, loc_p = one_pred
     for num, per, loc, sentence in gold:
-         if num == num_p and per["TEXT"] == per_p and loc["TEXT"] == loc_p:
-             return True
+        if num == num_p and per["TEXT"] == per_p and loc["TEXT"] == loc_p:
+            return True
     return False
 
 
@@ -26,7 +28,7 @@ def check_location(location):
     return False
 
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -204,6 +206,14 @@ def punctuation(person, location, sentence):
             counter += 1
     return counter
 
+def guillemet(person, location, sentence):
+    start = int(person['ID']) - 1
+    end = int(location['ID']) - 1
+    counter = 0
+    for i in range(start, end):
+        if sentence[i]["TAG"] == "''":
+            counter += 1
+    return counter
 
 def locations(sentence):
     counter = 0
@@ -305,12 +315,37 @@ def get_path(person, location, sentence):
             return person_dep[:person_dep.index(last_loc)] + location_dep[::-1]
 
 
+def mark_dep(sentence):
+    counter = 0
+    for word in sentence:
+        if word["DEP"] == "mark":
+            counter += 1
+    return counter
+
+
+keywords = ['live', 'reside', 'sleep', 'shelter', 'born', 'house', 'home', 'travel', 'stay', 'go', 'quits', 'leave',
+            'say', 'mention', 'join', 'call', 'come']
+
+murder = ['kill', 'shoot', 'die', 'enrage', 'intend', 'contend', 'murder']
+
+
+def verb_dep(dep_path):
+    for word in dep_path:
+        if word["POS"] == "VERB":
+            return word["LEMMA"]
+    return None
+
+
 def extract_features(num, person, location, sentence):
     features = {}
     dep_path = get_path(person, location, sentence)[1:-1]
     features["dep_distance"] = len(dep_path)
-    features["dep_path"] = list(set(map(lambda x: x["LEMMA"], dep_path)))
+    features["dep_lemma"] = list(set(map(lambda x: x["LEMMA"], dep_path)))
+    features["dep_pos"] = list(set(map(lambda x: x["POS"], dep_path)))
+    features["dep_tag"] = list(set(map(lambda x: x["TAG"], dep_path)))
+    features["dep_mark"] = True if mark_dep(dep_path) > 0 else False
     features["between_pos"] = between_pos(person, location, sentence)
+    features["guillemet"] = guillemet(person, location, sentence)
     distance = int(location['ID']) - int(person['ID'])
     features["before"] = True if distance > 0 else False
     features["distance"] = distance
@@ -319,17 +354,22 @@ def extract_features(num, person, location, sentence):
     features["num_of_persons"] = persons(sentence)
     features["per_gazetter"] = True if person['LEMMA'] in gazetter else False
     features["loc_gazetter"] = True if location['LEMMA'] in gazetter else False
-    features["lemma_verb"] = verb_lemma(person, location, sentence)
+    features["verb_dep"] = verb_dep(dep_path)
     features["per_tag"] = person["TAG"]
     features["loc_tag"] = location["TAG"]
     features["per_lemma"] = person["LEMMA"]
     features["loc_lemma"] = location["LEMMA"]
-    live = False
+    for word in dep_path:
+        for key in keywords:
+            if word["LEMMA"] == key:
+                features[key] = True
     for word in sentence:
-        if word["LEMMA"] == 'live':
-            live = True
-
-    features["live"] = live
+        for key in murder:
+            if word["LEMMA"] == key:
+                features["murder"] = True
+                break
+    # features["lemma_verb"] = verb_lemma(person, location, sentence)# increase on the train
+    # features["loc_pos"] = location["POS"] # increase on the train
     # features["between_dep"] = between_dep(person, location, sentence)
     # features["between_lemma"] = between_lemma(person, location, sentence)
     # features["between_tag"] = between_tag(person, location, sentence)
@@ -338,9 +378,8 @@ def extract_features(num, person, location, sentence):
     # features["punctuation"] = punctuation(person, location, sentence)
     # features["exist_verb"] = True if exists_verb(person, location, sentence) else False
     # features["per_pos"] = person["POS"]
-    # features["loc_pos"] = location["POS"]
-    # features["person_type"] = person["TYPE"] if len(person["TYPE"]) else None
-    # features["location_type"] = location["TYPE"] if len(location["TYPE"]) else None
+    #features["person_type"] = person["TYPE"] if len(person["TYPE"]) else None
+    #features["location_type"] = location["TYPE"] if len(location["TYPE"]) else None
 
     return features
 
@@ -389,7 +428,6 @@ if __name__ == '__main__':
     for num, sentence in data:
         sent = extract_persons_location(num, sentence)
         sentences.extend(sent)
-
 
     featured_data = []
     for num, per, loc, sentence in sentences:
