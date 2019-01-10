@@ -5,8 +5,8 @@ import sys
 def get_precision(gold, pred):
     TP = 0.0
 
-    for num_pred, per_pred, loc_pred in pred:
-        for num_gold, per_gold, loc_gold in gold:
+    for num_pred, per_pred, loc_pred in gold:
+        for num_gold, per_gold, loc_gold in pred:
             if num_pred == num_gold and per_pred == per_gold and loc_pred == loc_gold:
                 TP += 1
                 break
@@ -24,8 +24,8 @@ def contains(gold, one_pred):
 def get_recall(gold, pred):
     TP = 0.0
 
-    for num_pred, per_pred, loc_pred in pred:
-        for num_gold, per_gold, loc_gold in gold:
+    for num_pred, per_pred, loc_pred in gold:
+        for num_gold, per_gold, loc_gold in pred:
             if num_pred == num_gold and per_pred == per_gold and loc_pred == loc_gold:
                 TP += 1
                 break
@@ -47,7 +47,7 @@ def get_errors(gold, pred):
                 flag = False
 
         if flag:
-            FP.append([num_gold, per_gold, loc_gold])
+            FN.append([num_gold, per_gold, loc_gold])
 
         flag = True
 
@@ -59,7 +59,7 @@ def get_errors(gold, pred):
                 flag = False
 
         if flag:
-            FN.append([num_pred, per_pred, loc_pred])
+            FP.append([num_pred, per_pred, loc_pred])
 
         flag = True
 

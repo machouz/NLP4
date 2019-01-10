@@ -2,6 +2,15 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
+import spacy
+
+
+def contains(gold, one_pred):
+    num_p, per_p, loc_p = one_pred
+    for num, per, loc, sentence in gold:
+         if num == num_p and per["TEXT"] == per_p and loc["TEXT"] == loc_p:
+             return True
+    return False
 
 
 def check_person(person):
@@ -17,7 +26,7 @@ def check_location(location):
     return False
 
 
-# nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_sm")
 
 def extract_persons_location(num, sentence, gaz=True):
     persons = []
@@ -380,6 +389,7 @@ if __name__ == '__main__':
     for num, sentence in data:
         sent = extract_persons_location(num, sentence)
         sentences.extend(sent)
+
 
     featured_data = []
     for num, per, loc, sentence in sentences:
