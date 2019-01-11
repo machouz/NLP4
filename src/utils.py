@@ -145,9 +145,10 @@ def dic_to_file(dic, fname):
 
 def file_to_dic(fname):
     data = {}
-    for line in file(fname):
-        key, label = line[:-1].split(' ')
-        data[key] = int(label)
+    with open(fname, 'r') as f:
+        for line in f:
+            key, label = line[:-1].split(' ')
+            data[key] = int(label)
     return data
 
 
