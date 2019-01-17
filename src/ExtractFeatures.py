@@ -2,9 +2,10 @@ from __future__ import unicode_literals
 import sys
 from utils import *
 import math
+sys.path.extend([ '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python27.zip', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old', '/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload', '/usr/local/lib/python2.7/site-packages'])
 
-
-# import spacy
+import spacy
+nlp = spacy.load('en')
 
 
 def contains(gold, one_pred):
@@ -61,6 +62,33 @@ def extract_persons_location(num, sentence, gaz=True):
 
     return new_sentence
 
+
+def extract_persons_location_spacy(num, sentence):
+    persons = []
+    locations = []
+    new_sentence = []
+    text_sentence = " ".join(map(lambda x: x["TEXT"], sentence))
+    parsed = nlp(text_sentence.decode('unicode-escape'))
+    entities = map(lambda x : str(x.text), list(parsed.ents))
+
+    for entity in entities:
+        for word in sentence:
+            if word["TEXT"] == entity:
+                persons.append(word)
+                locations.append(word)
+                break
+            elif word["TEXT"] in entity.split():
+                word["TEXT"] = entity
+                persons.append(word)
+                locations.append(word)
+                break
+    for per in persons:
+        for loc in locations:
+            if per["TEXT"] != loc["TEXT"] and not check_person(loc) and check_person(per):
+                sent = [num, per, loc, sentence]
+                new_sentence.append(sent)
+
+    return new_sentence
 
 def extract_persons_location_new(num, sentence, gaz=True):
     persons = []
@@ -347,16 +375,16 @@ def extract_features(num, person, location, sentence):
     features["between_pos"] = between_pos(person, location, sentence)
     features["guillemet"] = guillemet(person, location, sentence)
     distance = int(location['ID']) - int(person['ID'])
-    features["before"] = True if distance > 0 else False
+    #features["before"] = True if distance > 0 else False
     features["distance"] = distance
-    features["mark"] = mark(person, location, sentence)
+    #features["mark"] = mark(person, location, sentence)
     features["num_of_locations"] = locations(sentence)
     features["num_of_persons"] = persons(sentence)
-    features["per_gazetter"] = True if person['LEMMA'] in gazetter else False
+    #features["per_gazetter"] = True if person['LEMMA'] in gazetter else False
     features["loc_gazetter"] = True if location['LEMMA'] in gazetter else False
     features["verb_dep"] = verb_dep(dep_path)
-    features["per_tag"] = person["TAG"]
-    features["loc_tag"] = location["TAG"]
+    #features["per_tag"] = person["TAG"]
+    #features["loc_tag"] = location["TAG"]
     features["per_lemma"] = person["LEMMA"]
     features["loc_lemma"] = location["LEMMA"]
     for word in dep_path:
@@ -428,7 +456,7 @@ if __name__ == '__main__':
     sentences = []
 
     for num, sentence in data:
-        sent = extract_persons_location(num, sentence)
+        sent = extract_persons_location_spacy(num, sentence)
         sentences.extend(sent)
 
     featured_data = []
