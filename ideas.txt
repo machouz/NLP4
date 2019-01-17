@@ -31,3 +31,16 @@ report
 -rules based, good recall and bad precision
 -unbalanced data, few data
 -list of features
+
+
+python3 src/ExtractFeatures.py
+python3 src/ConvertFeatures.py
+python3 src/TrainSolver.py
+python3 src/main.py data/Processed_Corpus/Corpus.TRAIN.processed.txt model feature_map_file data/Annotation/output_model_train.txt
+python3 src/main.py data/Processed_Corpus/Corpus.DEV.processed.txt model feature_map_file data/Annotation/output_model_dev.txt
+python3 src/eval.py data/Annotation/TRAIN.annotations.txt data/Annotation/output_model_train.txt
+python3 src/eval.py data/Annotation/DEV.annotations.txt data/Annotation/output_model_dev.txt
+
+model_file = sys.argv[2] if len(sys.argv) > 2 else 'model'
+feature_map_file = sys.argv[3] if len(sys.argv) > 3 else 'feature_map_file'
+output_file = sys.argv[4] if len(sys.argv) > 4 else 'data/Annotation/output_model_train.txt'
